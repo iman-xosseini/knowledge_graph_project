@@ -1,0 +1,22 @@
+{
+  "model_type": "XGBoost Regressor",
+  "created_date": "2025-11-26 14:07:14",
+  "horizons": [
+    7,
+    14,
+    30
+  ],
+  "n_features": 75,
+  "n_products": 11,
+  "train_size": 2257,
+  "test_size": 188,
+  "best_horizon": "30d - Test",
+  "best_mape": 25.614376533395344,
+  "hyperparameters": {
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  }
+}

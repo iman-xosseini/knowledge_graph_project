@@ -1,0 +1,27 @@
+{
+  "total_features": 75,
+  "total_products": 11,
+  "fast_movers": [
+    "AT5X5K",
+    "ATN01K24P",
+    "MAR01K24P",
+    "POP001L12P",
+    "POV001L24P",
+    "POV500M24P",
+    "SOS001L12P",
+    "SOS002L09P",
+    "SOS003L04P",
+    "SOS005L04P",
+    "SOS500M24P"
+  ],
+  "forecast_horizons": [
+    7,
+    14,
+    30
+  ],
+  "test_size_days": 30,
+  "split_date": "2023-07-03 00:00:00",
+  "train_size": 2257,
+  "test_size": 188,
+  "date_range": "2023-01-08 00:00:00 to 2023-08-02 00:00:00"
+}
