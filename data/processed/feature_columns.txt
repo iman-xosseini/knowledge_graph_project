@@ -1,7 +1,13 @@
-Sales
 Production
 Factory_Issue
 Delivery
+Station
+Rainfall
+Sunshine
+Humidity
+Temperature
+typical_rain_mm
+BDT_USD
 Sales_lag_1
 Sales_lag_2
 Sales_lag_3
@@ -24,6 +30,10 @@ Sales_rolling_max_30
 Production_lag_1
 Production_lag_7
 Production_lag_14
+Production_rolling_mean_1
+Production_rolling_std_1
+Production_rolling_min_1
+Production_rolling_max_1
 Production_rolling_mean_7
 Production_rolling_std_7
 Production_rolling_min_7
@@ -35,41 +45,155 @@ Production_rolling_max_14
 Factory_Issue_lag_1
 Factory_Issue_lag_7
 Factory_Issue_lag_14
+Factory_Issue_rolling_mean_1
+Factory_Issue_rolling_std_1
+Factory_Issue_rolling_min_1
+Factory_Issue_rolling_max_1
+Factory_Issue_rolling_mean_7
+Factory_Issue_rolling_std_7
+Factory_Issue_rolling_min_7
+Factory_Issue_rolling_max_7
+Factory_Issue_rolling_mean_14
+Factory_Issue_rolling_std_14
+Factory_Issue_rolling_min_14
+Factory_Issue_rolling_max_14
 Delivery_lag_1
 Delivery_lag_7
 Delivery_lag_14
+Delivery_rolling_mean_1
+Delivery_rolling_std_1
+Delivery_rolling_min_1
+Delivery_rolling_max_1
+Delivery_rolling_mean_7
+Delivery_rolling_std_7
+Delivery_rolling_min_7
+Delivery_rolling_max_7
+Delivery_rolling_mean_14
+Delivery_rolling_std_14
+Delivery_rolling_min_14
+Delivery_rolling_max_14
 Sales_pct_change_1
 Sales_pct_change_7
 Sales_momentum_7
 Sales_momentum_14
 Sales_trend_7_14
-day_of_week
-day_of_month
-week_of_year
-month
-quarter
 day_of_week_sin
 day_of_week_cos
 day_of_month_sin
 day_of_month_cos
+week_of_year_sin
+week_of_year_cos
 month_sin
 month_cos
-is_weekend
-day_of_year
+quarter_sin
+quarter_cos
+day_of_year_sin
+day_of_year_cos
 product_total_volume
 product_avg_daily
 product_std_daily
 product_cv
 product_activity_freq
 group_A
+group_E
 group_M
 group_P
 group_S
-daily_avg_all_products
-sales_relative_to_avg
-daily_total_all_products
-market_share
 production_sales_ratio
 delivery_sales_ratio
 factory_issue_rate
 inventory_proxy
+Product_AT5X5K
+Product_ATN01K24P
+Product_ATN02K12P
+Product_ATPA1K24P
+Product_ATPPCH5X5K
+Product_ATWWP001K24P
+Product_ATWWP002K12P
+Product_EEA200G24P
+Product_EEA500G12P
+Product_MAC1K25P
+Product_MAHS025K
+Product_MAP1K25P
+Product_MAPA1K24P
+Product_MAR01K24P
+Product_MAR02K12P
+Product_MASR025K
+Product_POP001L12P
+Product_POP001L12P.1
+Product_POP002L09P
+Product_POP005L04P
+Product_POP015K
+Product_POP500M24P
+Product_POPF01L12P
+Product_POV001L24P
+Product_POV002L09P
+Product_POV005L04P
+Product_POV500M24P
+Product_SE200G24P
+Product_SE500G24P
+Product_SO0001L12P
+Product_SO0002L09P
+Product_SO0005L04P
+Product_SO0500M24P
+Product_SOP001L12P
+Product_SOS001L12P
+Product_SOS002L09P
+Product_SOS003L04P
+Product_SOS005L04P
+Product_SOS008L02P
+Product_SOS250M48P
+Product_SOS500M24P
+Sub-Group_AT
+Sub-Group_ATN
+Sub-Group_ATPA
+Sub-Group_ATPPCH
+Sub-Group_ATWWP
+Sub-Group_EEA
+Sub-Group_MAC
+Sub-Group_MAHS
+Sub-Group_MAP
+Sub-Group_MAPA
+Sub-Group_MAR
+Sub-Group_MASR
+Sub-Group_POP
+Sub-Group_POPF
+Sub-Group_POV
+Sub-Group_SE
+Sub-Group_SO
+Sub-Group_SOP
+Sub-Group_SOS
+Sub-Group_nan
+holiday_type_National Holiday
+holiday_type_Not a National Holiday
+holiday_type_nan
+holiday_name_Ashura
+holiday_name_Bank Holiday
+holiday_name_Bengali New Year
+holiday_name_Buddha Purnima
+holiday_name_Eid al-Fitr
+holiday_name_Eid-ul-Azha
+holiday_name_Independence Day
+holiday_name_Jumatul Bidah
+holiday_name_Labour Day
+holiday_name_Language Martyrs' Day
+holiday_name_Shab e-barat
+holiday_name_Shab-e-Qadr
+holiday_name_Sheikh Mujibur Rahman's birthday
+holiday_name_nan
+category_bank_holiday
+category_cultural_event
+category_cultural_holiday
+category_national_holiday
+category_no_event
+category_religious_holiday
+category_religious_period
+category_school_university
+category_weather_event
+scope_or_location_Chattogram division & south-east
+scope_or_location_Nationwide
+scope_or_location_Nationwide (strongest in Buddhist communities)
+scope_or_location_Nationwide (strongest in cities)
+scope_or_location_Tongi near Dhaka
+scope_or_location_Urban centres (esp. Dhaka)
+scope_or_location_nan

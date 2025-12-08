@@ -1,0 +1,541 @@
+[
+  {
+    "Source": "Temperature_lag_2",
+    "Target": "Temperature",
+    "Weight": 0.9363537317427872,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_2",
+    "Target": "Humidity",
+    "Weight": 0.7833026134031913,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_1",
+    "Target": "Sunshine",
+    "Weight": -0.7651619010582235,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_2",
+    "Target": "Sales",
+    "Weight": 0.598838591657396,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_1",
+    "Target": "Factory_Issue",
+    "Weight": 0.4452562993227428,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_1",
+    "Target": "typical_rain_mm",
+    "Weight": 0.4139322034558714,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_2",
+    "Target": "Sunshine",
+    "Weight": 0.40483700202597833,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_1",
+    "Target": "Production",
+    "Weight": 0.3936514971125671,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_2",
+    "Target": "Sunshine",
+    "Weight": 0.37715296162524703,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_2",
+    "Target": "Rainfall",
+    "Weight": 0.3768613974320769,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.2747943985973008,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_2",
+    "Target": "Delivery",
+    "Weight": 0.26328960233249427,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_2",
+    "Target": "Delivery",
+    "Weight": 0.2621245609123825,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Production_lag_2",
+    "Target": "Factory_Issue",
+    "Weight": 0.22692005496495748,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_1",
+    "Target": "Delivery",
+    "Weight": 0.21915191557567668,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_2",
+    "Target": "Delivery",
+    "Weight": 0.21479083575277425,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_1",
+    "Target": "Temperature",
+    "Weight": -0.20592541982660445,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_2",
+    "Target": "Temperature",
+    "Weight": 0.20539369021720985,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "Rainfall",
+    "Weight": 0.19623029999010314,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Production_lag_2",
+    "Target": "Production",
+    "Weight": 0.1912754023178813,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_2",
+    "Target": "Factory_Issue",
+    "Weight": 0.18978902146221863,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "typical_rain_mm",
+    "Weight": -0.17673774318856622,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "Rainfall",
+    "Weight": 0.1628479071704382,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_1",
+    "Target": "Sunshine",
+    "Weight": 0.16278330206370098,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.15400735280392558,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_1",
+    "Target": "Factory_Issue",
+    "Weight": 0.1382958554331883,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "typical_rain_mm",
+    "Weight": 0.12824961774896315,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_2",
+    "Target": "Sales",
+    "Weight": 0.12429104983793993,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_2",
+    "Target": "Production",
+    "Weight": 0.11764785643524327,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Humidity",
+    "Weight": 0.11762015779506195,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_1",
+    "Target": "Production",
+    "Weight": 0.11262525478277648,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.10972623945418776,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Temperature_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.10761618303812095,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Production_lag_2",
+    "Target": "Delivery",
+    "Weight": 0.10725603342661426,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_1",
+    "Target": "Production",
+    "Weight": 0.09630393674604781,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Factory_Issue_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.09401889220785985,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "Sunshine",
+    "Weight": -0.09042214239151239,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Temperature_lag_2",
+    "Target": "typical_rain_mm",
+    "Weight": 0.0888909422599818,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_1",
+    "Target": "Temperature",
+    "Weight": 0.08379288725038053,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_2",
+    "Target": "BDT_USD",
+    "Weight": -0.07813758944103173,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "Sunshine",
+    "Weight": 0.07489722825387313,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.0717131740976301,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Sales",
+    "Weight": -0.07018579512423125,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_2",
+    "Target": "typical_rain_mm",
+    "Weight": -0.0687832021143967,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Temperature_lag_2",
+    "Target": "Rainfall",
+    "Weight": 0.06800647442347212,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_1",
+    "Target": "Temperature",
+    "Weight": 0.06465564474489052,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.06015415947187213,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_2",
+    "Target": "BDT_USD",
+    "Weight": -0.058611031884465946,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "Humidity",
+    "Weight": 0.057153188400347124,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.05611163458663538,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_2",
+    "Target": "Production",
+    "Weight": 0.05450562865980925,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.049460517166961475,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Humidity_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.048104859803592435,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "Sales",
+    "Weight": -0.047192199965893286,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "Humidity",
+    "Weight": 0.044194715684018226,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_2",
+    "Target": "Rainfall",
+    "Weight": 0.03982080670984289,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "Sunshine",
+    "Weight": -0.0363087640013527,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Delivery_lag_1",
+    "Target": "Temperature",
+    "Weight": 0.03242086784085996,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "BDT_USD",
+    "Weight": 0.0314134750411845,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_2",
+    "Target": "Temperature",
+    "Weight": -0.03112739980457249,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Rainfall",
+    "Weight": -0.029081811589757655,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_1",
+    "Target": "Temperature",
+    "Weight": 0.02824455000940771,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Sunshine",
+    "Weight": -0.028196141225484323,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_2",
+    "Target": "Temperature",
+    "Weight": 0.02786237286474973,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "Humidity",
+    "Weight": -0.027820191939712264,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_1",
+    "Target": "BDT_USD",
+    "Weight": -0.027412556820169846,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Temperature_lag_2",
+    "Target": "Sunshine",
+    "Weight": 0.02733184222904876,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sunshine_lag_2",
+    "Target": "Production",
+    "Weight": -0.024193364927562952,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Temperature",
+    "Weight": -0.023009817143802562,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Sales_lag_1",
+    "Target": "Temperature",
+    "Weight": -0.020584414085637614,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Rainfall_lag_1",
+    "Target": "Humidity",
+    "Weight": 0.018721481345654517,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Production_lag_2",
+    "Target": "Sunshine",
+    "Weight": -0.014729681980201597,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "Temperature",
+    "Weight": -0.013291482573353657,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "BDT_USD_lag_2",
+    "Target": "Delivery",
+    "Weight": -0.011970283642098416,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "Production_lag_1",
+    "Target": "Temperature",
+    "Weight": 0.011360020357928076,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_1",
+    "Target": "Delivery",
+    "Weight": -0.010083072913850003,
+    "Lag": 1,
+    "Edge_Type": "lagged"
+  },
+  {
+    "Source": "typical_rain_mm_lag_2",
+    "Target": "Delivery",
+    "Weight": -0.008826457501643094,
+    "Lag": 2,
+    "Edge_Type": "lagged"
+  }
+]
