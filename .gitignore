@@ -10,3 +10,4 @@ wheels/
 .venv
 description.md
 test*.ipynb
+.env.env
