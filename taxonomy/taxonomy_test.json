@@ -1,6 +1,6 @@
 {
   "taxonomy_name": "Feature Taxonomy",
-  "created_at": "2025-12-09T00:00:00Z",
+  "created_at": "2025-12-10T00:00:00Z",
   "levels": {
     "1": "Main Categories",
     "2": "Subcategories",
@@ -11,56 +11,73 @@
     {
       "name": "Production",
       "level": 1,
-      "description": "Production quantities and related demand/sales signals",
+      "description": "Features related to manufactured product volumes, production behavior, and product-level variability.",
       "children": [
         {
-          "name": "Current Measurements",
+          "name": "Temporal (Lag) Features",
           "level": 2,
-          "description": "Raw/current production values",
+          "description": "Lagged production observations and composite lag indicators.",
           "children": [],
           "features": [
-            "Production"
+            "Production_lag_1",
+            "Production_lag_1_lag_1",
+            "Production_lag_1_lag_2",
+            "Production_lag_7",
+            "Production_lag_7_lag_1",
+            "Production_lag_7_lag_2",
+            "Production_lag_14",
+            "Production_lag_14_lag_1",
+            "Production_lag_14_lag_2"
           ]
         },
         {
-          "name": "Temporal Features",
+          "name": "Rolling Statistics",
           "level": 2,
-          "description": "Lagged temporal features for production",
+          "description": "Rolling-window summary statistics computed on production time series.",
           "children": [
             {
-              "name": "Lags (t-1 .. t-4)",
+              "name": "Rolling Std",
               "level": 3,
-              "description": "Production lagged values",
+              "description": "Rolling standard deviation features with optional lag offsets.",
               "children": [],
               "features": [
-                "Production_lag_1",
-                "Production_lag_2",
-                "Production_lag_3",
-                "Production_lag_4"
+                "Production_rolling_std_7",
+                "Production_rolling_std_7_lag_1",
+                "Production_rolling_std_7_lag_2"
+              ]
+            },
+            {
+              "name": "Rolling Max",
+              "level": 3,
+              "description": "Rolling maximum features (including small-window max with lags).",
+              "children": [],
+              "features": [
+                "Production_rolling_max_1",
+                "Production_rolling_max_1_lag_1"
               ]
             }
           ],
           "features": []
         },
         {
-          "name": "Demand & Sales",
+          "name": "Derived Product Variability",
           "level": 2,
-          "description": "Sales / demand temporal signals related to production",
-          "children": [
-            {
-              "name": "Sales Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "Lagged sales features",
-              "children": [],
-              "features": [
-                "Sales_lag_1",
-                "Sales_lag_2",
-                "Sales_lag_3",
-                "Sales_lag_4"
-              ]
-            }
-          ],
-          "features": []
+          "description": "Product-level daily variability statistics and their lags.",
+          "children": [],
+          "features": [
+            "product_std_daily",
+            "product_std_daily_lag_1",
+            "product_std_daily_lag_2"
+          ]
+        },
+        {
+          "name": "Associated Metrics (Demand Signals)",
+          "level": 2,
+          "description": "Related demand/sales signals often used alongside production features.",
+          "children": [],
+          "features": [
+            "Sales_lag_2"
+          ]
         }
       ],
       "features": []
@@ -68,32 +85,50 @@
     {
       "name": "Factory_Issue",
       "level": 1,
-      "description": "Factory-related indicator of issues/outages",
+      "description": "Indicators of factory-level problems or disruptions and their temporal/aggregate summaries.",
       "children": [
         {
-          "name": "Current Indicator",
+          "name": "Temporal (Lag) Features",
           "level": 2,
-          "description": "Raw factory issue flag",
+          "description": "Lagged factory issue indicators (single and composite lags).",
           "children": [],
           "features": [
-            "Factory_Issue"
+            "Factory_Issue_lag_1",
+            "Factory_Issue_lag_1_lag_1",
+            "Factory_Issue_lag_1_lag_2",
+            "Factory_Issue_lag_7",
+            "Factory_Issue_lag_7_lag_1",
+            "Factory_Issue_lag_7_lag_2",
+            "Factory_Issue_lag_14",
+            "Factory_Issue_lag_14_lag_1",
+            "Factory_Issue_lag_14_lag_2"
           ]
         },
         {
-          "name": "Temporal Features",
+          "name": "Rolling Statistics",
           "level": 2,
-          "description": "Lagged factory issue indicators",
+          "description": "Rolling summary statistics of factory issue signals.",
           "children": [
             {
-              "name": "Lags (t-1 .. t-4)",
+              "name": "Rolling Max",
               "level": 3,
-              "description": "Factory issue lagged flags",
+              "description": "Rolling maximums and their lagged variants.",
               "children": [],
               "features": [
-                "Factory_Issue_lag_1",
-                "Factory_Issue_lag_2",
-                "Factory_Issue_lag_3",
-                "Factory_Issue_lag_4"
+                "Factory_Issue_rolling_max_1",
+                "Factory_Issue_rolling_max_1_lag_1",
+                "Factory_Issue_rolling_max_1_lag_2"
+              ]
+            },
+            {
+              "name": "Rolling Min",
+              "level": 3,
+              "description": "Rolling minimums over windows and lagged versions.",
+              "children": [],
+              "features": [
+                "Factory_Issue_rolling_min_7",
+                "Factory_Issue_rolling_min_7_lag_1",
+                "Factory_Issue_rolling_min_7_lag_2"
               ]
             }
           ],
@@ -105,32 +140,50 @@
     {
       "name": "Delivery",
       "level": 1,
-      "description": "Delivery timing and delay signals",
+      "description": "Features describing deliveries, logistics timing (lags) and rolling delivery metrics.",
       "children": [
         {
-          "name": "Current Measurement",
+          "name": "Temporal (Lag) Features",
           "level": 2,
-          "description": "Raw delivery metric",
+          "description": "Lagged delivery metrics and multi-lag features.",
           "children": [],
           "features": [
-            "Delivery"
+            "Delivery_lag_1",
+            "Delivery_lag_1_lag_1",
+            "Delivery_lag_1_lag_2",
+            "Delivery_lag_7",
+            "Delivery_lag_7_lag_1",
+            "Delivery_lag_7_lag_2",
+            "Delivery_lag_14",
+            "Delivery_lag_14_lag_1",
+            "Delivery_lag_14_lag_2"
           ]
         },
         {
-          "name": "Temporal Features",
+          "name": "Rolling Statistics",
           "level": 2,
-          "description": "Lagged delivery/delay features",
+          "description": "Rolling window delivery summary measures (min/max) with lagged variants.",
           "children": [
             {
-              "name": "Lags (t-1 .. t-4)",
+              "name": "Rolling Max",
               "level": 3,
-              "description": "Delivery lagged values",
+              "description": "Rolling maximum delivery values and lagged versions.",
               "children": [],
               "features": [
-                "Delivery_lag_1",
-                "Delivery_lag_2",
-                "Delivery_lag_3",
-                "Delivery_lag_4"
+                "Delivery_rolling_max_1",
+                "Delivery_rolling_max_1_lag_1",
+                "Delivery_rolling_max_1_lag_2"
+              ]
+            },
+            {
+              "name": "Rolling Min",
+              "level": 3,
+              "description": "Rolling minimums (e.g., 7-day minima) and their lags.",
+              "children": [],
+              "features": [
+                "Delivery_rolling_min_7",
+                "Delivery_rolling_min_7_lag_1",
+                "Delivery_rolling_min_7_lag_2"
               ]
             }
           ],
@@ -142,14 +195,17 @@
     {
       "name": "Group",
       "level": 1,
-      "description": "Categorical grouping feature (metadata)",
+      "description": "Higher-level grouping of products or product categories. Contains group-level SOS/product signals.",
       "children": [
         {
-          "name": "Metadata",
+          "name": "Product SOS Signals",
           "level": 2,
-          "description": "Grouping metadata (no temporal variants present)",
+          "description": "Product-level stock-out or SOS indicators (lagged).",
           "children": [],
-          "features": []
+          "features": [
+            "Product_SOS005L04P_lag_1",
+            "Product_SOS001L12P_lag_1"
+          ]
         }
       ],
       "features": []
@@ -157,14 +213,17 @@
     {
       "name": "Sub-Group",
       "level": 1,
-      "description": "Secondary categorical grouping (metadata)",
+      "description": "Sub-category grouping (e.g., sub-group-level SOS signals).",
       "children": [
         {
-          "name": "Metadata",
+          "name": "SOS Signals",
           "level": 2,
-          "description": "Sub-group metadata",
+          "description": "Sub-group level SOS indicators and their lags.",
           "children": [],
-          "features": []
+          "features": [
+            "Sub-Group_SOS",
+            "Sub-Group_SOS_lag_1"
+          ]
         }
       ],
       "features": []
@@ -172,282 +231,71 @@
     {
       "name": "holiday_type",
       "level": 1,
-      "description": "Holiday classification (metadata)",
-      "children": [
-        {
-          "name": "Metadata",
-          "level": 2,
-          "description": "Holiday type info",
-          "children": [],
-          "features": []
-        }
-      ],
+      "description": "Categorical type of holiday (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "holiday_name",
       "level": 1,
-      "description": "Holiday name identifier (metadata)",
-      "children": [
-        {
-          "name": "Metadata",
-          "level": 2,
-          "description": "Holiday name info",
-          "children": [],
-          "features": []
-        }
-      ],
+      "description": "Specific holiday name identifiers (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "Rainfall",
       "level": 1,
-      "description": "Observed rainfall measurements",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Raw rainfall value",
-          "children": [],
-          "features": [
-            "Rainfall"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged rainfall features",
-          "children": [
-            {
-              "name": "Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "Rainfall lagged values",
-              "children": [],
-              "features": [
-                "Rainfall_lag_1",
-                "Rainfall_lag_2",
-                "Rainfall_lag_3",
-                "Rainfall_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Rainfall-related environmental features (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "Sunshine",
       "level": 1,
-      "description": "Observed sunshine / solar exposure measurements",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Raw sunshine value",
-          "children": [],
-          "features": [
-            "Sunshine"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged sunshine features",
-          "children": [
-            {
-              "name": "Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "Sunshine lagged values",
-              "children": [],
-              "features": [
-                "Sunshine_lag_1",
-                "Sunshine_lag_2",
-                "Sunshine_lag_3",
-                "Sunshine_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Sunshine / solar exposure environmental features (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "Humidity",
       "level": 1,
-      "description": "Observed humidity measurements",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Raw humidity value",
-          "children": [],
-          "features": [
-            "Humidity"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged humidity features",
-          "children": [
-            {
-              "name": "Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "Humidity lagged values",
-              "children": [],
-              "features": [
-                "Humidity_lag_1",
-                "Humidity_lag_2",
-                "Humidity_lag_3",
-                "Humidity_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Humidity features (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "Temperature",
       "level": 1,
-      "description": "Observed temperature measurements",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Raw temperature value",
-          "children": [],
-          "features": [
-            "Temperature"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged temperature features",
-          "children": [
-            {
-              "name": "Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "Temperature lagged values",
-              "children": [],
-              "features": [
-                "Temperature_lag_1",
-                "Temperature_lag_2",
-                "Temperature_lag_3",
-                "Temperature_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Temperature features (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "category",
       "level": 1,
-      "description": "General categorical descriptor (metadata)",
-      "children": [
-        {
-          "name": "Metadata",
-          "level": 2,
-          "description": "Category-level metadata",
-          "children": [],
-          "features": []
-        }
-      ],
+      "description": "Generic categorical grouping attribute (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "scope_or_location",
       "level": 1,
-      "description": "Geographic or scope-level identifier",
-      "children": [
-        {
-          "name": "Metadata",
-          "level": 2,
-          "description": "Location/scope metadata",
-          "children": [],
-          "features": []
-        }
-      ],
+      "description": "Geographic or scope identifier features (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "typical_rain_mm",
       "level": 1,
-      "description": "Typical/expected rainfall (climatology)",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Base typical rainfall value",
-          "children": [],
-          "features": [
-            "typical_rain_mm"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged climatology/typical rainfall features",
-          "children": [
-            {
-              "name": "Lags (t-1 .. t-4)",
-              "level": 3,
-              "description": "typical_rain_mm lagged values",
-              "children": [],
-              "features": [
-                "typical_rain_mm_lag_1",
-                "typical_rain_mm_lag_2",
-                "typical_rain_mm_lag_3",
-                "typical_rain_mm_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Typical rainfall amount (no derived features present in list).",
+      "children": [],
       "features": []
     },
     {
       "name": "BDT_USD",
       "level": 1,
-      "description": "Exchange rate (Bangladeshi Taka to USD)",
-      "children": [
-        {
-          "name": "Current Measurement",
-          "level": 2,
-          "description": "Base exchange rate",
-          "children": [],
-          "features": [
-            "BDT_USD"
-          ]
-        },
-        {
-          "name": "Temporal Features",
-          "level": 2,
-          "description": "Lagged exchange rate features",
-          "children": [
-            {
-              "name": "Lags (historical)",
-              "level": 3,
-              "description": "BDT_USD lagged values (available lags)",
-              "children": [],
-              "features": [
-                "BDT_USD_lag_2",
-                "BDT_USD_lag_3",
-                "BDT_USD_lag_4"
-              ]
-            }
-          ],
-          "features": []
-        }
-      ],
+      "description": "Currency conversion or monetary indicator (no derived features present in list).",
+      "children": [],
       "features": []
     }
   ],
@@ -469,8 +317,8 @@
       "typical_rain_mm",
       "BDT_USD"
     ],
-    "total_features": 48,
+    "total_features": 52,
     "model": "gpt-5-mini",
-    "generated_at": "2025-12-09T12:21:06.057343"
+    "generated_at": "2025-12-10T12:23:51.911003"
   }
 }

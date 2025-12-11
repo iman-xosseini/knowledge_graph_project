@@ -1,0 +1,1780 @@
+id,source,source_index,target,target_index,coefficient,correlation,relationship_type,lag
+0,Production,0,Factory_Issue,1,1.0,0.7985092268625475,causal,0
+1,Production,0,Delivery,2,1.0,0.7059104780815955,causal,0
+2,Production,0,Sales_rolling_mean_7,16,1.0,0.6382038686161207,causal,0
+3,Production,0,Sales_rolling_std_7,17,1.0,0.5073744194458649,causal,0
+4,Production,0,Sales_rolling_max_7,19,1.0,0.5552314150606182,causal,0
+5,Production,0,Sales_rolling_mean_14,20,1.0,0.6275667300050215,causal,0
+6,Production,0,Production_lag_1,28,1.0,0.6889293327121281,causal,0
+7,Production,0,Production_rolling_mean_7,35,1.0,0.6905136316962671,causal,0
+8,Production,0,Production_rolling_min_7,37,1.0,0.6603159299119081,causal,0
+9,Production,0,Production_rolling_max_7,38,1.0,0.652167618593386,causal,0
+10,Production,0,Production_rolling_mean_14,39,1.0,0.5166187519911243,causal,0
+11,Production,0,Production_rolling_min_14,41,1.0,0.499004259032788,causal,0
+12,Production,0,Factory_Issue_lag_1,43,1.0,0.6598473063962276,causal,0
+13,Production,0,Factory_Issue_rolling_mean_7,50,1.0,0.6504532220706274,causal,0
+14,Production,0,Factory_Issue_rolling_min_7,52,1.0,0.5206487689773083,causal,0
+15,Production,0,Delivery_lag_1,58,1.0,0.6258467672221252,causal,0
+16,Production,0,Delivery_rolling_mean_7,65,1.0,0.6704163970757668,causal,0
+17,Production,0,Delivery_rolling_min_7,67,1.0,0.586830902828975,causal,0
+18,Production,0,Delivery_rolling_max_7,68,1.0,0.5774390651469697,causal,0
+19,Production,0,Delivery_rolling_mean_14,69,1.0,0.559298799797363,causal,0
+20,Production,0,Delivery_rolling_min_14,71,1.0,0.5004666553352576,causal,0
+21,Factory_Issue,1,Delivery,2,1.0,0.7308260384387427,causal,0
+22,Factory_Issue,1,Sales_rolling_mean_7,16,1.0,0.6727805429231621,causal,0
+23,Factory_Issue,1,Sales_rolling_std_7,17,1.0,0.5162293973407028,causal,0
+24,Factory_Issue,1,Sales_rolling_max_7,19,1.0,0.5668528043884301,causal,0
+25,Factory_Issue,1,Sales_rolling_mean_14,20,1.0,0.6570295970631722,causal,0
+26,Factory_Issue,1,Sales_rolling_std_14,21,1.0,0.5173390123840677,causal,0
+27,Factory_Issue,1,Sales_rolling_max_14,23,1.0,0.576606322725386,causal,0
+28,Factory_Issue,1,Sales_rolling_mean_30,24,1.0,0.540389246047377,causal,0
+29,Factory_Issue,1,Sales_rolling_std_30,25,1.0,0.4558018202700162,causal,0
+30,Factory_Issue,1,Sales_rolling_max_30,27,1.0,0.42745971261815524,causal,0
+31,Factory_Issue,1,Production_lag_1,28,1.0,0.6842454433899084,causal,0
+32,Factory_Issue,1,Production_lag_7,29,1.0,0.3701870108729726,causal,0
+33,Factory_Issue,1,Production_rolling_mean_7,35,1.0,0.6935446285970421,causal,0
+34,Factory_Issue,1,Production_rolling_std_7,36,1.0,0.3798505515936398,causal,0
+35,Factory_Issue,1,Production_rolling_min_7,37,1.0,0.6564200547554011,causal,0
+36,Factory_Issue,1,Production_rolling_max_7,38,1.0,0.6753045128870863,causal,0
+37,Factory_Issue,1,Production_rolling_mean_14,39,1.0,0.5628918600477724,causal,0
+38,Factory_Issue,1,Production_rolling_std_14,40,1.0,0.191145894664008,causal,0
+39,Factory_Issue,1,Production_rolling_min_14,41,1.0,0.5014462926048717,causal,0
+40,Factory_Issue,1,Production_rolling_max_14,42,1.0,0.5354370048347776,causal,0
+41,Factory_Issue,1,Factory_Issue_lag_1,43,1.0,0.6737810438979903,causal,0
+42,Factory_Issue,1,Factory_Issue_rolling_mean_7,50,1.0,0.7202921513733971,causal,0
+43,Factory_Issue,1,Factory_Issue_rolling_std_7,51,1.0,0.4667909568860353,causal,0
+44,Factory_Issue,1,Factory_Issue_rolling_min_7,52,1.0,0.5619443288007391,causal,0
+45,Factory_Issue,1,Factory_Issue_rolling_max_7,53,1.0,0.6869229303102494,causal,0
+46,Factory_Issue,1,Factory_Issue_rolling_mean_14,54,1.0,0.5786094108443679,causal,0
+47,Factory_Issue,1,Factory_Issue_rolling_std_14,55,0.2842124070786648,0.2842124070786648,associated,0
+48,Factory_Issue,1,Factory_Issue_rolling_min_14,56,1.0,0.47845949307057795,causal,0
+49,Factory_Issue,1,Factory_Issue_rolling_max_14,57,1.0,0.526055390060256,causal,0
+50,Factory_Issue,1,Delivery_lag_1,58,1.0,0.6671425199910805,causal,0
+51,Factory_Issue,1,Delivery_rolling_mean_7,65,1.0,0.7075214181791301,causal,0
+52,Factory_Issue,1,Delivery_rolling_std_7,66,0.36516179902973334,0.36516179902973334,associated,0
+53,Factory_Issue,1,Delivery_rolling_min_7,67,1.0,0.5929585368862158,causal,0
+54,Factory_Issue,1,Delivery_rolling_max_7,68,1.0,0.6520862475715672,causal,0
+55,Factory_Issue,1,Delivery_rolling_mean_14,69,1.0,0.6191688090168324,causal,0
+56,Factory_Issue,1,Delivery_rolling_std_14,70,0.2173774085320046,0.2173774085320046,associated,0
+57,Factory_Issue,1,Delivery_rolling_min_14,71,1.0,0.5397064514001222,causal,0
+58,Factory_Issue,1,Delivery_rolling_max_14,72,1.0,0.5687935437435659,causal,0
+59,Delivery,2,Sales_lag_2,10,1.0,0.39312407226001594,causal,0
+60,Delivery,2,Sales_rolling_mean_7,16,1.0,0.692394605105077,causal,0
+61,Delivery,2,Sales_rolling_std_7,17,1.0,0.5086917633713938,causal,0
+62,Delivery,2,Sales_rolling_max_7,19,1.0,0.5807410100609215,causal,0
+63,Delivery,2,Sales_rolling_mean_14,20,1.0,0.6290654955310805,causal,0
+64,Delivery,2,Sales_rolling_mean_30,24,1.0,0.5368498235799881,causal,0
+65,Delivery,2,Production_lag_1,28,1.0,0.6200088404246715,causal,0
+66,Delivery,2,Production_rolling_min_14,41,1.0,0.4812335616474504,causal,0
+67,Delivery,2,Factory_Issue_lag_1,43,1.0,0.6549116103946421,causal,0
+68,Delivery,2,Delivery_lag_1,58,1.0,0.5967762288921403,causal,0
+69,Delivery,2,Delivery_rolling_mean_7,65,1.0,0.6799446107191052,causal,0
+70,Delivery,2,Delivery_rolling_min_7,67,1.0,0.5833009060586026,causal,0
+71,Delivery,2,Delivery_rolling_max_7,68,1.0,0.5999274000647052,causal,0
+72,Delivery,2,Delivery_rolling_min_14,71,1.0,0.5284174558264485,causal,0
+73,Delivery,2,inventory_proxy,103,0.2718821242549248,-0.2718821242549248,associated,0
+74,Rainfall,3,Sales_rolling_min_7,18,0.22815510122701682,-0.22815510122701682,associated,0
+75,Rainfall,3,Production_rolling_mean_1,31,1.0,-0.28820793878536904,causal,0
+76,Rainfall,3,Production_rolling_min_1,33,1.0,-0.28820793878536904,causal,0
+77,Rainfall,3,Production_rolling_max_1,34,1.0,-0.28820793878536904,causal,0
+78,Rainfall,3,Factory_Issue_rolling_mean_1,46,1.0,-0.3019554343985619,causal,0
+79,Rainfall,3,Factory_Issue_rolling_min_1,48,1.0,-0.3019554343985619,causal,0
+80,Rainfall,3,Factory_Issue_rolling_max_1,49,1.0,-0.3019554343985619,causal,0
+81,Rainfall,3,Delivery_rolling_mean_1,61,1.0,-0.31602336223010796,causal,0
+82,Rainfall,3,Delivery_rolling_min_1,63,1.0,-0.31602336223010796,causal,0
+83,Rainfall,3,Delivery_rolling_max_1,64,1.0,-0.31602336223010796,causal,0
+84,Rainfall,3,quarter_sin,86,1.0,-0.4446547616060546,causal,0
+85,Rainfall,3,holiday_name_Ashura,168,0.11558492777158719,0.11558492777158719,associated,0
+86,Rainfall,3,holiday_name_Buddha Purnima,171,0.1064426171003882,0.1064426171003882,associated,0
+87,Rainfall,3,category_weather_event,190,0.13974674883118451,0.13974674883118451,associated,0
+88,Rainfall,3,scope_or_location_Chattogram division & south-east,191,0.13974674883118451,0.13974674883118451,associated,0
+89,Rainfall,3,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.1064426171003882,0.1064426171003882,associated,0
+90,Sunshine,4,Temperature,6,0.2803812494075131,0.2803812494075131,associated,0
+91,Sunshine,4,inventory_proxy,103,1.0,0.2255772059123386,causal,0
+92,Humidity,5,Delivery,2,1.0,-0.2628412238278243,causal,0
+93,Humidity,5,Rainfall,3,1.0,0.5306314466030435,causal,0
+94,Humidity,5,Sunshine,4,1.0,-0.5845497289054039,causal,0
+95,Humidity,5,Sales_lag_28,15,1.0,-0.2565873529419144,causal,0
+96,Humidity,5,Sales_rolling_std_7,17,1.0,-0.3107878907499877,causal,0
+97,Humidity,5,Sales_rolling_std_14,21,1.0,-0.3667743256237077,causal,0
+98,Humidity,5,Sales_rolling_max_14,23,1.0,-0.34658120027617045,causal,0
+99,Humidity,5,Sales_rolling_mean_30,24,1.0,-0.3169097936101891,causal,0
+100,Humidity,5,Sales_rolling_std_30,25,1.0,-0.5345549266086018,causal,0
+101,Humidity,5,Sales_rolling_max_30,27,1.0,-0.5624278064091217,causal,0
+102,Humidity,5,Production_lag_14,30,1.0,-0.19356088709872693,causal,0
+103,Humidity,5,Production_rolling_min_7,37,1.0,-0.29887160163797005,causal,0
+104,Humidity,5,Factory_Issue_lag_14,45,1.0,-0.2602847070584949,causal,0
+105,Humidity,5,Factory_Issue_rolling_min_7,52,1.0,-0.3198914162587112,causal,0
+106,Humidity,5,Factory_Issue_rolling_max_14,57,1.0,-0.3314862302649325,causal,0
+107,Humidity,5,Delivery_lag_14,60,1.0,-0.30195589352729163,causal,0
+108,Humidity,5,Delivery_rolling_max_14,72,1.0,-0.33747678277303617,causal,0
+109,Humidity,5,week_of_year_cos,83,0.3554254583254261,-0.3554254583254261,associated,0
+110,Humidity,5,quarter_sin,86,0.3020230592229799,-0.3020230592229799,associated,0
+111,Humidity,5,day_of_year_cos,89,1.0,-0.3557467474338454,causal,0
+112,Temperature,6,Sunshine,4,0.2803812494075131,0.2803812494075131,associated,0
+113,Temperature,6,BDT_USD,8,1.0,0.4644988519858598,causal,0
+114,Temperature,6,Sales_lag_28,15,1.0,0.24263623241546217,causal,0
+115,Temperature,6,Sales_rolling_mean_7,16,1.0,-0.42458446923082716,causal,0
+116,Temperature,6,Sales_rolling_std_7,17,1.0,-0.3138586070888947,causal,0
+117,Temperature,6,Sales_rolling_max_7,19,1.0,-0.35789880142107205,causal,0
+118,Temperature,6,Sales_rolling_mean_14,20,1.0,-0.5874068562893975,causal,0
+119,Temperature,6,Sales_rolling_std_14,21,1.0,-0.3846314001717263,causal,0
+120,Temperature,6,Sales_rolling_max_14,23,1.0,-0.39149380118843563,causal,0
+121,Temperature,6,Sales_rolling_mean_30,24,1.0,-0.6329630732210536,causal,0
+122,Temperature,6,Production_rolling_mean_7,35,1.0,-0.3738822197430653,causal,0
+123,Temperature,6,Production_rolling_std_7,36,1.0,-0.29419277862815557,causal,0
+124,Temperature,6,Production_rolling_max_7,38,1.0,-0.3929353695871647,causal,0
+125,Temperature,6,Production_rolling_mean_14,39,1.0,-0.4643862474396886,causal,0
+126,Temperature,6,Production_rolling_std_14,40,1.0,-0.22906503810086903,causal,0
+127,Temperature,6,Production_rolling_min_14,41,1.0,-0.3445973310153781,causal,0
+128,Temperature,6,Production_rolling_max_14,42,1.0,-0.3362005927697015,causal,0
+129,Temperature,6,Factory_Issue_lag_7,44,1.0,-0.2991720497654847,causal,0
+130,Temperature,6,Factory_Issue_rolling_mean_7,50,1.0,-0.4359329658285372,causal,0
+131,Temperature,6,Factory_Issue_rolling_std_7,51,1.0,-0.34161598832511036,causal,0
+132,Temperature,6,Factory_Issue_rolling_min_7,52,1.0,-0.2977895973420033,causal,0
+133,Temperature,6,Factory_Issue_rolling_max_7,53,1.0,-0.40417596527926264,causal,0
+134,Temperature,6,Factory_Issue_rolling_mean_14,54,1.0,-0.48947212428950854,causal,0
+135,Temperature,6,Factory_Issue_rolling_min_14,56,1.0,-0.3235162594727982,causal,0
+136,Temperature,6,Delivery_rolling_mean_7,65,1.0,-0.45153353322944384,causal,0
+137,Temperature,6,Delivery_rolling_std_7,66,1.0,-0.3580039378065807,causal,0
+138,Temperature,6,Delivery_rolling_min_7,67,1.0,-0.3361327005087857,causal,0
+139,Temperature,6,Delivery_rolling_max_7,68,1.0,-0.45638110434486656,causal,0
+140,Temperature,6,Delivery_rolling_mean_14,69,1.0,-0.5499491067564275,causal,0
+141,Temperature,6,Delivery_rolling_min_14,71,1.0,-0.49892755772799124,causal,0
+142,Temperature,6,Delivery_rolling_max_14,72,1.0,-0.42240355247967976,causal,0
+143,Temperature,6,week_of_year_cos,83,0.7404177170380408,-0.7404177170380408,associated,0
+144,Temperature,6,month_cos,85,0.7663022580475972,-0.7663022580475972,associated,0
+145,Temperature,6,quarter_sin,86,0.7428051575758504,-0.7428051575758504,associated,0
+146,Temperature,6,quarter_cos,87,0.7274855316864011,-0.7274855316864011,associated,0
+147,Temperature,6,day_of_year_cos,89,0.7409695968740068,-0.7409695968740068,associated,0
+148,typical_rain_mm,7,Rainfall,3,1.0,0.20548289342558654,causal,0
+149,typical_rain_mm,7,Sales_rolling_min_7,18,0.14306338770490362,-0.14306338770490362,associated,0
+150,typical_rain_mm,7,holiday_type_Not a National Holiday,166,0.2380215418493319,0.2380215418493319,associated,0
+151,typical_rain_mm,7,holiday_name_Ashura,168,0.2380215418493319,0.2380215418493319,associated,0
+152,typical_rain_mm,7,holiday_name_Bank Holiday,169,0.2380215418493319,0.2380215418493319,associated,0
+153,typical_rain_mm,7,holiday_name_Bengali New Year,170,0.2173712710952803,0.2173712710952803,associated,0
+154,typical_rain_mm,7,holiday_name_Buddha Purnima,171,0.22715297829456788,0.22715297829456788,associated,0
+155,typical_rain_mm,7,holiday_name_Independence Day,174,0.20758956389599267,0.20758956389599267,associated,0
+156,typical_rain_mm,7,holiday_name_Jumatul Bidah,175,0.2173712710952803,0.2173712710952803,associated,0
+157,typical_rain_mm,7,holiday_name_Labour Day,176,0.22715297829456788,0.22715297829456788,associated,0
+158,typical_rain_mm,7,holiday_name_Language Martyrs' Day,177,0.20106842576313425,0.20106842576313425,associated,0
+159,typical_rain_mm,7,holiday_name_Shab e-barat,178,0.20758956389599267,0.20758956389599267,associated,0
+160,typical_rain_mm,7,holiday_name_Shab-e-Qadr,179,0.2173712710952803,0.2173712710952803,associated,0
+161,typical_rain_mm,7,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.20758956389599267,0.20758956389599267,associated,0
+162,typical_rain_mm,7,category_bank_holiday,182,0.2380215418493319,0.2380215418493319,associated,0
+163,typical_rain_mm,7,category_cultural_holiday,184,0.2173712710952803,0.2173712710952803,associated,0
+164,typical_rain_mm,7,category_no_event,186,0.9211965195381078,-0.9211965195381078,associated,0
+165,typical_rain_mm,7,category_religious_period,188,0.20758956389599267,0.20758956389599267,associated,0
+166,typical_rain_mm,7,category_weather_event,190,0.2238924092281387,0.2238924092281387,associated,0
+167,typical_rain_mm,7,scope_or_location_Chattogram division & south-east,191,0.2238924092281387,0.2238924092281387,associated,0
+168,typical_rain_mm,7,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.22715297829456788,0.22715297829456788,associated,0
+169,typical_rain_mm,7,scope_or_location_Nationwide (strongest in cities),194,0.2173712710952803,0.2173712710952803,associated,0
+170,typical_rain_mm,7,scope_or_location_Urban centres (esp. Dhaka),196,0.20106842576313425,0.20106842576313425,associated,0
+171,typical_rain_mm,7,scope_or_location_nan,197,0.9211965195381078,-0.9211965195381078,associated,0
+172,BDT_USD,8,Humidity,5,1.0,0.34459473514120775,causal,0
+173,BDT_USD,8,Sales_rolling_mean_7,16,1.0,-0.4237382776922487,causal,0
+174,BDT_USD,8,Sales_rolling_std_7,17,1.0,-0.3467758014716276,causal,0
+175,BDT_USD,8,Sales_rolling_max_7,19,1.0,-0.39485533854929433,causal,0
+176,BDT_USD,8,Sales_rolling_mean_14,20,1.0,-0.4947179312637161,causal,0
+177,BDT_USD,8,Sales_rolling_std_14,21,1.0,-0.405969523275936,causal,0
+178,BDT_USD,8,Sales_rolling_max_14,23,1.0,-0.3827856238145402,causal,0
+179,BDT_USD,8,Sales_rolling_mean_30,24,1.0,-0.5978290379651925,causal,0
+180,BDT_USD,8,Sales_rolling_std_30,25,1.0,-0.528209120880795,causal,0
+181,BDT_USD,8,Sales_rolling_max_30,27,1.0,-0.4583754017960251,causal,0
+182,BDT_USD,8,Production_rolling_mean_7,35,1.0,-0.28539307265891023,causal,0
+183,BDT_USD,8,Production_rolling_min_7,37,1.0,-0.2971643670883007,causal,0
+184,BDT_USD,8,Production_rolling_mean_14,39,1.0,-0.3907116116656195,causal,0
+185,BDT_USD,8,Production_rolling_min_14,41,1.0,-0.400241186982853,causal,0
+186,BDT_USD,8,Factory_Issue_rolling_mean_7,50,1.0,-0.35262845824454064,causal,0
+187,BDT_USD,8,Factory_Issue_rolling_min_7,52,1.0,-0.298841372942367,causal,0
+188,BDT_USD,8,Factory_Issue_rolling_max_7,53,1.0,-0.30039770571199265,causal,0
+189,BDT_USD,8,Factory_Issue_rolling_mean_14,54,1.0,-0.42363730835149,causal,0
+190,BDT_USD,8,Factory_Issue_rolling_min_14,56,1.0,-0.3277007811494534,causal,0
+191,BDT_USD,8,Factory_Issue_rolling_max_14,57,1.0,-0.2757548804745524,causal,0
+192,BDT_USD,8,Delivery_rolling_mean_7,65,1.0,-0.39562278229455217,causal,0
+193,BDT_USD,8,Delivery_rolling_min_7,67,1.0,-0.27878345792259224,causal,0
+194,BDT_USD,8,Delivery_rolling_max_7,68,1.0,-0.3783312564833138,causal,0
+195,BDT_USD,8,Delivery_rolling_mean_14,69,1.0,-0.4752897569373928,causal,0
+196,BDT_USD,8,Delivery_rolling_std_14,70,1.0,-0.2357653493406017,causal,0
+197,BDT_USD,8,Delivery_rolling_min_14,71,1.0,-0.3481138278543729,causal,0
+198,BDT_USD,8,Delivery_rolling_max_14,72,1.0,-0.39318559813330445,causal,0
+199,BDT_USD,8,day_of_year_sin,88,1.0,-0.5047287923923436,causal,0
+200,BDT_USD,8,inventory_proxy,103,1.0,-0.25768533778467967,causal,0
+201,Sales_lag_1,9,Delivery,2,1.0,0.5735834726916947,causal,0
+202,Sales_lag_1,9,Sales_lag_3,11,0.17798428130677973,-0.17798428130677973,associated,0
+203,Sales_lag_1,9,inventory_proxy,103,1.0,-0.2735126030748958,causal,0
+204,Sales_lag_2,10,Sales_lag_28,15,0.20687835254103937,-0.20687835254103937,associated,0
+205,Sales_lag_2,10,Sales_rolling_mean_7,16,1.0,0.3596766243096757,causal,0
+206,Sales_lag_2,10,Delivery_lag_1,58,1.0,0.5735834726916947,causal,0
+207,Sales_lag_2,10,Sales_momentum_7,75,1.0,-0.4062145647549494,causal,0
+208,Sales_lag_2,10,Sales_momentum_14,76,1.0,-0.33990660076929974,causal,0
+209,Sales_lag_2,10,day_of_week_cos,79,1.0,-0.2415060642172016,causal,0
+210,Sales_lag_3,11,Production,0,1.0,0.33506833975262285,causal,0
+211,Sales_lag_3,11,BDT_USD,8,1.0,-0.22508095901785022,causal,0
+212,Sales_lag_3,11,Sales_lag_1,9,0.17798428130677973,-0.17798428130677973,associated,0
+213,Sales_lag_3,11,Sales_rolling_mean_7,16,1.0,0.339646708077423,causal,0
+214,Sales_lag_3,11,Sales_rolling_std_7,17,1.0,0.34613437510197437,causal,0
+215,Sales_lag_3,11,Sales_rolling_max_7,19,1.0,0.35690728345285894,causal,0
+216,Sales_lag_3,11,Delivery_lag_14,60,0.16455986840405484,-0.16455986840405484,associated,0
+217,Sales_lag_3,11,Delivery_rolling_mean_7,65,1.0,0.33862124360563167,causal,0
+218,Sales_lag_7,12,Production,0,1.0,0.3655685198085865,causal,0
+219,Sales_lag_7,12,Sales_lag_14,13,0.6050487299140972,0.6050487299140972,associated,0
+220,Sales_lag_7,12,Sales_lag_21,14,0.5194751360054208,0.5194751360054208,associated,0
+221,Sales_lag_7,12,Sales_lag_28,15,0.5436260770570547,0.5436260770570547,associated,0
+222,Sales_lag_7,12,Sales_rolling_std_14,21,1.0,0.31940401368919036,causal,0
+223,Sales_lag_7,12,Production_lag_7,29,1.0,0.4668245442063817,causal,0
+224,Sales_lag_7,12,Factory_Issue_lag_7,44,1.0,0.45147934033552967,causal,0
+225,Sales_lag_7,12,Delivery_lag_7,59,1.0,0.4173625288620611,causal,0
+226,Sales_lag_7,12,Delivery_rolling_max_7,68,1.0,0.348699475026188,causal,0
+227,Sales_lag_7,12,Sales_pct_change_1,73,1.0,0.5002255998181586,causal,0
+228,Sales_lag_7,12,Sales_momentum_7,75,1.0,0.5838593881439753,causal,0
+229,Sales_lag_7,12,Sales_momentum_14,76,1.0,0.5347893037943948,causal,0
+230,Sales_lag_7,12,production_sales_ratio,100,1.0,-0.37020085467900266,causal,0
+231,Sales_lag_7,12,delivery_sales_ratio,101,1.0,-0.37503632989524366,causal,0
+232,Sales_lag_7,12,Sales,198,1.0,0.5840999955082725,causal,0
+233,Sales_lag_14,13,Factory_Issue,1,1.0,0.21098723106916117,causal,0
+234,Sales_lag_14,13,Sales_lag_7,12,0.6050487299140972,0.6050487299140972,associated,0
+235,Sales_lag_14,13,Sales_lag_21,14,0.6251383248149737,0.6251383248149737,associated,0
+236,Sales_lag_14,13,Sales_lag_28,15,0.5407911703612704,0.5407911703612704,associated,0
+237,Sales_lag_14,13,Production_lag_7,29,0.4158408022330929,0.4158408022330929,associated,0
+238,Sales_lag_14,13,Production_lag_14,30,1.0,0.5194902727003919,causal,0
+239,Sales_lag_14,13,Factory_Issue_lag_14,45,1.0,0.5007736573019377,causal,0
+240,Sales_lag_14,13,Factory_Issue_rolling_max_14,57,1.0,0.3171652550350191,causal,0
+241,Sales_lag_14,13,Delivery_lag_14,60,1.0,0.4743863043787177,causal,0
+242,Sales_lag_14,13,Sales_pct_change_1,73,1.0,0.4425257747460876,causal,0
+243,Sales_lag_14,13,Sales_pct_change_7,74,1.0,0.33543013369251823,causal,0
+244,Sales_lag_14,13,Sales_momentum_7,75,1.0,0.5696206861277667,causal,0
+245,Sales_lag_14,13,Sales_momentum_14,76,1.0,0.5234037053697503,causal,0
+246,Sales_lag_14,13,production_sales_ratio,100,1.0,-0.42204104911172385,causal,0
+247,Sales_lag_14,13,delivery_sales_ratio,101,1.0,-0.4109581574588603,causal,0
+248,Sales_lag_14,13,Sales,198,1.0,0.49014830853269636,causal,0
+249,Sales_lag_21,14,Sales_lag_7,12,0.5194751360054208,0.5194751360054208,associated,0
+250,Sales_lag_21,14,Sales_lag_14,13,0.6251383248149737,0.6251383248149737,associated,0
+251,Sales_lag_21,14,Sales_lag_28,15,0.6427277909151886,0.6427277909151886,associated,0
+252,Sales_lag_21,14,Production_lag_14,30,1.0,0.4704158011537574,causal,0
+253,Sales_lag_21,14,Factory_Issue_lag_14,45,1.0,0.43141251593561764,causal,0
+254,Sales_lag_21,14,Sales_pct_change_1,73,1.0,0.4342440423249546,causal,0
+255,Sales_lag_21,14,Sales_momentum_7,75,1.0,0.5875523050393343,causal,0
+256,Sales_lag_21,14,Sales_momentum_14,76,1.0,0.5848452592933931,causal,0
+257,Sales_lag_21,14,production_sales_ratio,100,1.0,-0.4268819979186333,causal,0
+258,Sales_lag_21,14,delivery_sales_ratio,101,1.0,-0.3753130216495588,causal,0
+259,Sales_lag_21,14,Sales,198,1.0,0.5165358879061495,causal,0
+260,Sales_lag_28,15,Sales_lag_2,10,0.20687835254103937,-0.20687835254103937,associated,0
+261,Sales_lag_28,15,Sales_lag_7,12,0.5436260770570547,0.5436260770570547,associated,0
+262,Sales_lag_28,15,Sales_lag_14,13,0.5407911703612704,0.5407911703612704,associated,0
+263,Sales_lag_28,15,Sales_lag_21,14,0.6427277909151886,0.6427277909151886,associated,0
+264,Sales_lag_28,15,Sales_rolling_max_30,27,1.0,0.3121523175853178,causal,0
+265,Sales_lag_28,15,Delivery_lag_14,60,1.0,0.2622602726393754,causal,0
+266,Sales_lag_28,15,Sales_pct_change_1,73,1.0,0.4231586767536775,causal,0
+267,Sales_lag_28,15,Sales_momentum_7,75,1.0,0.5551797650496073,causal,0
+268,Sales_lag_28,15,Sales_momentum_14,76,1.0,0.5577529569912429,causal,0
+269,Sales_lag_28,15,delivery_sales_ratio,101,1.0,-0.3612621559122412,causal,0
+270,Sales_lag_28,15,Sales,198,1.0,0.5038936749205583,causal,0
+271,Sales_rolling_mean_7,16,Sales_rolling_mean_14,20,1.0,0.8632499323903084,causal,0
+272,Sales_rolling_mean_7,16,Sales_rolling_mean_30,24,1.0,0.6997941829306923,causal,0
+273,Sales_rolling_mean_7,16,Sales_rolling_std_30,25,0.5002331945703735,0.5002331945703735,associated,0
+274,Sales_rolling_mean_7,16,Production_rolling_std_7,36,0.32342188046831716,0.32342188046831716,associated,0
+275,Sales_rolling_mean_7,16,Factory_Issue_rolling_std_7,51,0.40629808419744823,0.40629808419744823,associated,0
+276,Sales_rolling_mean_7,16,Delivery_rolling_std_7,66,0.4533468376686758,0.4533468376686758,associated,0
+277,Sales_rolling_mean_7,16,Delivery_rolling_max_7,68,1.0,0.7175241915054436,causal,0
+278,Sales_rolling_mean_7,16,Delivery_rolling_mean_14,69,1.0,0.646735183351998,causal,0
+279,Sales_rolling_mean_7,16,Delivery_rolling_max_14,72,1.0,0.5120181731114389,causal,0
+280,Sales_rolling_mean_7,16,inventory_proxy,103,0.2919114563130616,-0.2919114563130616,associated,0
+281,Sales_rolling_std_7,17,Sales_rolling_mean_7,16,1.0,0.7365842310255029,causal,0
+282,Sales_rolling_std_7,17,Sales_rolling_mean_14,20,1.0,0.6564805550000722,causal,0
+283,Sales_rolling_std_7,17,Sales_rolling_std_14,21,1.0,0.8442767140368275,causal,0
+284,Sales_rolling_std_7,17,Sales_rolling_max_14,23,1.0,0.8284450563833379,causal,0
+285,Sales_rolling_std_7,17,Sales_rolling_mean_30,24,1.0,0.5731244236219163,causal,0
+286,Sales_rolling_std_7,17,Sales_rolling_std_30,25,1.0,0.7098033188205598,causal,0
+287,Sales_rolling_std_7,17,Sales_rolling_max_30,27,1.0,0.6419115882841969,causal,0
+288,Sales_rolling_std_7,17,Production_rolling_min_7,37,1.0,0.4847793341868267,causal,0
+289,Sales_rolling_std_7,17,Production_rolling_min_14,41,1.0,0.40291902577100447,causal,0
+290,Sales_rolling_std_7,17,Production_rolling_max_14,42,1.0,0.43846052289771675,causal,0
+291,Sales_rolling_std_7,17,Factory_Issue_rolling_std_7,51,1.0,0.4443686585541367,causal,0
+292,Sales_rolling_std_7,17,Factory_Issue_rolling_max_7,53,1.0,0.6363107765474061,causal,0
+293,Sales_rolling_std_7,17,Factory_Issue_rolling_max_14,57,1.0,0.5132312647421893,causal,0
+294,Sales_rolling_std_7,17,Delivery_lag_7,59,1.0,0.33704814522674176,causal,0
+295,Sales_rolling_std_7,17,Delivery_rolling_mean_7,65,1.0,0.7110981033848002,causal,0
+296,Sales_rolling_std_7,17,Delivery_rolling_std_7,66,1.0,0.49161973597431236,causal,0
+297,Sales_rolling_std_7,17,Delivery_rolling_max_7,68,1.0,0.7660177428084884,causal,0
+298,Sales_rolling_std_7,17,Delivery_rolling_mean_14,69,1.0,0.5915236232335427,causal,0
+299,Sales_rolling_std_7,17,Delivery_rolling_min_14,71,1.0,0.49071804097630417,causal,0
+300,Sales_rolling_std_7,17,Delivery_rolling_max_14,72,1.0,0.606693957100683,causal,0
+301,Sales_rolling_std_7,17,inventory_proxy,103,0.28953009270515634,-0.28953009270515634,associated,0
+302,Sales_rolling_min_7,18,Rainfall,3,0.22815510122701682,-0.22815510122701682,associated,0
+303,Sales_rolling_min_7,18,typical_rain_mm,7,0.14306338770490362,-0.14306338770490362,associated,0
+304,Sales_rolling_min_7,18,Sales_pct_change_1,73,0.17447955353336383,0.17447955353336383,associated,0
+305,Sales_rolling_min_7,18,holiday_type_National Holiday,165,0.13483442614739824,-0.13483442614739824,associated,0
+306,Sales_rolling_max_7,19,Sales_rolling_mean_7,16,1.0,0.892941549621529,causal,0
+307,Sales_rolling_max_7,19,Sales_rolling_std_7,17,1.0,0.9175279337832164,causal,0
+308,Sales_rolling_max_7,19,Sales_rolling_mean_14,20,1.0,0.7681902627744072,causal,0
+309,Sales_rolling_max_7,19,Sales_rolling_std_14,21,1.0,0.7450362040984888,causal,0
+310,Sales_rolling_max_7,19,Sales_rolling_max_14,23,1.0,0.7998015966789875,causal,0
+311,Sales_rolling_max_7,19,Sales_rolling_mean_30,24,1.0,0.6458892585066125,causal,0
+312,Sales_rolling_max_7,19,Sales_rolling_std_30,25,1.0,0.6189425421697713,causal,0
+313,Sales_rolling_max_7,19,Sales_rolling_max_30,27,1.0,0.5613325803039961,causal,0
+314,Sales_rolling_max_7,19,Production_rolling_min_7,37,1.0,0.5302476879848049,causal,0
+315,Sales_rolling_max_7,19,Production_rolling_mean_14,39,1.0,0.4654525614837877,causal,0
+316,Sales_rolling_max_7,19,Production_rolling_min_14,41,1.0,0.45093464988058546,causal,0
+317,Sales_rolling_max_7,19,Factory_Issue_rolling_mean_7,50,1.0,0.625268982548141,causal,0
+318,Sales_rolling_max_7,19,Factory_Issue_rolling_std_7,51,1.0,0.42623767348473823,causal,0
+319,Sales_rolling_max_7,19,Factory_Issue_rolling_max_7,53,1.0,0.6124068046365163,causal,0
+320,Sales_rolling_max_7,19,Factory_Issue_rolling_mean_14,54,1.0,0.5118895642652382,causal,0
+321,Sales_rolling_max_7,19,Factory_Issue_rolling_max_14,57,1.0,0.4664873537134462,causal,0
+322,Sales_rolling_max_7,19,Delivery_rolling_mean_7,65,1.0,0.7514579655000471,causal,0
+323,Sales_rolling_max_7,19,Delivery_rolling_std_7,66,1.0,0.5492306179285045,causal,0
+324,Sales_rolling_max_7,19,Delivery_rolling_min_7,67,1.0,0.5662953864126107,causal,0
+325,Sales_rolling_max_7,19,Delivery_rolling_max_7,68,1.0,0.7674168066063909,causal,0
+326,Sales_rolling_max_7,19,Delivery_rolling_mean_14,69,1.0,0.6005594496561432,causal,0
+327,Sales_rolling_max_7,19,Delivery_rolling_min_14,71,1.0,0.5055821969652535,causal,0
+328,Sales_rolling_max_7,19,Delivery_rolling_max_14,72,1.0,0.5590868435199284,causal,0
+329,Sales_rolling_max_7,19,inventory_proxy,103,0.28526257859295145,-0.28526257859295145,associated,0
+330,Sales_rolling_mean_14,20,Sales_rolling_mean_30,24,1.0,0.8192307756510442,causal,0
+331,Sales_rolling_mean_14,20,Sales_rolling_std_30,25,0.5918261898718875,0.5918261898718875,associated,0
+332,Sales_rolling_mean_14,20,Factory_Issue_rolling_std_7,51,0.4901276008913428,0.4901276008913428,associated,0
+333,Sales_rolling_mean_14,20,Delivery_rolling_std_7,66,0.5115249000720518,0.5115249000720518,associated,0
+334,Sales_rolling_mean_14,20,Delivery_rolling_std_14,70,0.30629690633320333,0.30629690633320333,associated,0
+335,Sales_rolling_mean_14,20,Delivery_rolling_max_14,72,1.0,0.709742718282104,causal,0
+336,Sales_rolling_std_14,21,Sales_rolling_mean_7,16,1.0,0.5828300218075411,causal,0
+337,Sales_rolling_std_14,21,Sales_rolling_mean_14,20,1.0,0.6977629083666768,causal,0
+338,Sales_rolling_std_14,21,Sales_rolling_mean_30,24,1.0,0.6337453844097255,causal,0
+339,Sales_rolling_std_14,21,Sales_rolling_std_30,25,1.0,0.8606658302506494,causal,0
+340,Sales_rolling_std_14,21,Sales_rolling_max_30,27,1.0,0.7854922375818867,causal,0
+341,Sales_rolling_std_14,21,Production_rolling_std_14,40,1.0,0.26494923787069974,causal,0
+342,Sales_rolling_std_14,21,Production_rolling_min_14,41,1.0,0.4424354137133714,causal,0
+343,Sales_rolling_std_14,21,Factory_Issue_rolling_std_7,51,1.0,0.5484521893107158,causal,0
+344,Sales_rolling_std_14,21,Factory_Issue_rolling_std_14,55,1.0,0.4349796100843351,causal,0
+345,Sales_rolling_std_14,21,Factory_Issue_rolling_max_14,57,1.0,0.6963547325445884,causal,0
+346,Sales_rolling_std_14,21,Delivery_lag_7,59,1.0,0.5047178502089917,causal,0
+347,Sales_rolling_std_14,21,Delivery_rolling_max_7,68,1.0,0.8371282333594937,causal,0
+348,Sales_rolling_std_14,21,Delivery_rolling_mean_14,69,1.0,0.7134520835985304,causal,0
+349,Sales_rolling_std_14,21,Delivery_rolling_std_14,70,1.0,0.49008757709238626,causal,0
+350,Sales_rolling_std_14,21,Delivery_rolling_max_14,72,1.0,0.8169953497144924,causal,0
+351,Sales_rolling_min_14,22,Sales_rolling_min_7,18,1.0,0.6157580936300971,causal,0
+352,Sales_rolling_min_14,22,category_cultural_event,183,0.10027791930725628,0.10027791930725628,associated,0
+353,Sales_rolling_max_14,23,Sales_rolling_mean_7,16,1.0,0.6772784608087594,causal,0
+354,Sales_rolling_max_14,23,Sales_rolling_mean_14,20,1.0,0.7927880703468119,causal,0
+355,Sales_rolling_max_14,23,Sales_rolling_std_14,21,1.0,0.9455961187053309,causal,0
+356,Sales_rolling_max_14,23,Sales_rolling_mean_30,24,1.0,0.6672446167068531,causal,0
+357,Sales_rolling_max_14,23,Sales_rolling_std_30,25,1.0,0.7992497586073146,causal,0
+358,Sales_rolling_max_14,23,Sales_rolling_max_30,27,1.0,0.7680593624117309,causal,0
+359,Sales_rolling_max_14,23,Production_rolling_min_7,37,1.0,0.6232769977244501,causal,0
+360,Sales_rolling_max_14,23,Production_rolling_min_14,41,1.0,0.5013931127379674,causal,0
+361,Sales_rolling_max_14,23,Factory_Issue_rolling_std_7,51,1.0,0.509068936109269,causal,0
+362,Sales_rolling_max_14,23,Factory_Issue_rolling_max_14,57,1.0,0.7014867295884581,causal,0
+363,Sales_rolling_max_14,23,Delivery_rolling_std_7,66,1.0,0.5690721972658027,causal,0
+364,Sales_rolling_max_14,23,Delivery_rolling_max_7,68,1.0,0.8330215205479138,causal,0
+365,Sales_rolling_max_14,23,Delivery_rolling_mean_14,69,1.0,0.7478658364119182,causal,0
+366,Sales_rolling_max_14,23,Delivery_rolling_std_14,70,1.0,0.45582733143036785,causal,0
+367,Sales_rolling_max_14,23,Delivery_rolling_min_14,71,1.0,0.5456214972518392,causal,0
+368,Sales_rolling_max_14,23,Delivery_rolling_max_14,72,1.0,0.8016486913687567,causal,0
+369,Sales_rolling_mean_30,24,Delivery_rolling_std_7,66,0.5065544226652409,0.5065544226652409,associated,0
+370,Sales_rolling_mean_30,24,Delivery_rolling_std_14,70,0.39982478551258827,0.39982478551258827,associated,0
+371,Sales_rolling_std_30,25,Sales_rolling_mean_7,16,0.5002331945703735,0.5002331945703735,associated,0
+372,Sales_rolling_std_30,25,Sales_rolling_mean_14,20,0.5918261898718875,0.5918261898718875,associated,0
+373,Sales_rolling_std_30,25,Sales_rolling_mean_30,24,1.0,0.6923455565805712,causal,0
+374,Sales_rolling_std_30,25,Factory_Issue_rolling_std_7,51,0.3506361538154206,0.3506361538154206,associated,0
+375,Sales_rolling_std_30,25,Delivery_rolling_std_7,66,0.432873849147484,0.432873849147484,associated,0
+376,Sales_rolling_std_30,25,Delivery_rolling_std_14,70,0.43108723899565654,0.43108723899565654,associated,0
+377,Sales_rolling_std_30,25,Delivery_rolling_max_14,72,1.0,0.8170431359354936,causal,0
+378,Sales_rolling_std_30,25,delivery_sales_ratio,101,0.19599693260948053,0.19599693260948053,associated,0
+379,Sales_rolling_min_30,26,Sales_rolling_min_7,18,1.0,0.6157580936300971,causal,0
+380,Sales_rolling_min_30,26,Sales_rolling_min_14,22,1.0,1.0,causal,0
+381,Sales_rolling_min_30,26,category_cultural_event,183,0.10027791930725628,0.10027791930725628,associated,0
+382,Sales_rolling_max_30,27,Sales_rolling_mean_7,16,1.0,0.44714314359026647,causal,0
+383,Sales_rolling_max_30,27,Sales_rolling_mean_14,20,1.0,0.5294453656194632,causal,0
+384,Sales_rolling_max_30,27,Sales_rolling_mean_30,24,1.0,0.6226117584458781,causal,0
+385,Sales_rolling_max_30,27,Sales_rolling_std_30,25,1.0,0.9398567310997471,causal,0
+386,Sales_rolling_max_30,27,Production_rolling_min_14,41,1.0,0.4851063697784986,causal,0
+387,Sales_rolling_max_30,27,Factory_Issue_rolling_std_7,51,0.2949674766821353,0.2949674766821353,associated,0
+388,Sales_rolling_max_30,27,Delivery_rolling_std_7,66,0.3190205028616456,0.3190205028616456,associated,0
+389,Sales_rolling_max_30,27,Delivery_rolling_max_7,68,1.0,0.6622395516606162,causal,0
+390,Sales_rolling_max_30,27,Delivery_rolling_mean_14,69,1.0,0.6786032457393577,causal,0
+391,Sales_rolling_max_30,27,Delivery_rolling_std_14,70,0.30954106317475516,0.30954106317475516,associated,0
+392,Sales_rolling_max_30,27,Delivery_rolling_min_14,71,1.0,0.5299344484609169,causal,0
+393,Sales_rolling_max_30,27,Delivery_rolling_max_14,72,1.0,0.7678346937732415,causal,0
+394,Production_lag_1,28,Sales_lag_2,10,1.0,0.37931612648374013,causal,0
+395,Production_lag_1,28,Sales_rolling_mean_7,16,1.0,0.5857387760350772,causal,0
+396,Production_lag_1,28,Sales_rolling_std_7,17,1.0,0.496899021010067,causal,0
+397,Production_lag_1,28,Sales_rolling_max_7,19,1.0,0.5236959418289836,causal,0
+398,Production_lag_1,28,Sales_rolling_mean_14,20,1.0,0.6131072717074516,causal,0
+399,Production_lag_1,28,Sales_rolling_std_14,21,1.0,0.4864473923802941,causal,0
+400,Production_lag_1,28,Sales_rolling_max_14,23,1.0,0.5456755586725704,causal,0
+401,Production_lag_1,28,Sales_rolling_std_30,25,1.0,0.4150941101263394,causal,0
+402,Production_lag_1,28,Sales_rolling_max_30,27,1.0,0.38022457928584447,causal,0
+403,Production_lag_1,28,Production_rolling_mean_7,35,1.0,0.7545595092380016,causal,0
+404,Production_lag_1,28,Production_rolling_std_7,36,1.0,0.39682198750098835,causal,0
+405,Production_lag_1,28,Production_rolling_min_7,37,1.0,0.6689387349438376,causal,0
+406,Production_lag_1,28,Production_rolling_max_7,38,1.0,0.7002111434118075,causal,0
+407,Production_lag_1,28,Production_rolling_mean_14,39,1.0,0.5883856252339179,causal,0
+408,Production_lag_1,28,Production_rolling_min_14,41,1.0,0.49424678573601005,causal,0
+409,Production_lag_1,28,Production_rolling_max_14,42,1.0,0.545310864619433,causal,0
+410,Production_lag_1,28,Factory_Issue_lag_1,43,1.0,0.7985092268625475,causal,0
+411,Production_lag_1,28,Factory_Issue_lag_7,44,0.32256707265930906,0.32256707265930906,associated,0
+412,Production_lag_1,28,Factory_Issue_rolling_mean_7,50,1.0,0.7039262416729182,causal,0
+413,Production_lag_1,28,Factory_Issue_rolling_std_7,51,1.0,0.4304208023621862,causal,0
+414,Production_lag_1,28,Factory_Issue_rolling_min_7,52,1.0,0.5557921391248486,causal,0
+415,Production_lag_1,28,Factory_Issue_rolling_max_7,53,1.0,0.6525566593813357,causal,0
+416,Production_lag_1,28,Factory_Issue_rolling_mean_14,54,1.0,0.5589879467182486,causal,0
+417,Production_lag_1,28,Factory_Issue_rolling_min_14,56,1.0,0.4370815421285703,causal,0
+418,Production_lag_1,28,Factory_Issue_rolling_max_14,57,1.0,0.4868025112818106,causal,0
+419,Production_lag_1,28,Delivery_lag_1,58,1.0,0.7059104780815955,causal,0
+420,Production_lag_1,28,Delivery_rolling_mean_7,65,1.0,0.7163626601955975,causal,0
+421,Production_lag_1,28,Delivery_rolling_min_7,67,1.0,0.6267985264501325,causal,0
+422,Production_lag_1,28,Delivery_rolling_max_7,68,1.0,0.637629637353711,causal,0
+423,Production_lag_1,28,Delivery_rolling_mean_14,69,1.0,0.6123314656854214,causal,0
+424,Production_lag_1,28,Delivery_rolling_min_14,71,1.0,0.5303602410106494,causal,0
+425,Production_lag_1,28,Delivery_rolling_max_14,72,1.0,0.5473899399946448,causal,0
+426,Production_lag_1,28,production_sales_ratio,100,1.0,0.3695805307746793,causal,0
+427,Production_lag_1,28,delivery_sales_ratio,101,1.0,0.29443643010576526,causal,0
+428,Production_lag_7,29,Temperature,6,1.0,-0.2576180873649836,causal,0
+429,Production_lag_7,29,Sales_lag_14,13,0.4158408022330929,0.4158408022330929,associated,0
+430,Production_lag_7,29,Sales_rolling_mean_14,20,1.0,0.40172922867188443,causal,0
+431,Production_lag_7,29,Sales_rolling_std_14,21,1.0,0.4383867882439419,causal,0
+432,Production_lag_7,29,Sales_rolling_max_14,23,1.0,0.4539483730150597,causal,0
+433,Production_lag_7,29,Sales_rolling_mean_30,24,1.0,0.3492378438497713,causal,0
+434,Production_lag_7,29,Sales_rolling_std_30,25,1.0,0.421298764667005,causal,0
+435,Production_lag_7,29,Sales_rolling_max_30,27,1.0,0.4686469304817991,causal,0
+436,Production_lag_7,29,Production_lag_14,30,1.0,0.4089908055668265,causal,0
+437,Production_lag_7,29,Production_rolling_min_7,37,1.0,0.49630107728743633,causal,0
+438,Production_lag_7,29,Production_rolling_mean_14,39,1.0,0.6767564626721975,causal,0
+439,Production_lag_7,29,Production_rolling_std_14,40,1.0,0.32476367705211784,causal,0
+440,Production_lag_7,29,Production_rolling_min_14,41,1.0,0.4804518577851325,causal,0
+441,Production_lag_7,29,Production_rolling_max_14,42,1.0,0.6881401939740271,causal,0
+442,Production_lag_7,29,Factory_Issue_lag_7,44,1.0,0.8062531840548905,causal,0
+443,Production_lag_7,29,Factory_Issue_lag_14,45,1.0,0.37966241984661053,causal,0
+444,Production_lag_7,29,Factory_Issue_rolling_std_7,51,1.0,0.3327519200278089,causal,0
+445,Production_lag_7,29,Factory_Issue_rolling_mean_14,54,1.0,0.6600246894321556,causal,0
+446,Production_lag_7,29,Factory_Issue_rolling_std_14,55,1.0,0.3493939920960269,causal,0
+447,Production_lag_7,29,Factory_Issue_rolling_min_14,56,1.0,0.4745582062754499,causal,0
+448,Production_lag_7,29,Factory_Issue_rolling_max_14,57,1.0,0.6385602250323152,causal,0
+449,Production_lag_7,29,Delivery_lag_7,59,1.0,0.71802019164781,causal,0
+450,Production_lag_7,29,Delivery_lag_14,60,1.0,0.4287068064570603,causal,0
+451,Production_lag_7,29,Delivery_rolling_mean_14,69,1.0,0.5929182227165511,causal,0
+452,Production_lag_7,29,Delivery_rolling_min_14,71,1.0,0.4921752701088279,causal,0
+453,Production_lag_7,29,Delivery_rolling_max_14,72,1.0,0.5942581240276716,causal,0
+454,Production_lag_7,29,Sales_trend_7_14,77,1.0,-0.16613806826967395,causal,0
+455,Production_lag_7,29,inventory_proxy,103,1.0,0.2248672461692515,causal,0
+456,Production_lag_14,30,Sales_rolling_std_14,21,1.0,0.24425061613982513,causal,0
+457,Production_lag_14,30,Sales_rolling_max_14,23,1.0,0.18229472255134566,causal,0
+458,Production_lag_14,30,Sales_rolling_mean_30,24,1.0,0.2710056902433247,causal,0
+459,Production_lag_14,30,Sales_rolling_std_30,25,1.0,0.40861975305830744,causal,0
+460,Production_lag_14,30,Sales_rolling_max_30,27,1.0,0.49729850279180027,causal,0
+461,Production_lag_14,30,Production_rolling_std_7,36,1.0,-0.2221369214114308,causal,0
+462,Production_lag_14,30,Production_rolling_min_14,41,1.0,0.30146297138661504,causal,0
+463,Production_lag_14,30,Factory_Issue_lag_14,45,1.0,0.8302705616495738,causal,0
+464,Production_lag_14,30,Factory_Issue_rolling_min_7,52,1.0,0.271851037185393,causal,0
+465,Production_lag_14,30,Delivery_lag_14,60,1.0,0.7562650938089432,causal,0
+466,Production_lag_14,30,Delivery_rolling_max_7,68,1.0,0.21883722003576064,causal,0
+467,Production_lag_14,30,Delivery_rolling_mean_14,69,1.0,0.3297179385124277,causal,0
+468,Production_lag_14,30,Delivery_rolling_min_14,71,1.0,0.3239195285205541,causal,0
+469,Production_lag_14,30,Delivery_rolling_max_14,72,1.0,0.4070600595650705,causal,0
+470,Production_lag_14,30,month_cos,85,1.0,0.19267015555571118,causal,0
+471,Production_lag_14,30,factory_issue_rate,102,1.0,0.22704560074055216,causal,0
+472,Production_lag_14,30,inventory_proxy,103,1.0,0.27676617010012516,causal,0
+473,Production_rolling_mean_1,31,Production,0,1.0,1.0,causal,0
+474,Production_rolling_mean_1,31,Sales_pct_change_7,74,0.2873284291499963,0.2873284291499963,associated,0
+475,Production_rolling_min_1,33,Production,0,1.0,1.0,causal,0
+476,Production_rolling_min_1,33,Production_rolling_mean_1,31,1.0,1.0,causal,0
+477,Production_rolling_min_1,33,Sales_pct_change_7,74,0.2873284291499963,0.2873284291499963,associated,0
+478,Production_rolling_max_1,34,Production,0,1.0,1.0,causal,0
+479,Production_rolling_max_1,34,Production_rolling_mean_1,31,1.0,1.0,causal,0
+480,Production_rolling_max_1,34,Production_rolling_min_1,33,1.0,1.0,causal,0
+481,Production_rolling_max_1,34,Sales_pct_change_7,74,0.2873284291499963,0.2873284291499963,associated,0
+482,Production_rolling_mean_7,35,Sales_rolling_mean_7,16,1.0,0.615948155828896,causal,0
+483,Production_rolling_mean_7,35,Sales_rolling_std_7,17,1.0,0.5627483249152173,causal,0
+484,Production_rolling_mean_7,35,Sales_rolling_max_7,19,1.0,0.5687359099457137,causal,0
+485,Production_rolling_mean_7,35,Sales_rolling_mean_14,20,1.0,0.7577974802335152,causal,0
+486,Production_rolling_mean_7,35,Sales_rolling_std_14,21,1.0,0.6586068710984734,causal,0
+487,Production_rolling_mean_7,35,Sales_rolling_max_14,23,1.0,0.6951974249011885,causal,0
+488,Production_rolling_mean_7,35,Sales_rolling_mean_30,24,1.0,0.5570999548346446,causal,0
+489,Production_rolling_mean_7,35,Sales_rolling_std_30,25,1.0,0.5893435956904857,causal,0
+490,Production_rolling_mean_7,35,Sales_rolling_max_30,27,1.0,0.5447082572568569,causal,0
+491,Production_rolling_mean_7,35,Production_lag_7,29,1.0,0.5281327775205442,causal,0
+492,Production_rolling_mean_7,35,Production_rolling_std_7,36,1.0,0.5035017863307205,causal,0
+493,Production_rolling_mean_7,35,Production_rolling_min_7,37,1.0,0.8655566529849167,causal,0
+494,Production_rolling_mean_7,35,Production_rolling_mean_14,39,1.0,0.8570807570462367,causal,0
+495,Production_rolling_mean_7,35,Production_rolling_std_14,40,1.0,0.36583942928599067,causal,0
+496,Production_rolling_mean_7,35,Production_rolling_min_14,41,1.0,0.6769856474625463,causal,0
+497,Production_rolling_mean_7,35,Production_rolling_max_14,42,1.0,0.8202356619219322,causal,0
+498,Production_rolling_mean_7,35,Factory_Issue_lag_7,44,1.0,0.5403637030312334,causal,0
+499,Production_rolling_mean_7,35,Factory_Issue_rolling_mean_7,50,1.0,0.9414885175280346,causal,0
+500,Production_rolling_mean_7,35,Factory_Issue_rolling_std_7,51,1.0,0.5697094619159517,causal,0
+501,Production_rolling_mean_7,35,Factory_Issue_rolling_min_7,52,1.0,0.7591692681842138,causal,0
+502,Production_rolling_mean_7,35,Factory_Issue_rolling_max_7,53,1.0,0.8797714649747383,causal,0
+503,Production_rolling_mean_7,35,Factory_Issue_rolling_mean_14,54,1.0,0.8195363041973808,causal,0
+504,Production_rolling_mean_7,35,Factory_Issue_rolling_std_14,55,1.0,0.3958040799627947,causal,0
+505,Production_rolling_mean_7,35,Factory_Issue_rolling_min_14,56,1.0,0.6272400419380979,causal,0
+506,Production_rolling_mean_7,35,Factory_Issue_rolling_max_14,57,1.0,0.7314786583099113,causal,0
+507,Production_rolling_mean_7,35,Delivery_lag_7,59,1.0,0.5198141822847382,causal,0
+508,Production_rolling_mean_7,35,Delivery_rolling_mean_7,65,1.0,0.8886174326596651,causal,0
+509,Production_rolling_mean_7,35,Delivery_rolling_std_7,66,0.39490822231655226,0.39490822231655226,associated,0
+510,Production_rolling_mean_7,35,Delivery_rolling_min_7,67,1.0,0.7866011428799776,causal,0
+511,Production_rolling_mean_7,35,Delivery_rolling_max_7,68,1.0,0.8206894347360668,causal,0
+512,Production_rolling_mean_7,35,Delivery_rolling_mean_14,69,1.0,0.8383111271946934,causal,0
+513,Production_rolling_mean_7,35,Delivery_rolling_min_14,71,1.0,0.6773623684058343,causal,0
+514,Production_rolling_mean_7,35,Delivery_rolling_max_14,72,1.0,0.7771179725365583,causal,0
+515,Production_rolling_std_7,36,Sales_rolling_mean_7,16,0.32342188046831716,0.32342188046831716,associated,0
+516,Production_rolling_std_7,36,Sales_rolling_mean_14,20,1.0,0.42357945457509677,causal,0
+517,Production_rolling_std_7,36,Sales_rolling_std_14,21,1.0,0.36691887229023396,causal,0
+518,Production_rolling_std_7,36,Sales_rolling_max_14,23,1.0,0.3821636578274453,causal,0
+519,Production_rolling_std_7,36,Production_lag_7,29,1.0,0.2684632184203706,causal,0
+520,Production_rolling_std_7,36,Production_rolling_mean_14,39,1.0,0.33537046003227455,causal,0
+521,Production_rolling_std_7,36,Production_rolling_std_14,40,1.0,0.6162225022020156,causal,0
+522,Production_rolling_std_7,36,Production_rolling_max_14,42,1.0,0.42109072433726735,causal,0
+523,Production_rolling_std_7,36,Factory_Issue_lag_7,44,1.0,0.22770842788616744,causal,0
+524,Production_rolling_std_7,36,Factory_Issue_rolling_std_7,51,1.0,0.6760805541937454,causal,0
+525,Production_rolling_std_7,36,Factory_Issue_rolling_max_7,53,1.0,0.5902348415305517,causal,0
+526,Production_rolling_std_7,36,Factory_Issue_rolling_mean_14,54,1.0,0.3025924184158009,causal,0
+527,Production_rolling_std_7,36,Factory_Issue_rolling_std_14,55,1.0,0.35326787248926766,causal,0
+528,Production_rolling_std_7,36,Factory_Issue_rolling_max_14,57,1.0,0.32152919663979806,causal,0
+529,Production_rolling_std_7,36,Delivery_lag_7,59,1.0,0.2713664021183016,causal,0
+530,Production_rolling_std_7,36,Delivery_rolling_std_7,66,1.0,0.5324247980546521,causal,0
+531,Production_rolling_std_7,36,Delivery_rolling_max_7,68,1.0,0.5199902720357573,causal,0
+532,Production_rolling_std_7,36,Delivery_rolling_mean_14,69,1.0,0.35263275946746653,causal,0
+533,Production_rolling_std_7,36,Delivery_rolling_std_14,70,0.2900520000811701,0.2900520000811701,associated,0
+534,Production_rolling_std_7,36,Delivery_rolling_max_14,72,1.0,0.3371662567503384,causal,0
+535,Production_rolling_min_7,37,Sales_rolling_mean_7,16,1.0,0.6252513457094164,causal,0
+536,Production_rolling_min_7,37,Sales_rolling_mean_14,20,1.0,0.7377280393627672,causal,0
+537,Production_rolling_min_7,37,Sales_rolling_std_14,21,1.0,0.566483260959609,causal,0
+538,Production_rolling_min_7,37,Sales_rolling_mean_30,24,1.0,0.5844179066081502,causal,0
+539,Production_rolling_min_7,37,Sales_rolling_std_30,25,1.0,0.5750769148039581,causal,0
+540,Production_rolling_min_7,37,Sales_rolling_max_30,27,1.0,0.5481841544637206,causal,0
+541,Production_rolling_min_7,37,Production_rolling_min_14,41,1.0,0.8320958520034627,causal,0
+542,Production_rolling_min_7,37,Factory_Issue_lag_7,44,1.0,0.5105253666619787,causal,0
+543,Production_rolling_min_7,37,Factory_Issue_rolling_max_14,57,1.0,0.6639508190354992,causal,0
+544,Production_rolling_min_7,37,Delivery_lag_7,59,1.0,0.47804743339760614,causal,0
+545,Production_rolling_min_7,37,Delivery_rolling_mean_7,65,1.0,0.8401991746577763,causal,0
+546,Production_rolling_min_7,37,Delivery_rolling_max_7,68,1.0,0.7002036946647022,causal,0
+547,Production_rolling_min_7,37,Delivery_rolling_mean_14,69,1.0,0.8008785133546358,causal,0
+548,Production_rolling_min_7,37,Delivery_rolling_min_14,71,1.0,0.7353295623208316,causal,0
+549,Production_rolling_min_7,37,Delivery_rolling_max_14,72,1.0,0.7070699823247905,causal,0
+550,Production_rolling_max_7,38,Sales_rolling_mean_7,16,1.0,0.5665911680281971,causal,0
+551,Production_rolling_max_7,38,Sales_rolling_std_7,17,1.0,0.5555264023993404,causal,0
+552,Production_rolling_max_7,38,Sales_rolling_max_7,19,1.0,0.5436264182857738,causal,0
+553,Production_rolling_max_7,38,Sales_rolling_mean_14,20,1.0,0.7080820265449993,causal,0
+554,Production_rolling_max_7,38,Sales_rolling_std_14,21,1.0,0.6443963726274637,causal,0
+555,Production_rolling_max_7,38,Sales_rolling_max_14,23,1.0,0.6741090403652583,causal,0
+556,Production_rolling_max_7,38,Sales_rolling_mean_30,24,1.0,0.4933908191338202,causal,0
+557,Production_rolling_max_7,38,Sales_rolling_std_30,25,1.0,0.49654281849321,causal,0
+558,Production_rolling_max_7,38,Sales_rolling_max_30,27,1.0,0.42962337727107497,causal,0
+559,Production_rolling_max_7,38,Production_lag_7,29,1.0,0.49852305543469677,causal,0
+560,Production_rolling_max_7,38,Production_rolling_mean_7,35,1.0,0.9169129461624528,causal,0
+561,Production_rolling_max_7,38,Production_rolling_std_7,36,1.0,0.7339428223922335,causal,0
+562,Production_rolling_max_7,38,Production_rolling_min_7,37,1.0,0.6817406827138738,causal,0
+563,Production_rolling_max_7,38,Production_rolling_mean_14,39,1.0,0.7407112583337626,causal,0
+564,Production_rolling_max_7,38,Production_rolling_std_14,40,1.0,0.5073690658772426,causal,0
+565,Production_rolling_max_7,38,Production_rolling_min_14,41,1.0,0.501959941402997,causal,0
+566,Production_rolling_max_7,38,Production_rolling_max_14,42,1.0,0.7853390830431953,causal,0
+567,Production_rolling_max_7,38,Factory_Issue_lag_1,43,1.0,0.6991647511960544,causal,0
+568,Production_rolling_max_7,38,Factory_Issue_lag_7,44,1.0,0.49790181900568603,causal,0
+569,Production_rolling_max_7,38,Factory_Issue_rolling_mean_7,50,1.0,0.8650186193292152,causal,0
+570,Production_rolling_max_7,38,Factory_Issue_rolling_std_7,51,1.0,0.629435986519845,causal,0
+571,Production_rolling_max_7,38,Factory_Issue_rolling_min_7,52,1.0,0.6573348684898386,causal,0
+572,Production_rolling_max_7,38,Factory_Issue_rolling_max_7,53,1.0,0.8654676986846459,causal,0
+573,Production_rolling_max_7,38,Factory_Issue_rolling_mean_14,54,1.0,0.7105577597887917,causal,0
+574,Production_rolling_max_7,38,Factory_Issue_rolling_std_14,55,1.0,0.4091159364903052,causal,0
+575,Production_rolling_max_7,38,Factory_Issue_rolling_min_14,56,1.0,0.49358861853338887,causal,0
+576,Production_rolling_max_7,38,Factory_Issue_rolling_max_14,57,1.0,0.6527415448446271,causal,0
+577,Production_rolling_max_7,38,Delivery_lag_7,59,1.0,0.4985985841033603,causal,0
+578,Production_rolling_max_7,38,Delivery_rolling_mean_7,65,1.0,0.8104115814934388,causal,0
+579,Production_rolling_max_7,38,Delivery_rolling_std_7,66,1.0,0.4686156673462137,causal,0
+580,Production_rolling_max_7,38,Delivery_rolling_min_7,67,1.0,0.6740650168462019,causal,0
+581,Production_rolling_max_7,38,Delivery_rolling_max_7,68,1.0,0.796757751939185,causal,0
+582,Production_rolling_max_7,38,Delivery_rolling_mean_14,69,1.0,0.7393180091154873,causal,0
+583,Production_rolling_max_7,38,Delivery_rolling_min_14,71,1.0,0.5570483396550467,causal,0
+584,Production_rolling_max_7,38,Delivery_rolling_max_14,72,1.0,0.7006777914269878,causal,0
+585,Production_rolling_mean_14,39,Sales_rolling_mean_7,16,1.0,0.5095506826640532,causal,0
+586,Production_rolling_mean_14,39,Sales_rolling_std_7,17,1.0,0.4882953936273526,causal,0
+587,Production_rolling_mean_14,39,Sales_rolling_mean_14,20,1.0,0.7396525324435009,causal,0
+588,Production_rolling_mean_14,39,Sales_rolling_std_14,21,1.0,0.6235935381648372,causal,0
+589,Production_rolling_mean_14,39,Sales_rolling_max_14,23,1.0,0.6582435049952475,causal,0
+590,Production_rolling_mean_14,39,Sales_rolling_mean_30,24,1.0,0.6681632908316258,causal,0
+591,Production_rolling_mean_14,39,Sales_rolling_std_30,25,1.0,0.666143394682938,causal,0
+592,Production_rolling_mean_14,39,Sales_rolling_max_30,27,1.0,0.6432250793579805,causal,0
+593,Production_rolling_mean_14,39,Production_lag_14,30,1.0,0.37068176022445476,causal,0
+594,Production_rolling_mean_14,39,Production_rolling_min_7,37,1.0,0.8097771900860028,causal,0
+595,Production_rolling_mean_14,39,Production_rolling_std_14,40,1.0,0.3287236730307066,causal,0
+596,Production_rolling_mean_14,39,Production_rolling_min_14,41,1.0,0.8323831847736786,causal,0
+597,Production_rolling_mean_14,39,Production_rolling_max_14,42,1.0,0.8852719917911662,causal,0
+598,Production_rolling_mean_14,39,Factory_Issue_lag_7,44,1.0,0.6958273508747731,causal,0
+599,Production_rolling_mean_14,39,Factory_Issue_lag_14,45,1.0,0.39232663060942796,causal,0
+600,Production_rolling_mean_14,39,Factory_Issue_rolling_std_7,51,1.0,0.446923129090677,causal,0
+601,Production_rolling_mean_14,39,Factory_Issue_rolling_mean_14,54,1.0,0.9726799923067223,causal,0
+602,Production_rolling_mean_14,39,Factory_Issue_rolling_std_14,55,1.0,0.3772903791015059,causal,0
+603,Production_rolling_mean_14,39,Factory_Issue_rolling_min_14,56,1.0,0.7949033987349461,causal,0
+604,Production_rolling_mean_14,39,Factory_Issue_rolling_max_14,57,1.0,0.823922700788152,causal,0
+605,Production_rolling_mean_14,39,Delivery_lag_7,59,1.0,0.6223503311894619,causal,0
+606,Production_rolling_mean_14,39,Delivery_lag_14,60,1.0,0.39751150570038163,causal,0
+607,Production_rolling_mean_14,39,Delivery_rolling_mean_7,65,1.0,0.8165877729629355,causal,0
+608,Production_rolling_mean_14,39,Delivery_rolling_std_7,66,0.357781904283065,0.357781904283065,associated,0
+609,Production_rolling_mean_14,39,Delivery_rolling_max_7,68,1.0,0.7614422402115005,causal,0
+610,Production_rolling_mean_14,39,Delivery_rolling_mean_14,69,1.0,0.9418232241829507,causal,0
+611,Production_rolling_mean_14,39,Delivery_rolling_min_14,71,1.0,0.7813501019132851,causal,0
+612,Production_rolling_mean_14,39,Delivery_rolling_max_14,72,1.0,0.8582906019564496,causal,0
+613,Production_rolling_mean_14,39,inventory_proxy,103,1.0,0.30260681628175284,causal,0
+614,Production_rolling_std_14,40,Factory_Issue_rolling_std_14,55,1.0,0.6950482187136663,causal,0
+615,Production_rolling_std_14,40,Delivery_rolling_std_7,66,0.3343958108663991,0.3343958108663991,associated,0
+616,Production_rolling_std_14,40,Delivery_rolling_std_14,70,0.4591603944545121,0.4591603944545121,associated,0
+617,Production_rolling_std_14,40,Delivery_rolling_max_14,72,1.0,0.36195475982774145,causal,0
+618,Production_rolling_std_14,40,Sales_momentum_14,76,0.15137418462378002,-0.15137418462378002,associated,0
+619,Production_rolling_min_14,41,Sales_rolling_mean_7,16,1.0,0.5461445517953388,causal,0
+620,Production_rolling_min_14,41,Sales_rolling_mean_14,20,1.0,0.7027637865591128,causal,0
+621,Production_rolling_min_14,41,Sales_rolling_mean_30,24,1.0,0.7025882264501939,causal,0
+622,Production_rolling_min_14,41,Sales_rolling_std_30,25,1.0,0.535785927082894,causal,0
+623,Production_rolling_min_14,41,Delivery_rolling_max_7,68,1.0,0.5902243970516438,causal,0
+624,Production_rolling_min_14,41,Delivery_rolling_mean_14,69,1.0,0.8263945133501037,causal,0
+625,Production_rolling_min_14,41,Delivery_rolling_max_14,72,1.0,0.6497259341124846,causal,0
+626,Production_rolling_min_14,41,inventory_proxy,103,0.23091237004924553,0.23091237004924553,associated,0
+627,Production_rolling_max_14,42,Sales_rolling_mean_14,20,1.0,0.5922510922504134,causal,0
+628,Production_rolling_max_14,42,Sales_rolling_std_14,21,1.0,0.6059244892653519,causal,0
+629,Production_rolling_max_14,42,Sales_rolling_max_14,23,1.0,0.628363267837947,causal,0
+630,Production_rolling_max_14,42,Sales_rolling_mean_30,24,1.0,0.4549834165461891,causal,0
+631,Production_rolling_max_14,42,Sales_rolling_std_30,25,1.0,0.5812729893489995,causal,0
+632,Production_rolling_max_14,42,Sales_rolling_max_30,27,1.0,0.5817237729543122,causal,0
+633,Production_rolling_max_14,42,Production_lag_14,30,1.0,0.3345616087462497,causal,0
+634,Production_rolling_max_14,42,Production_rolling_min_7,37,1.0,0.7117028567160273,causal,0
+635,Production_rolling_max_14,42,Production_rolling_std_14,40,1.0,0.570090000551268,causal,0
+636,Production_rolling_max_14,42,Production_rolling_min_14,41,1.0,0.6271269096150737,causal,0
+637,Production_rolling_max_14,42,Factory_Issue_lag_7,44,1.0,0.6885870944194663,causal,0
+638,Production_rolling_max_14,42,Factory_Issue_lag_14,45,1.0,0.3611676483969726,causal,0
+639,Production_rolling_max_14,42,Factory_Issue_rolling_mean_14,54,1.0,0.870988731094923,causal,0
+640,Production_rolling_max_14,42,Factory_Issue_rolling_std_14,55,1.0,0.5127389473329524,causal,0
+641,Production_rolling_max_14,42,Factory_Issue_rolling_max_14,57,1.0,0.8725436378552339,causal,0
+642,Production_rolling_max_14,42,Delivery_lag_7,59,1.0,0.5988744175705986,causal,0
+643,Production_rolling_max_14,42,Delivery_lag_14,60,1.0,0.3811489120877007,causal,0
+644,Production_rolling_max_14,42,Delivery_rolling_mean_7,65,1.0,0.7092997045240024,causal,0
+645,Production_rolling_max_14,42,Delivery_rolling_std_7,66,0.3497922519115396,0.3497922519115396,associated,0
+646,Production_rolling_max_14,42,Delivery_rolling_max_7,68,1.0,0.703748308373032,causal,0
+647,Production_rolling_max_14,42,Delivery_rolling_mean_14,69,1.0,0.8014187294913409,causal,0
+648,Production_rolling_max_14,42,Delivery_rolling_std_14,70,0.30344923812001023,0.30344923812001023,associated,0
+649,Production_rolling_max_14,42,Delivery_rolling_min_14,71,1.0,0.6141486738755294,causal,0
+650,Production_rolling_max_14,42,Delivery_rolling_max_14,72,1.0,0.81689236157946,causal,0
+651,Production_rolling_max_14,42,inventory_proxy,103,0.19203824533501343,0.19203824533501343,associated,0
+652,Factory_Issue_lag_1,43,Sales_lag_2,10,1.0,0.4713984956491039,causal,0
+653,Factory_Issue_lag_1,43,Sales_rolling_mean_7,16,1.0,0.6198101449536669,causal,0
+654,Factory_Issue_lag_1,43,Sales_rolling_std_7,17,1.0,0.5199542617272209,causal,0
+655,Factory_Issue_lag_1,43,Sales_rolling_max_7,19,1.0,0.5537902117239032,causal,0
+656,Factory_Issue_lag_1,43,Sales_rolling_mean_14,20,1.0,0.6421771373030778,causal,0
+657,Factory_Issue_lag_1,43,Sales_rolling_std_14,21,1.0,0.5295510821023582,causal,0
+658,Factory_Issue_lag_1,43,Sales_rolling_max_14,23,1.0,0.5756675106315995,causal,0
+659,Factory_Issue_lag_1,43,Sales_rolling_mean_30,24,1.0,0.49029967539801356,causal,0
+660,Factory_Issue_lag_1,43,Sales_rolling_std_30,25,1.0,0.46782674545798786,causal,0
+661,Factory_Issue_lag_1,43,Sales_rolling_max_30,27,1.0,0.4382862318068304,causal,0
+662,Factory_Issue_lag_1,43,Production_lag_7,29,1.0,0.3527824002675617,causal,0
+663,Factory_Issue_lag_1,43,Production_rolling_mean_7,35,1.0,0.7424143194681151,causal,0
+664,Factory_Issue_lag_1,43,Production_rolling_std_7,36,1.0,0.3967453636634407,causal,0
+665,Factory_Issue_lag_1,43,Production_rolling_min_7,37,1.0,0.6643721066794003,causal,0
+666,Factory_Issue_lag_1,43,Production_rolling_mean_14,39,1.0,0.6283772569347732,causal,0
+667,Factory_Issue_lag_1,43,Production_rolling_std_14,40,1.0,0.241538979073792,causal,0
+668,Factory_Issue_lag_1,43,Production_rolling_min_14,41,1.0,0.5226780232574147,causal,0
+669,Factory_Issue_lag_1,43,Production_rolling_max_14,42,1.0,0.5901883990174381,causal,0
+670,Factory_Issue_lag_1,43,Factory_Issue_rolling_mean_7,50,1.0,0.7668789937248063,causal,0
+671,Factory_Issue_lag_1,43,Factory_Issue_rolling_std_7,51,1.0,0.4685047913269019,causal,0
+672,Factory_Issue_lag_1,43,Factory_Issue_rolling_min_7,52,1.0,0.5957065769496358,causal,0
+673,Factory_Issue_lag_1,43,Factory_Issue_rolling_max_7,53,1.0,0.7211048515962164,causal,0
+674,Factory_Issue_lag_1,43,Factory_Issue_rolling_mean_14,54,1.0,0.6308406351357991,causal,0
+675,Factory_Issue_lag_1,43,Factory_Issue_rolling_min_14,56,1.0,0.4966256186931718,causal,0
+676,Factory_Issue_lag_1,43,Factory_Issue_rolling_max_14,57,1.0,0.5724302774282681,causal,0
+677,Factory_Issue_lag_1,43,Delivery_lag_1,58,1.0,0.7308260384387427,causal,0
+678,Factory_Issue_lag_1,43,Delivery_rolling_mean_7,65,1.0,0.7570054622079438,causal,0
+679,Factory_Issue_lag_1,43,Delivery_rolling_std_7,66,1.0,0.361210392309516,causal,0
+680,Factory_Issue_lag_1,43,Delivery_rolling_min_7,67,1.0,0.6336950275337646,causal,0
+681,Factory_Issue_lag_1,43,Delivery_rolling_max_7,68,1.0,0.6872030447187233,causal,0
+682,Factory_Issue_lag_1,43,Delivery_rolling_mean_14,69,1.0,0.6621155461346689,causal,0
+683,Factory_Issue_lag_1,43,Delivery_rolling_min_14,71,1.0,0.5666553456311411,causal,0
+684,Factory_Issue_lag_1,43,Delivery_rolling_max_14,72,1.0,0.6100344150827537,causal,0
+685,Factory_Issue_lag_1,43,production_sales_ratio,100,1.0,0.3317755184470359,causal,0
+686,Factory_Issue_lag_1,43,delivery_sales_ratio,101,1.0,0.28134789478337185,causal,0
+687,Factory_Issue_lag_7,44,Factory_Issue,1,1.0,0.36874655598469747,causal,0
+688,Factory_Issue_lag_7,44,Sales_rolling_std_7,17,1.0,0.3264443098413531,causal,0
+689,Factory_Issue_lag_7,44,Sales_rolling_mean_14,20,1.0,0.4333617211474345,causal,0
+690,Factory_Issue_lag_7,44,Sales_rolling_std_14,21,1.0,0.474622201152714,causal,0
+691,Factory_Issue_lag_7,44,Sales_rolling_max_14,23,1.0,0.474799050535001,causal,0
+692,Factory_Issue_lag_7,44,Sales_rolling_mean_30,24,1.0,0.42819277687594326,causal,0
+693,Factory_Issue_lag_7,44,Sales_rolling_std_30,25,1.0,0.4874236705505349,causal,0
+694,Factory_Issue_lag_7,44,Sales_rolling_max_30,27,1.0,0.5181189679472133,causal,0
+695,Factory_Issue_lag_7,44,Production_lag_1,28,0.32256707265930906,0.32256707265930906,associated,0
+696,Factory_Issue_lag_7,44,Production_lag_14,30,1.0,0.43290723395870023,causal,0
+697,Factory_Issue_lag_7,44,Production_rolling_std_14,40,1.0,0.30286015581667053,causal,0
+698,Factory_Issue_lag_7,44,Production_rolling_min_14,41,1.0,0.5187694204298974,causal,0
+699,Factory_Issue_lag_7,44,Factory_Issue_lag_1,43,1.0,0.34988955641069885,causal,0
+700,Factory_Issue_lag_7,44,Factory_Issue_lag_14,45,1.0,0.42791685527931966,causal,0
+701,Factory_Issue_lag_7,44,Factory_Issue_rolling_mean_14,54,1.0,0.6991012789495228,causal,0
+702,Factory_Issue_lag_7,44,Factory_Issue_rolling_min_14,56,1.0,0.5235413947678392,causal,0
+703,Factory_Issue_lag_7,44,Factory_Issue_rolling_max_14,57,1.0,0.6606643051019184,causal,0
+704,Factory_Issue_lag_7,44,Delivery_lag_7,59,1.0,0.7442262740600891,causal,0
+705,Factory_Issue_lag_7,44,Delivery_rolling_mean_14,69,1.0,0.6291005846439368,causal,0
+706,Factory_Issue_lag_7,44,Delivery_rolling_min_14,71,1.0,0.48766022622944943,causal,0
+707,Factory_Issue_lag_7,44,Delivery_rolling_max_14,72,1.0,0.6502343733769667,causal,0
+708,Factory_Issue_lag_7,44,day_of_week_sin,78,1.0,0.23964119861478778,causal,0
+709,Factory_Issue_lag_7,44,inventory_proxy,103,1.0,0.1922072308140408,causal,0
+710,Factory_Issue_lag_14,45,Sales_rolling_std_14,21,1.0,0.2718295088192731,causal,0
+711,Factory_Issue_lag_14,45,Sales_rolling_max_14,23,1.0,0.21242185692023138,causal,0
+712,Factory_Issue_lag_14,45,Sales_rolling_mean_30,24,1.0,0.3319904969714548,causal,0
+713,Factory_Issue_lag_14,45,Sales_rolling_std_30,25,1.0,0.4571262142766353,causal,0
+714,Factory_Issue_lag_14,45,Sales_rolling_max_30,27,1.0,0.538146097262006,causal,0
+715,Factory_Issue_lag_14,45,Production_rolling_std_7,36,1.0,-0.18895844034718362,causal,0
+716,Factory_Issue_lag_14,45,Production_rolling_min_14,41,1.0,0.3431349512625272,causal,0
+717,Factory_Issue_lag_14,45,Factory_Issue_rolling_mean_7,50,1.0,0.24706288955266625,causal,0
+718,Factory_Issue_lag_14,45,Factory_Issue_rolling_min_7,52,1.0,0.3088049605698352,causal,0
+719,Factory_Issue_lag_14,45,Delivery_lag_14,60,1.0,0.7752615846343501,causal,0
+720,Factory_Issue_lag_14,45,Delivery_rolling_max_7,68,1.0,0.24791769178975406,causal,0
+721,Factory_Issue_lag_14,45,Delivery_rolling_mean_14,69,1.0,0.36278746069366197,causal,0
+722,Factory_Issue_lag_14,45,Delivery_rolling_min_14,71,1.0,0.3452921153228682,causal,0
+723,Factory_Issue_lag_14,45,Delivery_rolling_max_14,72,1.0,0.43396105836328,causal,0
+724,Factory_Issue_lag_14,45,inventory_proxy,103,1.0,0.27476617007673765,causal,0
+725,Factory_Issue_rolling_mean_1,46,Factory_Issue,1,1.0,1.0,causal,0
+726,Factory_Issue_rolling_mean_1,46,Factory_Issue_rolling_std_7,51,1.0,0.4667909568860353,causal,0
+727,Factory_Issue_rolling_min_1,48,Factory_Issue,1,1.0,1.0,causal,0
+728,Factory_Issue_rolling_min_1,48,Factory_Issue_rolling_mean_1,46,1.0,1.0,causal,0
+729,Factory_Issue_rolling_min_1,48,Factory_Issue_rolling_std_7,51,1.0,0.4667909568860353,causal,0
+730,Factory_Issue_rolling_max_1,49,Factory_Issue,1,1.0,1.0,causal,0
+731,Factory_Issue_rolling_max_1,49,Factory_Issue_rolling_mean_1,46,1.0,1.0,causal,0
+732,Factory_Issue_rolling_max_1,49,Factory_Issue_rolling_min_1,48,1.0,1.0,causal,0
+733,Factory_Issue_rolling_max_1,49,Factory_Issue_rolling_std_7,51,1.0,0.4667909568860353,causal,0
+734,Factory_Issue_rolling_mean_7,50,Sales_rolling_mean_7,16,1.0,0.6562298925405154,causal,0
+735,Factory_Issue_rolling_mean_7,50,Sales_rolling_std_7,17,1.0,0.6131366086638333,causal,0
+736,Factory_Issue_rolling_mean_7,50,Sales_rolling_mean_14,20,1.0,0.7895614557388052,causal,0
+737,Factory_Issue_rolling_mean_7,50,Sales_rolling_std_14,21,1.0,0.7145752121830089,causal,0
+738,Factory_Issue_rolling_mean_7,50,Sales_rolling_max_14,23,1.0,0.7582786586130416,causal,0
+739,Factory_Issue_rolling_mean_7,50,Sales_rolling_mean_30,24,1.0,0.6439962288819613,causal,0
+740,Factory_Issue_rolling_mean_7,50,Sales_rolling_std_30,25,1.0,0.6841357013634161,causal,0
+741,Factory_Issue_rolling_mean_7,50,Sales_rolling_max_30,27,1.0,0.6490315843890131,causal,0
+742,Factory_Issue_rolling_mean_7,50,Production_lag_7,29,1.0,0.5744430073839866,causal,0
+743,Factory_Issue_rolling_mean_7,50,Production_rolling_std_7,36,1.0,0.4322601535630172,causal,0
+744,Factory_Issue_rolling_mean_7,50,Production_rolling_min_7,37,1.0,0.8719610291929156,causal,0
+745,Factory_Issue_rolling_mean_7,50,Production_rolling_mean_14,39,1.0,0.883521523121594,causal,0
+746,Factory_Issue_rolling_mean_7,50,Production_rolling_std_14,40,1.0,0.3319219450589009,causal,0
+747,Factory_Issue_rolling_mean_7,50,Production_rolling_min_14,41,1.0,0.7177281957854382,causal,0
+748,Factory_Issue_rolling_mean_7,50,Production_rolling_max_14,42,1.0,0.8431646785910112,causal,0
+749,Factory_Issue_rolling_mean_7,50,Factory_Issue_lag_7,44,1.0,0.5748945733157931,causal,0
+750,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_std_7,51,1.0,0.5096944778206653,causal,0
+751,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_max_7,53,1.0,0.9010475642534336,causal,0
+752,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_mean_14,54,1.0,0.8944140051636409,causal,0
+753,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_std_14,55,1.0,0.3903628616129736,causal,0
+754,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_min_14,56,1.0,0.7135623262377659,causal,0
+755,Factory_Issue_rolling_mean_7,50,Factory_Issue_rolling_max_14,57,1.0,0.7991339296181598,causal,0
+756,Factory_Issue_rolling_mean_7,50,Delivery_lag_7,59,1.0,0.5407123645762201,causal,0
+757,Factory_Issue_rolling_mean_7,50,Delivery_rolling_mean_7,65,1.0,0.9257867697502801,causal,0
+758,Factory_Issue_rolling_mean_7,50,Delivery_rolling_std_7,66,0.43516952779944823,0.43516952779944823,associated,0
+759,Factory_Issue_rolling_mean_7,50,Delivery_rolling_min_7,67,1.0,0.8097971298670132,causal,0
+760,Factory_Issue_rolling_mean_7,50,Delivery_rolling_max_7,68,1.0,0.8579760480639667,causal,0
+761,Factory_Issue_rolling_mean_7,50,Delivery_rolling_mean_14,69,1.0,0.8882857552628204,causal,0
+762,Factory_Issue_rolling_mean_7,50,Delivery_rolling_min_14,71,1.0,0.7249489515121885,causal,0
+763,Factory_Issue_rolling_mean_7,50,Delivery_rolling_max_14,72,1.0,0.8439436220466857,causal,0
+764,Factory_Issue_rolling_std_7,51,Sales_rolling_mean_7,16,0.40629808419744823,0.40629808419744823,associated,0
+765,Factory_Issue_rolling_std_7,51,Sales_rolling_mean_14,20,0.4901276008913428,0.4901276008913428,associated,0
+766,Factory_Issue_rolling_std_7,51,Sales_rolling_std_30,25,0.3506361538154206,0.3506361538154206,associated,0
+767,Factory_Issue_rolling_std_7,51,Sales_rolling_max_30,27,0.2949674766821353,0.2949674766821353,associated,0
+768,Factory_Issue_rolling_std_7,51,Production_rolling_std_14,40,1.0,0.5302221282163518,causal,0
+769,Factory_Issue_rolling_std_7,51,Production_rolling_max_14,42,1.0,0.49501759933307077,causal,0
+770,Factory_Issue_rolling_std_7,51,Factory_Issue_rolling_mean_14,54,0.39119991417153577,0.39119991417153577,associated,0
+771,Factory_Issue_rolling_std_7,51,Factory_Issue_rolling_std_14,55,1.0,0.6639743359550668,causal,0
+772,Factory_Issue_rolling_std_7,51,Factory_Issue_rolling_max_14,57,1.0,0.5208533625985642,causal,0
+773,Factory_Issue_rolling_std_7,51,Delivery_rolling_std_7,66,1.0,0.594811884897884,causal,0
+774,Factory_Issue_rolling_std_7,51,Delivery_rolling_max_7,68,1.0,0.6170262263287464,causal,0
+775,Factory_Issue_rolling_std_7,51,Delivery_rolling_mean_14,69,1.0,0.46700095639750444,causal,0
+776,Factory_Issue_rolling_std_7,51,Delivery_rolling_std_14,70,0.38687148004239275,0.38687148004239275,associated,0
+777,Factory_Issue_rolling_std_7,51,Delivery_rolling_max_14,72,1.0,0.49094920565623035,causal,0
+778,Factory_Issue_rolling_std_7,51,quarter_cos,87,0.17257130685474,0.17257130685474,associated,0
+779,Factory_Issue_rolling_min_7,52,Sales_rolling_mean_7,16,1.0,0.524307376014327,causal,0
+780,Factory_Issue_rolling_min_7,52,Sales_rolling_std_7,17,1.0,0.4768701625679792,causal,0
+781,Factory_Issue_rolling_min_7,52,Sales_rolling_max_7,19,1.0,0.5124082038488114,causal,0
+782,Factory_Issue_rolling_min_7,52,Sales_rolling_mean_14,20,1.0,0.6512199571773853,causal,0
+783,Factory_Issue_rolling_min_7,52,Sales_rolling_std_14,21,1.0,0.5664683820546175,causal,0
+784,Factory_Issue_rolling_min_7,52,Sales_rolling_max_14,23,1.0,0.6425893777682253,causal,0
+785,Factory_Issue_rolling_min_7,52,Sales_rolling_mean_30,24,1.0,0.5753384162446699,causal,0
+786,Factory_Issue_rolling_min_7,52,Sales_rolling_std_30,25,1.0,0.637073043048251,causal,0
+787,Factory_Issue_rolling_min_7,52,Sales_rolling_max_30,27,1.0,0.6274247841793111,causal,0
+788,Factory_Issue_rolling_min_7,52,Production_lag_7,29,1.0,0.5101994516041858,causal,0
+789,Factory_Issue_rolling_min_7,52,Production_rolling_std_7,36,1.0,0.21721016860470685,causal,0
+790,Factory_Issue_rolling_min_7,52,Production_rolling_min_7,37,1.0,0.8057525817751443,causal,0
+791,Factory_Issue_rolling_min_7,52,Production_rolling_mean_14,39,1.0,0.767346264918816,causal,0
+792,Factory_Issue_rolling_min_7,52,Production_rolling_min_14,41,1.0,0.7149601734191546,causal,0
+793,Factory_Issue_rolling_min_7,52,Production_rolling_max_14,42,1.0,0.728378509763568,causal,0
+794,Factory_Issue_rolling_min_7,52,Factory_Issue_lag_7,44,1.0,0.5773150648016279,causal,0
+795,Factory_Issue_rolling_min_7,52,Factory_Issue_rolling_mean_7,50,1.0,0.8640113866037948,causal,0
+796,Factory_Issue_rolling_min_7,52,Factory_Issue_rolling_max_7,53,1.0,0.6640541629534314,causal,0
+797,Factory_Issue_rolling_min_7,52,Factory_Issue_rolling_mean_14,54,1.0,0.8285342776630611,causal,0
+798,Factory_Issue_rolling_min_7,52,Factory_Issue_rolling_min_14,56,1.0,0.7995133254646596,causal,0
+799,Factory_Issue_rolling_min_7,52,Factory_Issue_rolling_max_14,57,1.0,0.7054162338015209,causal,0
+800,Factory_Issue_rolling_min_7,52,Delivery_lag_1,58,1.0,0.5199341466092663,causal,0
+801,Factory_Issue_rolling_min_7,52,Delivery_lag_7,59,1.0,0.4796099063466308,causal,0
+802,Factory_Issue_rolling_min_7,52,Delivery_rolling_mean_7,65,1.0,0.7765173114317038,causal,0
+803,Factory_Issue_rolling_min_7,52,Delivery_rolling_min_7,67,1.0,0.7329082857673622,causal,0
+804,Factory_Issue_rolling_min_7,52,Delivery_rolling_max_7,68,1.0,0.6904680456438876,causal,0
+805,Factory_Issue_rolling_min_7,52,Delivery_rolling_mean_14,69,1.0,0.7626087683549432,causal,0
+806,Factory_Issue_rolling_min_7,52,Delivery_rolling_min_14,71,1.0,0.6420884453350658,causal,0
+807,Factory_Issue_rolling_min_7,52,Delivery_rolling_max_14,72,1.0,0.745438104841081,causal,0
+808,Factory_Issue_rolling_max_7,53,Sales_rolling_mean_7,16,1.0,0.5969415648773493,causal,0
+809,Factory_Issue_rolling_max_7,53,Sales_rolling_mean_14,20,1.0,0.7134371136627695,causal,0
+810,Factory_Issue_rolling_max_7,53,Sales_rolling_std_14,21,1.0,0.7604863233777976,causal,0
+811,Factory_Issue_rolling_max_7,53,Sales_rolling_max_14,23,1.0,0.7621381340501222,causal,0
+812,Factory_Issue_rolling_max_7,53,Sales_rolling_mean_30,24,1.0,0.5371339153444395,causal,0
+813,Factory_Issue_rolling_max_7,53,Sales_rolling_std_30,25,1.0,0.6651292751348347,causal,0
+814,Factory_Issue_rolling_max_7,53,Sales_rolling_max_30,27,1.0,0.6205866297574579,causal,0
+815,Factory_Issue_rolling_max_7,53,Production_lag_7,29,1.0,0.5604118185617507,causal,0
+816,Factory_Issue_rolling_max_7,53,Production_rolling_min_7,37,1.0,0.7170930272010633,causal,0
+817,Factory_Issue_rolling_max_7,53,Production_rolling_mean_14,39,1.0,0.783898709043572,causal,0
+818,Factory_Issue_rolling_max_7,53,Production_rolling_std_14,40,1.0,0.45767806210064327,causal,0
+819,Factory_Issue_rolling_max_7,53,Production_rolling_min_14,41,1.0,0.5068095491353715,causal,0
+820,Factory_Issue_rolling_max_7,53,Production_rolling_max_14,42,1.0,0.8023798028899571,causal,0
+821,Factory_Issue_rolling_max_7,53,Factory_Issue_lag_7,44,1.0,0.5202079098742037,causal,0
+822,Factory_Issue_rolling_max_7,53,Factory_Issue_rolling_std_7,51,1.0,0.782084738446981,causal,0
+823,Factory_Issue_rolling_max_7,53,Factory_Issue_rolling_mean_14,54,1.0,0.7735719262866755,causal,0
+824,Factory_Issue_rolling_max_7,53,Factory_Issue_rolling_std_14,55,1.0,0.5898732889535889,causal,0
+825,Factory_Issue_rolling_max_7,53,Factory_Issue_rolling_min_14,56,1.0,0.4989091009813711,causal,0
+826,Factory_Issue_rolling_max_7,53,Factory_Issue_rolling_max_14,57,1.0,0.8320661904976693,causal,0
+827,Factory_Issue_rolling_max_7,53,Delivery_lag_7,59,1.0,0.5158164824429112,causal,0
+828,Factory_Issue_rolling_max_7,53,Delivery_rolling_mean_7,65,1.0,0.8192827208523975,causal,0
+829,Factory_Issue_rolling_max_7,53,Delivery_rolling_std_7,66,1.0,0.5769162566568163,causal,0
+830,Factory_Issue_rolling_max_7,53,Delivery_rolling_max_7,68,1.0,0.8669284882445675,causal,0
+831,Factory_Issue_rolling_max_7,53,Delivery_rolling_mean_14,69,1.0,0.7846856226771493,causal,0
+832,Factory_Issue_rolling_max_7,53,Delivery_rolling_std_14,70,1.0,0.3997427369613277,causal,0
+833,Factory_Issue_rolling_max_7,53,Delivery_rolling_min_14,71,1.0,0.5444612604400715,causal,0
+834,Factory_Issue_rolling_max_7,53,Delivery_rolling_max_14,72,1.0,0.8213617658093829,causal,0
+835,Factory_Issue_rolling_mean_14,54,Sales_rolling_mean_7,16,1.0,0.53659068067876,causal,0
+836,Factory_Issue_rolling_mean_14,54,Sales_rolling_std_7,17,1.0,0.5244341420169268,causal,0
+837,Factory_Issue_rolling_mean_14,54,Sales_rolling_mean_14,20,1.0,0.7587156695200462,causal,0
+838,Factory_Issue_rolling_mean_14,54,Sales_rolling_std_14,21,1.0,0.6645724564935127,causal,0
+839,Factory_Issue_rolling_mean_14,54,Sales_rolling_max_14,23,1.0,0.6979345020177861,causal,0
+840,Factory_Issue_rolling_mean_14,54,Sales_rolling_mean_30,24,1.0,0.7269011440926628,causal,0
+841,Factory_Issue_rolling_mean_14,54,Sales_rolling_std_30,25,1.0,0.7375176215275058,causal,0
+842,Factory_Issue_rolling_mean_14,54,Sales_rolling_max_30,27,1.0,0.716949099899377,causal,0
+843,Factory_Issue_rolling_mean_14,54,Production_lag_14,30,1.0,0.4117936910684758,causal,0
+844,Factory_Issue_rolling_mean_14,54,Production_rolling_min_7,37,1.0,0.7953921702126284,causal,0
+845,Factory_Issue_rolling_mean_14,54,Production_rolling_std_14,40,1.0,0.3006400719091776,causal,0
+846,Factory_Issue_rolling_mean_14,54,Production_rolling_min_14,41,1.0,0.8289776519531953,causal,0
+847,Factory_Issue_rolling_mean_14,54,Factory_Issue_lag_14,45,1.0,0.4325492896583603,causal,0
+848,Factory_Issue_rolling_mean_14,54,Factory_Issue_rolling_std_7,51,0.39119991417153577,0.39119991417153577,associated,0
+849,Factory_Issue_rolling_mean_14,54,Factory_Issue_rolling_max_14,57,1.0,0.8426667956376833,causal,0
+850,Factory_Issue_rolling_mean_14,54,Delivery_lag_7,59,1.0,0.6179925562106555,causal,0
+851,Factory_Issue_rolling_mean_14,54,Delivery_lag_14,60,1.0,0.42826524340179156,causal,0
+852,Factory_Issue_rolling_mean_14,54,Delivery_rolling_mean_7,65,1.0,0.8280633273458308,causal,0
+853,Factory_Issue_rolling_mean_14,54,Delivery_rolling_std_7,66,0.40845698727347013,0.40845698727347013,associated,0
+854,Factory_Issue_rolling_mean_14,54,Delivery_rolling_max_7,68,1.0,0.7891273538560448,causal,0
+855,Factory_Issue_rolling_mean_14,54,Delivery_rolling_mean_14,69,1.0,0.9583162515008709,causal,0
+856,Factory_Issue_rolling_mean_14,54,Delivery_rolling_min_14,71,1.0,0.7868761319976163,causal,0
+857,Factory_Issue_rolling_mean_14,54,Delivery_rolling_max_14,72,1.0,0.8903448465688115,causal,0
+858,Factory_Issue_rolling_mean_14,54,inventory_proxy,103,0.26104587899533443,0.26104587899533443,associated,0
+859,Factory_Issue_rolling_std_14,55,Factory_Issue,1,0.2842124070786648,0.2842124070786648,associated,0
+860,Factory_Issue_rolling_min_14,56,Sales_rolling_mean_7,16,1.0,0.5076523926966298,causal,0
+861,Factory_Issue_rolling_min_14,56,Sales_rolling_std_7,17,1.0,0.4170390919065258,causal,0
+862,Factory_Issue_rolling_min_14,56,Sales_rolling_max_7,19,1.0,0.4629195774762884,causal,0
+863,Factory_Issue_rolling_min_14,56,Sales_rolling_mean_14,20,1.0,0.6626393073226369,causal,0
+864,Factory_Issue_rolling_min_14,56,Sales_rolling_std_14,21,1.0,0.45961351142234325,causal,0
+865,Factory_Issue_rolling_min_14,56,Sales_rolling_max_14,23,1.0,0.5478061099014547,causal,0
+866,Factory_Issue_rolling_min_14,56,Sales_rolling_mean_30,24,1.0,0.688892545000014,causal,0
+867,Factory_Issue_rolling_min_14,56,Sales_rolling_std_30,25,1.0,0.5943531194775101,causal,0
+868,Factory_Issue_rolling_min_14,56,Sales_rolling_max_30,27,1.0,0.5959937651877729,causal,0
+869,Factory_Issue_rolling_min_14,56,Production_lag_14,30,1.0,0.39099908265556144,causal,0
+870,Factory_Issue_rolling_min_14,56,Production_rolling_min_7,37,1.0,0.7263956048032802,causal,0
+871,Factory_Issue_rolling_min_14,56,Production_rolling_min_14,41,1.0,0.8687843865737532,causal,0
+872,Factory_Issue_rolling_min_14,56,Production_rolling_max_14,42,1.0,0.6491812146521589,causal,0
+873,Factory_Issue_rolling_min_14,56,Factory_Issue_lag_14,45,1.0,0.43355072044299764,causal,0
+874,Factory_Issue_rolling_min_14,56,Factory_Issue_rolling_mean_14,54,1.0,0.8515420693749192,causal,0
+875,Factory_Issue_rolling_min_14,56,Factory_Issue_rolling_max_14,57,1.0,0.5969202428761252,causal,0
+876,Factory_Issue_rolling_min_14,56,Delivery_lag_1,58,1.0,0.4558718493625863,causal,0
+877,Factory_Issue_rolling_min_14,56,Delivery_lag_14,60,1.0,0.3718224258631841,causal,0
+878,Factory_Issue_rolling_min_14,56,Delivery_rolling_mean_7,65,1.0,0.6849061896445562,causal,0
+879,Factory_Issue_rolling_min_14,56,Delivery_rolling_min_7,67,1.0,0.6464612566171373,causal,0
+880,Factory_Issue_rolling_min_14,56,Delivery_rolling_max_7,68,1.0,0.6174965350928934,causal,0
+881,Factory_Issue_rolling_min_14,56,Delivery_rolling_mean_14,69,1.0,0.8028530073683757,causal,0
+882,Factory_Issue_rolling_min_14,56,Delivery_rolling_min_14,71,1.0,0.7790956473454425,causal,0
+883,Factory_Issue_rolling_min_14,56,Delivery_rolling_max_14,72,1.0,0.6827903015242154,causal,0
+884,Factory_Issue_rolling_min_14,56,inventory_proxy,103,0.21108083293054994,0.21108083293054994,associated,0
+885,Factory_Issue_rolling_max_14,57,Sales_rolling_mean_14,20,1.0,0.6022439537435273,causal,0
+886,Factory_Issue_rolling_max_14,57,Sales_rolling_mean_30,24,1.0,0.4891090815122845,causal,0
+887,Factory_Issue_rolling_max_14,57,Sales_rolling_std_30,25,1.0,0.729239806232613,causal,0
+888,Factory_Issue_rolling_max_14,57,Sales_rolling_max_30,27,1.0,0.7288594139232829,causal,0
+889,Factory_Issue_rolling_max_14,57,Production_lag_14,30,1.0,0.4435107997187325,causal,0
+890,Factory_Issue_rolling_max_14,57,Production_rolling_std_14,40,1.0,0.47092163573074297,causal,0
+891,Factory_Issue_rolling_max_14,57,Production_rolling_min_14,41,1.0,0.5402038536298414,causal,0
+892,Factory_Issue_rolling_max_14,57,Factory_Issue_lag_14,45,1.0,0.43000814134441656,causal,0
+893,Factory_Issue_rolling_max_14,57,Factory_Issue_rolling_std_14,55,1.0,0.6620806084547317,causal,0
+894,Factory_Issue_rolling_max_14,57,Delivery_lag_14,60,1.0,0.4528830400821353,causal,0
+895,Factory_Issue_rolling_max_14,57,Delivery_rolling_std_7,66,0.43001347466588463,0.43001347466588463,associated,0
+896,Factory_Issue_rolling_max_14,57,Delivery_rolling_mean_14,69,1.0,0.7807221173529003,causal,0
+897,Factory_Issue_rolling_max_14,57,Delivery_rolling_std_14,70,1.0,0.42605390309782626,causal,0
+898,Factory_Issue_rolling_max_14,57,Delivery_rolling_min_14,71,1.0,0.5370214033341467,causal,0
+899,Factory_Issue_rolling_max_14,57,Delivery_rolling_max_14,72,1.0,0.896603469629623,causal,0
+900,Factory_Issue_rolling_max_14,57,inventory_proxy,103,0.20628813766200216,0.20628813766200216,associated,0
+901,Delivery_lag_1,58,Sales_lag_3,11,1.0,0.40325436695425065,causal,0
+902,Delivery_lag_1,58,Sales_rolling_mean_7,16,1.0,0.6490939540015799,causal,0
+903,Delivery_lag_1,58,Sales_rolling_std_7,17,1.0,0.5435939000866642,causal,0
+904,Delivery_lag_1,58,Sales_rolling_max_7,19,1.0,0.5868654137836427,causal,0
+905,Delivery_lag_1,58,Sales_rolling_mean_14,20,1.0,0.6283022466590095,causal,0
+906,Delivery_lag_1,58,Sales_rolling_std_14,21,1.0,0.48175608543217185,causal,0
+907,Delivery_lag_1,58,Sales_rolling_max_14,23,1.0,0.5475611467959326,causal,0
+908,Delivery_lag_1,58,Sales_rolling_mean_30,24,1.0,0.498842623599054,causal,0
+909,Delivery_lag_1,58,Sales_rolling_std_30,25,1.0,0.4159510656290958,causal,0
+910,Delivery_lag_1,58,Sales_rolling_max_30,27,1.0,0.3972498867244325,causal,0
+911,Delivery_lag_1,58,Production_rolling_mean_7,35,1.0,0.6251567975936706,causal,0
+912,Delivery_lag_1,58,Production_rolling_min_7,37,1.0,0.5819036601816036,causal,0
+913,Delivery_lag_1,58,Production_rolling_max_7,38,1.0,0.5768784984740846,causal,0
+914,Delivery_lag_1,58,Production_rolling_mean_14,39,1.0,0.5360805717149641,causal,0
+915,Delivery_lag_1,58,Production_rolling_min_14,41,1.0,0.48591414396573257,causal,0
+916,Delivery_lag_1,58,Factory_Issue_rolling_mean_7,50,1.0,0.6481564249896861,causal,0
+917,Delivery_lag_1,58,Factory_Issue_rolling_max_7,53,1.0,0.5866279022666706,causal,0
+918,Delivery_lag_1,58,Factory_Issue_rolling_mean_14,54,1.0,0.5395563337001246,causal,0
+919,Delivery_lag_1,58,Factory_Issue_rolling_max_14,57,1.0,0.47325017102327527,causal,0
+920,Delivery_lag_1,58,Delivery_rolling_mean_7,65,1.0,0.7236330244153906,causal,0
+921,Delivery_lag_1,58,Delivery_rolling_min_7,67,1.0,0.6195206608163568,causal,0
+922,Delivery_lag_1,58,Delivery_rolling_max_7,68,1.0,0.6306317876522338,causal,0
+923,Delivery_lag_1,58,Delivery_rolling_mean_14,69,1.0,0.6086076032651103,causal,0
+924,Delivery_lag_1,58,Delivery_rolling_min_14,71,1.0,0.5431576289791027,causal,0
+925,Delivery_lag_1,58,Delivery_rolling_max_14,72,1.0,0.5359688475516634,causal,0
+926,Delivery_lag_7,59,Delivery,2,1.0,0.40661866856074963,causal,0
+927,Delivery_lag_7,59,Temperature,6,1.0,-0.26319927257679565,causal,0
+928,Delivery_lag_7,59,Sales_rolling_mean_14,20,1.0,0.4440904272959135,causal,0
+929,Delivery_lag_7,59,Sales_rolling_max_14,23,1.0,0.49093548664259556,causal,0
+930,Delivery_lag_7,59,Sales_rolling_mean_30,24,1.0,0.425452014659306,causal,0
+931,Delivery_lag_7,59,Sales_rolling_std_30,25,1.0,0.48292276509052146,causal,0
+932,Delivery_lag_7,59,Sales_rolling_max_30,27,1.0,0.49243333737877304,causal,0
+933,Delivery_lag_7,59,Production_lag_14,30,1.0,0.3630853330431684,causal,0
+934,Delivery_lag_7,59,Production_rolling_min_14,41,1.0,0.45972951966110187,causal,0
+935,Delivery_lag_7,59,Factory_Issue_lag_14,45,1.0,0.34430697205070043,causal,0
+936,Delivery_lag_7,59,Factory_Issue_rolling_std_7,51,1.0,0.29645062725973753,causal,0
+937,Delivery_lag_7,59,Factory_Issue_rolling_min_14,56,1.0,0.4508640459493807,causal,0
+938,Delivery_lag_7,59,Factory_Issue_rolling_max_14,57,1.0,0.5751661863876056,causal,0
+939,Delivery_lag_7,59,Delivery_lag_14,60,1.0,0.462910820500139,causal,0
+940,Delivery_lag_7,59,Delivery_rolling_mean_14,69,1.0,0.6016381209647367,causal,0
+941,Delivery_lag_7,59,Delivery_rolling_min_14,71,1.0,0.47010170010997115,causal,0
+942,Delivery_lag_7,59,Delivery_rolling_max_14,72,1.0,0.6111754366464855,causal,0
+943,Delivery_lag_7,59,day_of_week_sin,78,1.0,0.2780988215141016,causal,0
+944,Delivery_lag_14,60,Delivery,2,1.0,0.2542488840999778,causal,0
+945,Delivery_lag_14,60,Sales_lag_3,11,0.16455986840405484,-0.16455986840405484,associated,0
+946,Delivery_lag_14,60,Sales_rolling_std_14,21,1.0,0.2846077034046981,causal,0
+947,Delivery_lag_14,60,Sales_rolling_mean_30,24,1.0,0.3074496100608323,causal,0
+948,Delivery_lag_14,60,Sales_rolling_std_30,25,1.0,0.44322960602842953,causal,0
+949,Delivery_lag_14,60,Sales_rolling_max_30,27,1.0,0.500786850463142,causal,0
+950,Delivery_lag_14,60,Production_rolling_min_14,41,1.0,0.3269887207121395,causal,0
+951,Delivery_lag_14,60,Factory_Issue_lag_7,44,1.0,0.4041675102077362,causal,0
+952,Delivery_lag_14,60,Factory_Issue_rolling_min_7,52,1.0,0.3065001158236383,causal,0
+953,Delivery_lag_14,60,Delivery_rolling_mean_14,69,1.0,0.3419443413991164,causal,0
+954,Delivery_lag_14,60,Delivery_rolling_min_14,71,1.0,0.3145364516749783,causal,0
+955,Delivery_lag_14,60,day_of_week_sin,78,1.0,0.2707386441315385,causal,0
+956,Delivery_lag_14,60,week_of_year_cos,83,1.0,0.16903242916966166,causal,0
+957,Delivery_lag_14,60,month_cos,85,1.0,0.24446846302230696,causal,0
+958,Delivery_lag_14,60,inventory_proxy,103,1.0,0.24516824703891799,causal,0
+959,Delivery_rolling_mean_1,61,Delivery,2,1.0,1.0,causal,0
+960,Delivery_rolling_mean_1,61,Sales_pct_change_7,74,0.2734757615397916,0.2734757615397916,associated,0
+961,Delivery_rolling_min_1,63,Delivery,2,1.0,1.0,causal,0
+962,Delivery_rolling_min_1,63,Delivery_rolling_mean_1,61,1.0,1.0,causal,0
+963,Delivery_rolling_min_1,63,Sales_pct_change_7,74,0.2734757615397916,0.2734757615397916,associated,0
+964,Delivery_rolling_max_1,64,Delivery,2,1.0,1.0,causal,0
+965,Delivery_rolling_max_1,64,Delivery_rolling_mean_1,61,1.0,1.0,causal,0
+966,Delivery_rolling_max_1,64,Delivery_rolling_min_1,63,1.0,1.0,causal,0
+967,Delivery_rolling_max_1,64,Sales_pct_change_7,74,0.2734757615397916,0.2734757615397916,associated,0
+968,Delivery_rolling_mean_7,65,Sales_rolling_mean_7,16,1.0,0.797193553179504,causal,0
+969,Delivery_rolling_mean_7,65,Sales_rolling_mean_14,20,1.0,0.8867922116078741,causal,0
+970,Delivery_rolling_mean_7,65,Sales_rolling_std_14,21,1.0,0.7367548311496235,causal,0
+971,Delivery_rolling_mean_7,65,Sales_rolling_max_14,23,1.0,0.7886309862606976,causal,0
+972,Delivery_rolling_mean_7,65,Sales_rolling_mean_30,24,1.0,0.7199425438791112,causal,0
+973,Delivery_rolling_mean_7,65,Sales_rolling_std_30,25,1.0,0.673480318244058,causal,0
+974,Delivery_rolling_mean_7,65,Sales_rolling_max_30,27,1.0,0.6249014305157294,causal,0
+975,Delivery_rolling_mean_7,65,Production_lag_7,29,1.0,0.48465810337235204,causal,0
+976,Delivery_rolling_mean_7,65,Production_rolling_std_7,36,1.0,0.3998728139551262,causal,0
+977,Delivery_rolling_mean_7,65,Production_rolling_min_14,41,1.0,0.7176042349642245,causal,0
+978,Delivery_rolling_mean_7,65,Factory_Issue_lag_7,44,1.0,0.5040465180028536,causal,0
+979,Delivery_rolling_mean_7,65,Factory_Issue_rolling_std_7,51,1.0,0.4784782803860717,causal,0
+980,Delivery_rolling_mean_7,65,Factory_Issue_rolling_max_14,57,1.0,0.6992760148868545,causal,0
+981,Delivery_rolling_mean_7,65,Delivery_lag_7,59,1.0,0.49097285256184053,causal,0
+982,Delivery_rolling_mean_7,65,Delivery_rolling_std_7,66,0.4315974963033787,0.4315974963033787,associated,0
+983,Delivery_rolling_mean_7,65,Delivery_rolling_max_7,68,1.0,0.8939529878189209,causal,0
+984,Delivery_rolling_mean_7,65,Delivery_rolling_mean_14,69,1.0,0.903662156603333,causal,0
+985,Delivery_rolling_mean_7,65,Delivery_rolling_min_14,71,1.0,0.7693658900166994,causal,0
+986,Delivery_rolling_mean_7,65,Delivery_rolling_max_14,72,1.0,0.7882054463504017,causal,0
+987,Delivery_rolling_std_7,66,Factory_Issue,1,0.36516179902973334,0.36516179902973334,associated,0
+988,Delivery_rolling_std_7,66,Sales_rolling_mean_7,16,0.4533468376686758,0.4533468376686758,associated,0
+989,Delivery_rolling_std_7,66,Sales_rolling_mean_14,20,0.5115249000720518,0.5115249000720518,associated,0
+990,Delivery_rolling_std_7,66,Sales_rolling_std_14,21,1.0,0.5900103367130729,causal,0
+991,Delivery_rolling_std_7,66,Sales_rolling_mean_30,24,0.5065544226652409,0.5065544226652409,associated,0
+992,Delivery_rolling_std_7,66,Sales_rolling_std_30,25,0.432873849147484,0.432873849147484,associated,0
+993,Delivery_rolling_std_7,66,Sales_rolling_max_30,27,0.3190205028616456,0.3190205028616456,associated,0
+994,Delivery_rolling_std_7,66,Production_rolling_mean_7,35,0.39490822231655226,0.39490822231655226,associated,0
+995,Delivery_rolling_std_7,66,Production_rolling_mean_14,39,0.357781904283065,0.357781904283065,associated,0
+996,Delivery_rolling_std_7,66,Production_rolling_std_14,40,0.3343958108663991,0.3343958108663991,associated,0
+997,Delivery_rolling_std_7,66,Production_rolling_max_14,42,0.3497922519115396,0.3497922519115396,associated,0
+998,Delivery_rolling_std_7,66,Factory_Issue_rolling_mean_7,50,0.43516952779944823,0.43516952779944823,associated,0
+999,Delivery_rolling_std_7,66,Factory_Issue_rolling_mean_14,54,0.40845698727347013,0.40845698727347013,associated,0
+1000,Delivery_rolling_std_7,66,Factory_Issue_rolling_std_14,55,1.0,0.39457213239932704,causal,0
+1001,Delivery_rolling_std_7,66,Factory_Issue_rolling_max_14,57,0.43001347466588463,0.43001347466588463,associated,0
+1002,Delivery_rolling_std_7,66,Delivery_rolling_mean_7,65,0.4315974963033787,0.4315974963033787,associated,0
+1003,Delivery_rolling_std_7,66,Delivery_rolling_mean_14,69,0.4659410541763483,0.4659410541763483,associated,0
+1004,Delivery_rolling_std_7,66,Delivery_rolling_std_14,70,1.0,0.6682312917607035,causal,0
+1005,Delivery_rolling_std_7,66,Delivery_rolling_max_14,72,1.0,0.5451478988698278,causal,0
+1006,Delivery_rolling_min_7,67,Sales_rolling_mean_7,16,1.0,0.6480556946019398,causal,0
+1007,Delivery_rolling_min_7,67,Sales_rolling_std_7,17,1.0,0.5622903036555329,causal,0
+1008,Delivery_rolling_min_7,67,Sales_rolling_mean_14,20,1.0,0.7340828272133859,causal,0
+1009,Delivery_rolling_min_7,67,Sales_rolling_std_14,21,1.0,0.5538039020234722,causal,0
+1010,Delivery_rolling_min_7,67,Sales_rolling_max_14,23,1.0,0.616161379879097,causal,0
+1011,Delivery_rolling_min_7,67,Sales_rolling_mean_30,24,1.0,0.5492919547679591,causal,0
+1012,Delivery_rolling_min_7,67,Sales_rolling_std_30,25,1.0,0.5326944967151312,causal,0
+1013,Delivery_rolling_min_7,67,Sales_rolling_max_30,27,1.0,0.5349796781754926,causal,0
+1014,Delivery_rolling_min_7,67,Production_lag_7,29,1.0,0.5210745002891668,causal,0
+1015,Delivery_rolling_min_7,67,Production_rolling_min_7,37,1.0,0.8226417984215345,causal,0
+1016,Delivery_rolling_min_7,67,Production_rolling_mean_14,39,1.0,0.7441434597382994,causal,0
+1017,Delivery_rolling_min_7,67,Production_rolling_min_14,41,1.0,0.7026900527098721,causal,0
+1018,Delivery_rolling_min_7,67,Production_rolling_max_14,42,1.0,0.6342214903653121,causal,0
+1019,Delivery_rolling_min_7,67,Factory_Issue_lag_7,44,1.0,0.5165022838091171,causal,0
+1020,Delivery_rolling_min_7,67,Factory_Issue_rolling_max_7,53,1.0,0.6354567223244041,causal,0
+1021,Delivery_rolling_min_7,67,Factory_Issue_rolling_mean_14,54,1.0,0.7296432851736078,causal,0
+1022,Delivery_rolling_min_7,67,Factory_Issue_rolling_max_14,57,1.0,0.5863978765650125,causal,0
+1023,Delivery_rolling_min_7,67,Delivery_lag_7,59,1.0,0.49478741173281576,causal,0
+1024,Delivery_rolling_min_7,67,Delivery_rolling_mean_7,65,1.0,0.877863188457147,causal,0
+1025,Delivery_rolling_min_7,67,Delivery_rolling_max_7,68,1.0,0.6868993832872617,causal,0
+1026,Delivery_rolling_min_7,67,Delivery_rolling_mean_14,69,1.0,0.7731471856167311,causal,0
+1027,Delivery_rolling_min_7,67,Delivery_rolling_min_14,71,1.0,0.8249110556013292,causal,0
+1028,Delivery_rolling_min_7,67,Delivery_rolling_max_14,72,1.0,0.6349371528021565,causal,0
+1029,Delivery_rolling_max_7,68,Sales_rolling_mean_14,20,1.0,0.8189311529310791,causal,0
+1030,Delivery_rolling_max_7,68,Sales_rolling_mean_30,24,1.0,0.7022829050060703,causal,0
+1031,Delivery_rolling_max_7,68,Sales_rolling_std_30,25,1.0,0.7280088696899085,causal,0
+1032,Delivery_rolling_max_7,68,Production_lag_7,29,1.0,0.5007719312242261,causal,0
+1033,Delivery_rolling_max_7,68,Production_rolling_std_14,40,1.0,0.31938454799462523,causal,0
+1034,Delivery_rolling_max_7,68,Factory_Issue_lag_7,44,1.0,0.5235142542468911,causal,0
+1035,Delivery_rolling_max_7,68,Factory_Issue_rolling_max_14,57,1.0,0.7340280055407074,causal,0
+1036,Delivery_rolling_max_7,68,Delivery_lag_7,59,1.0,0.5192008426809126,causal,0
+1037,Delivery_rolling_max_7,68,Delivery_rolling_std_7,66,1.0,0.698026835833573,causal,0
+1038,Delivery_rolling_max_7,68,Delivery_rolling_mean_14,69,1.0,0.8493711289666149,causal,0
+1039,Delivery_rolling_max_7,68,Delivery_rolling_std_14,70,0.4158970459240187,0.4158970459240187,associated,0
+1040,Delivery_rolling_max_7,68,Delivery_rolling_max_14,72,1.0,0.8517746660562239,causal,0
+1041,Delivery_rolling_mean_14,69,Sales_rolling_mean_14,20,1.0,0.8672861827493803,causal,0
+1042,Delivery_rolling_mean_14,69,Sales_rolling_mean_30,24,1.0,0.793076804203859,causal,0
+1043,Delivery_rolling_mean_14,69,Sales_rolling_std_30,25,1.0,0.7224397734780975,causal,0
+1044,Delivery_rolling_mean_14,69,Delivery_rolling_std_7,66,0.4659410541763483,0.4659410541763483,associated,0
+1045,Delivery_rolling_mean_14,69,Delivery_rolling_max_14,72,1.0,0.8744632926734057,causal,0
+1046,Delivery_rolling_std_14,70,Factory_Issue,1,0.2173774085320046,0.2173774085320046,associated,0
+1047,Delivery_rolling_std_14,70,Sales_rolling_mean_14,20,0.30629690633320333,0.30629690633320333,associated,0
+1048,Delivery_rolling_std_14,70,Sales_rolling_mean_30,24,0.39982478551258827,0.39982478551258827,associated,0
+1049,Delivery_rolling_std_14,70,Sales_rolling_std_30,25,0.43108723899565654,0.43108723899565654,associated,0
+1050,Delivery_rolling_std_14,70,Sales_rolling_max_30,27,0.30954106317475516,0.30954106317475516,associated,0
+1051,Delivery_rolling_std_14,70,Production_rolling_std_7,36,0.2900520000811701,0.2900520000811701,associated,0
+1052,Delivery_rolling_std_14,70,Production_rolling_std_14,40,0.4591603944545121,0.4591603944545121,associated,0
+1053,Delivery_rolling_std_14,70,Production_rolling_max_14,42,0.30344923812001023,0.30344923812001023,associated,0
+1054,Delivery_rolling_std_14,70,Factory_Issue_rolling_std_7,51,0.38687148004239275,0.38687148004239275,associated,0
+1055,Delivery_rolling_std_14,70,Factory_Issue_rolling_std_14,55,1.0,0.6282971874805019,causal,0
+1056,Delivery_rolling_std_14,70,Delivery_rolling_max_7,68,0.4158970459240187,0.4158970459240187,associated,0
+1057,Delivery_rolling_std_14,70,Delivery_rolling_min_14,71,0.14399672682601036,-0.14399672682601036,associated,0
+1058,Delivery_rolling_min_14,71,Sales_rolling_mean_7,16,1.0,0.6099971898809403,causal,0
+1059,Delivery_rolling_min_14,71,Sales_rolling_mean_14,20,1.0,0.7387117995390433,causal,0
+1060,Delivery_rolling_min_14,71,Sales_rolling_std_14,21,1.0,0.49312596702427736,causal,0
+1061,Delivery_rolling_min_14,71,Sales_rolling_mean_30,24,1.0,0.6406000574503803,causal,0
+1062,Delivery_rolling_min_14,71,Sales_rolling_std_30,25,1.0,0.5007082459595347,causal,0
+1063,Delivery_rolling_min_14,71,Production_rolling_min_14,41,1.0,0.7997711792710569,causal,0
+1064,Delivery_rolling_min_14,71,Delivery_rolling_max_7,68,1.0,0.6457363791311621,causal,0
+1065,Delivery_rolling_min_14,71,Delivery_rolling_mean_14,69,1.0,0.8262479580223177,causal,0
+1066,Delivery_rolling_min_14,71,Delivery_rolling_std_14,70,0.14399672682601036,-0.14399672682601036,associated,0
+1067,Delivery_rolling_min_14,71,Delivery_rolling_max_14,72,1.0,0.6168287364647066,causal,0
+1068,Delivery_rolling_max_14,72,Sales_rolling_mean_30,24,1.0,0.6735220381041725,causal,0
+1069,Delivery_rolling_max_14,72,Factory_Issue_rolling_std_14,55,1.0,0.5402640624561896,causal,0
+1070,Delivery_rolling_max_14,72,Delivery_lag_14,60,1.0,0.4354546866779968,causal,0
+1071,Delivery_rolling_max_14,72,Delivery_rolling_std_14,70,1.0,0.533770036893832,causal,0
+1072,Sales_pct_change_1,73,Sales_rolling_min_7,18,0.17447955353336383,0.17447955353336383,associated,0
+1073,Sales_pct_change_1,73,Sales_pct_change_7,74,0.45153974257292784,0.45153974257292784,associated,0
+1074,Sales_pct_change_1,73,Sales_momentum_7,75,0.7258742239898193,0.7258742239898193,associated,0
+1075,Sales_pct_change_1,73,Sales_momentum_14,76,0.7180266914339469,0.7180266914339469,associated,0
+1076,Sales_pct_change_1,73,holiday_type_nan,167,0.26099290310230405,0.26099290310230405,associated,0
+1077,Sales_pct_change_1,73,holiday_name_Buddha Purnima,171,0.10925782545683513,0.10925782545683513,associated,0
+1078,Sales_pct_change_1,73,holiday_name_Eid al-Fitr,172,0.11803979538433504,-0.11803979538433504,associated,0
+1079,Sales_pct_change_1,73,holiday_name_Eid-ul-Azha,173,0.1453324611231609,-0.1453324611231609,associated,0
+1080,Sales_pct_change_1,73,holiday_name_nan,181,0.26099290310230405,0.26099290310230405,associated,0
+1081,Sales_pct_change_1,73,category_national_holiday,185,0.14641099515747005,-0.14641099515747005,associated,0
+1082,Sales_pct_change_1,73,scope_or_location_Nationwide,192,0.26340363769816627,-0.26340363769816627,associated,0
+1083,Sales_pct_change_1,73,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.10925782545683513,0.10925782545683513,associated,0
+1084,Sales_pct_change_7,74,Production_rolling_mean_1,31,0.2873284291499963,0.2873284291499963,associated,0
+1085,Sales_pct_change_7,74,Production_rolling_min_1,33,0.2873284291499963,0.2873284291499963,associated,0
+1086,Sales_pct_change_7,74,Production_rolling_max_1,34,0.2873284291499963,0.2873284291499963,associated,0
+1087,Sales_pct_change_7,74,Delivery_rolling_mean_1,61,0.2734757615397916,0.2734757615397916,associated,0
+1088,Sales_pct_change_7,74,Delivery_rolling_min_1,63,0.2734757615397916,0.2734757615397916,associated,0
+1089,Sales_pct_change_7,74,Delivery_rolling_max_1,64,0.2734757615397916,0.2734757615397916,associated,0
+1090,Sales_pct_change_7,74,Sales_pct_change_1,73,0.45153974257292784,0.45153974257292784,associated,0
+1091,Sales_pct_change_7,74,Sales_momentum_7,75,0.45004730283435845,0.45004730283435845,associated,0
+1092,Sales_pct_change_7,74,Sales_momentum_14,76,0.48718290270077214,0.48718290270077214,associated,0
+1093,Sales_pct_change_7,74,delivery_sales_ratio,101,0.33790881344231033,-0.33790881344231033,associated,0
+1094,Sales_pct_change_7,74,holiday_type_nan,167,0.2979171198799717,0.2979171198799717,associated,0
+1095,Sales_pct_change_7,74,holiday_name_nan,181,0.2979171198799717,0.2979171198799717,associated,0
+1096,Sales_pct_change_7,74,category_national_holiday,185,0.16246418896345455,-0.16246418896345455,associated,0
+1097,Sales_pct_change_7,74,category_no_event,186,0.28195960918823076,0.28195960918823076,associated,0
+1098,Sales_pct_change_7,74,scope_or_location_Nationwide,192,0.2512790815821454,-0.2512790815821454,associated,0
+1099,Sales_pct_change_7,74,scope_or_location_Tongi near Dhaka,195,0.10189939234320708,-0.10189939234320708,associated,0
+1100,Sales_pct_change_7,74,scope_or_location_nan,197,0.28195960918823076,0.28195960918823076,associated,0
+1101,Sales_pct_change_7,74,Sales,198,1.0,0.5024000252393453,causal,0
+1102,Sales_momentum_7,75,Sales_pct_change_1,73,0.7258742239898193,0.7258742239898193,associated,0
+1103,Sales_momentum_7,75,Sales_pct_change_7,74,0.45004730283435845,0.45004730283435845,associated,0
+1104,Sales_momentum_7,75,Sales_momentum_14,76,0.9702802596419334,0.9702802596419334,associated,0
+1105,Sales_momentum_7,75,production_sales_ratio,100,0.6299595332522289,-0.6299595332522289,associated,0
+1106,Sales_momentum_7,75,delivery_sales_ratio,101,0.6446315036340773,-0.6446315036340773,associated,0
+1107,Sales_momentum_7,75,inventory_proxy,103,0.2013598726254247,-0.2013598726254247,associated,0
+1108,Sales_momentum_7,75,Sales,198,1.0,0.8880889881170329,causal,0
+1109,Sales_momentum_14,76,Production_rolling_std_14,40,0.15137418462378002,-0.15137418462378002,associated,0
+1110,Sales_momentum_14,76,Sales_pct_change_1,73,0.7180266914339469,0.7180266914339469,associated,0
+1111,Sales_momentum_14,76,Sales_pct_change_7,74,0.48718290270077214,0.48718290270077214,associated,0
+1112,Sales_momentum_14,76,Sales_momentum_7,75,0.9702802596419334,0.9702802596419334,associated,0
+1113,Sales_momentum_14,76,Sales_trend_7_14,77,0.24363135662475868,0.24363135662475868,associated,0
+1114,Sales_momentum_14,76,production_sales_ratio,100,0.5856921576764688,-0.5856921576764688,associated,0
+1115,Sales_momentum_14,76,delivery_sales_ratio,101,0.6070145743660078,-0.6070145743660078,associated,0
+1116,Sales_momentum_14,76,inventory_proxy,103,0.29861942052120793,-0.29861942052120793,associated,0
+1117,Sales_momentum_14,76,holiday_type_National Holiday,165,0.31807627519448745,-0.31807627519448745,associated,0
+1118,Sales_momentum_14,76,scope_or_location_Nationwide,192,0.2839579940994247,-0.2839579940994247,associated,0
+1119,Sales_momentum_14,76,Sales,198,1.0,0.9088488123429188,causal,0
+1120,Sales_trend_7_14,77,Delivery,2,1.0,0.34021433784905775,causal,0
+1121,Sales_trend_7_14,77,Sales_rolling_mean_7,16,1.0,0.4494777702859101,causal,0
+1122,Sales_trend_7_14,77,Production_rolling_std_14,40,1.0,-0.2788166197576723,causal,0
+1123,Sales_trend_7_14,77,Sales_momentum_14,76,0.24363135662475868,0.24363135662475868,associated,0
+1124,Sales_trend_7_14,77,day_of_month_sin,80,0.2582863414717199,0.2582863414717199,associated,0
+1125,Sales_trend_7_14,77,inventory_proxy,103,1.0,-0.39224575097929265,causal,0
+1126,day_of_week_sin,78,BDT_USD,8,1.0,0.3100695687089758,causal,0
+1127,day_of_week_sin,78,Sales_lag_1,9,1.0,0.4570937939234604,causal,0
+1128,day_of_week_sin,78,Sales_lag_2,10,1.0,0.29011710031839977,causal,0
+1129,day_of_week_sin,78,Sales_lag_7,12,1.0,0.20960577615251594,causal,0
+1130,day_of_week_sin,78,Sales_lag_14,13,1.0,0.19581727262195628,causal,0
+1131,day_of_week_sin,78,Sales_lag_28,15,1.0,0.1742032995434168,causal,0
+1132,day_of_week_sin,78,Delivery_lag_1,58,1.0,0.3480551854530502,causal,0
+1133,day_of_week_sin,78,Sales_momentum_7,75,1.0,0.20590196915699377,causal,0
+1134,day_of_week_sin,78,Sales_momentum_14,76,1.0,0.20054221745649378,causal,0
+1135,day_of_week_cos,79,Delivery,2,1.0,0.2552547671266384,causal,0
+1136,day_of_week_cos,79,Sales_lag_3,11,1.0,-0.49613704058105207,causal,0
+1137,day_of_week_cos,79,Sales_lag_7,12,1.0,0.3553700440274649,causal,0
+1138,day_of_week_cos,79,Sales_lag_14,13,1.0,0.3498532964537272,causal,0
+1139,day_of_week_cos,79,Sales_lag_21,14,1.0,0.33676962640862734,causal,0
+1140,day_of_week_cos,79,Sales_lag_28,15,1.0,0.3242868647010632,causal,0
+1141,day_of_week_cos,79,Delivery_lag_14,60,1.0,0.24878902581376583,causal,0
+1142,day_of_week_cos,79,Sales_momentum_7,75,1.0,0.3507099686165264,causal,0
+1143,day_of_week_cos,79,Sales_momentum_14,76,1.0,0.3494785049772415,causal,0
+1144,day_of_week_cos,79,production_sales_ratio,100,1.0,-0.37548680787964045,causal,0
+1145,day_of_week_cos,79,delivery_sales_ratio,101,1.0,-0.35594595281857333,causal,0
+1146,day_of_week_cos,79,Sales,198,1.0,0.36089442913404685,causal,0
+1147,day_of_month_sin,80,Sales_lag_14,13,1.0,-0.23735211487107527,causal,0
+1148,day_of_month_sin,80,Sales_rolling_max_7,19,1.0,0.202868164467703,causal,0
+1149,day_of_month_sin,80,Production_lag_7,29,1.0,-0.3507747381819091,causal,0
+1150,day_of_month_sin,80,Delivery_rolling_std_7,66,1.0,0.20905680925253953,causal,0
+1151,day_of_month_sin,80,Delivery_rolling_std_14,70,1.0,0.20806347767155126,causal,0
+1152,day_of_month_sin,80,Delivery_rolling_min_14,71,1.0,-0.2835209228790228,causal,0
+1153,day_of_month_sin,80,Sales_trend_7_14,77,0.2582863414717199,0.2582863414717199,associated,0
+1154,day_of_month_sin,80,inventory_proxy,103,1.0,-0.3313995288780595,causal,0
+1155,day_of_month_cos,81,Production,0,1.0,-0.3434037952922724,causal,0
+1156,day_of_month_cos,81,Sales_lag_21,14,1.0,0.18743345492763583,causal,0
+1157,day_of_month_cos,81,Sales_rolling_mean_14,20,1.0,-0.30821764417710534,causal,0
+1158,day_of_month_cos,81,Production_lag_1,28,1.0,-0.3468776477182046,causal,0
+1159,day_of_month_cos,81,Production_lag_14,30,1.0,0.2691817958459197,causal,0
+1160,day_of_month_cos,81,Production_rolling_mean_7,35,1.0,-0.3294218996664468,causal,0
+1161,day_of_month_cos,81,Production_rolling_std_7,36,1.0,-0.22891271926808304,causal,0
+1162,day_of_month_cos,81,Production_rolling_min_7,37,1.0,-0.33205299575374003,causal,0
+1163,day_of_month_cos,81,Production_rolling_max_7,38,1.0,-0.3217978168103006,causal,0
+1164,day_of_month_cos,81,Delivery_rolling_mean_7,65,1.0,-0.3418958509818407,causal,0
+1165,day_of_month_cos,81,Delivery_rolling_min_7,67,1.0,-0.38719610198475507,causal,0
+1166,week_of_year_sin,82,Humidity,5,1.0,-0.5965875708237249,causal,0
+1167,week_of_year_sin,82,BDT_USD,8,1.0,-0.5162208348850913,causal,0
+1168,week_of_year_sin,82,Sales_rolling_std_7,17,1.0,0.447914162942767,causal,0
+1169,week_of_year_sin,82,Sales_rolling_max_7,19,1.0,0.40013663687272855,causal,0
+1170,week_of_year_sin,82,Sales_rolling_mean_14,20,1.0,0.35506919575898066,causal,0
+1171,week_of_year_sin,82,Sales_rolling_std_14,21,1.0,0.5885412139600018,causal,0
+1172,week_of_year_sin,82,Sales_rolling_max_14,23,1.0,0.5448840247617572,causal,0
+1173,week_of_year_sin,82,Sales_rolling_mean_30,24,1.0,0.4586011741943156,causal,0
+1174,week_of_year_sin,82,Sales_rolling_std_30,25,1.0,0.8110185906370642,causal,0
+1175,week_of_year_sin,82,Sales_rolling_max_30,27,1.0,0.7964786582951663,causal,0
+1176,week_of_year_sin,82,Production_lag_7,29,1.0,0.30441890668537447,causal,0
+1177,week_of_year_sin,82,Production_lag_14,30,1.0,0.4192100388863346,causal,0
+1178,week_of_year_sin,82,Production_rolling_mean_7,35,1.0,0.37561400099762154,causal,0
+1179,week_of_year_sin,82,Production_rolling_min_7,37,1.0,0.3929702060818723,causal,0
+1180,week_of_year_sin,82,Production_rolling_mean_14,39,1.0,0.4758281590534767,causal,0
+1181,week_of_year_sin,82,Production_rolling_min_14,41,1.0,0.39069703813921974,causal,0
+1182,week_of_year_sin,82,Production_rolling_max_14,42,1.0,0.348622878048837,causal,0
+1183,week_of_year_sin,82,Factory_Issue_lag_7,44,1.0,0.3418124293987885,causal,0
+1184,week_of_year_sin,82,Factory_Issue_lag_14,45,1.0,0.45266818643815354,causal,0
+1185,week_of_year_sin,82,Factory_Issue_rolling_mean_7,50,1.0,0.42157031231461417,causal,0
+1186,week_of_year_sin,82,Factory_Issue_rolling_min_7,52,1.0,0.41783601165482087,causal,0
+1187,week_of_year_sin,82,Factory_Issue_rolling_max_7,53,1.0,0.4340116862831884,causal,0
+1188,week_of_year_sin,82,Factory_Issue_rolling_mean_14,54,1.0,0.5099061058870497,causal,0
+1189,week_of_year_sin,82,Factory_Issue_rolling_min_14,56,1.0,0.40449422325269346,causal,0
+1190,week_of_year_sin,82,Factory_Issue_rolling_max_14,57,1.0,0.5640946288588803,causal,0
+1191,week_of_year_sin,82,Delivery_lag_7,59,1.0,0.33843400567861714,causal,0
+1192,week_of_year_sin,82,Delivery_lag_14,60,1.0,0.444397708360481,causal,0
+1193,week_of_year_sin,82,Delivery_rolling_mean_7,65,1.0,0.42402247367812285,causal,0
+1194,week_of_year_sin,82,Delivery_rolling_max_7,68,1.0,0.45873242619785415,causal,0
+1195,week_of_year_sin,82,Delivery_rolling_mean_14,69,1.0,0.4978661035380776,causal,0
+1196,week_of_year_sin,82,Delivery_rolling_std_14,70,1.0,0.2981753006048996,causal,0
+1197,week_of_year_sin,82,Delivery_rolling_max_14,72,1.0,0.5917388400773734,causal,0
+1198,week_of_year_sin,82,month_sin,84,0.9192866423697751,0.9192866423697751,associated,0
+1199,week_of_year_sin,82,day_of_year_cos,89,1.0,0.40317991609481135,causal,0
+1200,week_of_year_sin,82,inventory_proxy,103,1.0,0.42549345723381776,causal,0
+1201,week_of_year_cos,83,Factory_Issue,1,1.0,0.40329533236723547,causal,0
+1202,week_of_year_cos,83,Delivery,2,1.0,0.39805331061900356,causal,0
+1203,week_of_year_cos,83,Humidity,5,0.3554254583254261,-0.3554254583254261,associated,0
+1204,week_of_year_cos,83,Temperature,6,0.7404177170380408,-0.7404177170380408,associated,0
+1205,week_of_year_cos,83,BDT_USD,8,1.0,-0.6708462430182451,causal,0
+1206,week_of_year_cos,83,Sales_rolling_mean_7,16,1.0,0.6155091100473233,causal,0
+1207,week_of_year_cos,83,Sales_rolling_std_7,17,1.0,0.44212826553350704,causal,0
+1208,week_of_year_cos,83,Sales_rolling_max_7,19,1.0,0.5296285037720465,causal,0
+1209,week_of_year_cos,83,Sales_rolling_mean_14,20,1.0,0.7288664763792075,causal,0
+1210,week_of_year_cos,83,Sales_rolling_std_14,21,1.0,0.499519212209247,causal,0
+1211,week_of_year_cos,83,Sales_rolling_max_14,23,1.0,0.5512870745233722,causal,0
+1212,week_of_year_cos,83,Sales_rolling_mean_30,24,1.0,0.8225571240606466,causal,0
+1213,week_of_year_cos,83,Sales_rolling_std_30,25,1.0,0.559941374453286,causal,0
+1214,week_of_year_cos,83,Sales_rolling_max_30,27,1.0,0.5350897300289619,causal,0
+1215,week_of_year_cos,83,Production_lag_7,29,1.0,0.22257721045050496,causal,0
+1216,week_of_year_cos,83,Production_rolling_mean_7,35,1.0,0.44383856765157487,causal,0
+1217,week_of_year_cos,83,Production_rolling_min_7,37,1.0,0.4475048560166255,causal,0
+1218,week_of_year_cos,83,Production_rolling_max_7,38,1.0,0.3871655664019525,causal,0
+1219,week_of_year_cos,83,Production_rolling_mean_14,39,1.0,0.5342964664059981,causal,0
+1220,week_of_year_cos,83,Production_rolling_min_14,41,1.0,0.5303651341548787,causal,0
+1221,week_of_year_cos,83,Production_rolling_max_14,42,1.0,0.32289365716776275,causal,0
+1222,week_of_year_cos,83,Factory_Issue_lag_1,43,1.0,0.38459195167814003,causal,0
+1223,week_of_year_cos,83,Factory_Issue_lag_7,44,1.0,0.2863692385602236,causal,0
+1224,week_of_year_cos,83,Factory_Issue_lag_14,45,1.0,0.19299699302152723,causal,0
+1225,week_of_year_cos,83,Factory_Issue_rolling_mean_7,50,1.0,0.5385326702688321,causal,0
+1226,week_of_year_cos,83,Factory_Issue_rolling_min_7,52,1.0,0.49553179586229845,causal,0
+1227,week_of_year_cos,83,Factory_Issue_rolling_max_7,53,1.0,0.40916035398799055,causal,0
+1228,week_of_year_cos,83,Factory_Issue_rolling_mean_14,54,1.0,0.6047197034004698,causal,0
+1229,week_of_year_cos,83,Factory_Issue_rolling_min_14,56,1.0,0.5598287850014408,causal,0
+1230,week_of_year_cos,83,Factory_Issue_rolling_max_14,57,1.0,0.3433607072771215,causal,0
+1231,week_of_year_cos,83,Delivery_lag_1,58,1.0,0.3843933259522936,causal,0
+1232,week_of_year_cos,83,Delivery_lag_7,59,1.0,0.2711609127439549,causal,0
+1233,week_of_year_cos,83,Delivery_rolling_mean_7,65,1.0,0.5856761097338392,causal,0
+1234,week_of_year_cos,83,Delivery_rolling_std_7,66,1.0,0.3482513812122067,causal,0
+1235,week_of_year_cos,83,Delivery_rolling_min_7,67,1.0,0.4589610520391212,causal,0
+1236,week_of_year_cos,83,Delivery_rolling_max_7,68,1.0,0.5250554596238979,causal,0
+1237,week_of_year_cos,83,Delivery_rolling_mean_14,69,1.0,0.664438652528538,causal,0
+1238,week_of_year_cos,83,Delivery_rolling_min_14,71,1.0,0.6051859794413249,causal,0
+1239,week_of_year_cos,83,Delivery_rolling_max_14,72,1.0,0.5133418007316953,causal,0
+1240,week_of_year_cos,83,month_sin,84,0.6257360871989337,0.6257360871989337,associated,0
+1241,week_of_year_cos,83,month_cos,85,0.9398573112504098,0.9398573112504098,associated,0
+1242,week_of_year_cos,83,quarter_sin,86,0.8765205837846334,0.8765205837846334,associated,0
+1243,week_of_year_cos,83,quarter_cos,87,0.6881831195040317,0.6881831195040317,associated,0
+1244,month_sin,84,Delivery,2,1.0,0.372086315767648,causal,0
+1245,month_sin,84,Rainfall,3,1.0,-0.38715610677813267,causal,0
+1246,month_sin,84,Humidity,5,1.0,-0.5822104740880422,causal,0
+1247,month_sin,84,BDT_USD,8,1.0,-0.6174832511462897,causal,0
+1248,month_sin,84,Sales_rolling_mean_7,16,1.0,0.49467911425989886,causal,0
+1249,month_sin,84,Sales_rolling_std_7,17,1.0,0.5487484786004356,causal,0
+1250,month_sin,84,Sales_rolling_max_7,19,1.0,0.5441987902588448,causal,0
+1251,month_sin,84,Sales_rolling_mean_14,20,1.0,0.5753419888842963,causal,0
+1252,month_sin,84,Sales_rolling_std_14,21,1.0,0.6705991069353197,causal,0
+1253,month_sin,84,Sales_rolling_max_14,23,1.0,0.640998493175619,causal,0
+1254,month_sin,84,Sales_rolling_mean_30,24,1.0,0.6731419573137818,causal,0
+1255,month_sin,84,Sales_rolling_std_30,25,1.0,0.8453254952019799,causal,0
+1256,month_sin,84,Sales_rolling_max_30,27,1.0,0.8236512288521756,causal,0
+1257,month_sin,84,Production_lag_7,29,1.0,0.36350947082905555,causal,0
+1258,month_sin,84,Production_lag_14,30,1.0,0.4236850080624379,causal,0
+1259,month_sin,84,Production_rolling_mean_7,35,1.0,0.4692099722772473,causal,0
+1260,month_sin,84,Production_rolling_min_7,37,1.0,0.5058116103833437,causal,0
+1261,month_sin,84,Production_rolling_max_7,38,1.0,0.3252650591346408,causal,0
+1262,month_sin,84,Production_rolling_mean_14,39,1.0,0.6019126140695472,causal,0
+1263,month_sin,84,Production_rolling_min_14,41,1.0,0.544625042011486,causal,0
+1264,month_sin,84,Production_rolling_max_14,42,1.0,0.4084322544029413,causal,0
+1265,month_sin,84,Factory_Issue_lag_1,43,1.0,0.37360343600347046,causal,0
+1266,month_sin,84,Factory_Issue_lag_7,44,1.0,0.39525229203170387,causal,0
+1267,month_sin,84,Factory_Issue_lag_14,45,1.0,0.44801854091168714,causal,0
+1268,month_sin,84,Factory_Issue_rolling_mean_7,50,1.0,0.5456401558584845,causal,0
+1269,month_sin,84,Factory_Issue_rolling_std_7,51,1.0,0.3066679005368033,causal,0
+1270,month_sin,84,Factory_Issue_rolling_min_7,52,1.0,0.5015072887266263,causal,0
+1271,month_sin,84,Factory_Issue_rolling_max_7,53,1.0,0.5262510994288052,causal,0
+1272,month_sin,84,Factory_Issue_rolling_mean_14,54,1.0,0.6457630213150463,causal,0
+1273,month_sin,84,Factory_Issue_rolling_min_14,56,1.0,0.53649918780515,causal,0
+1274,month_sin,84,Factory_Issue_rolling_max_14,57,1.0,0.5939893400234765,causal,0
+1275,month_sin,84,Delivery_lag_1,58,1.0,0.38087876347348676,causal,0
+1276,month_sin,84,Delivery_lag_7,59,1.0,0.3942591607166962,causal,0
+1277,month_sin,84,Delivery_lag_14,60,1.0,0.44762568682839027,causal,0
+1278,month_sin,84,Delivery_rolling_mean_7,65,1.0,0.5819355554166368,causal,0
+1279,month_sin,84,Delivery_rolling_min_7,67,1.0,0.4612402989074311,causal,0
+1280,month_sin,84,Delivery_rolling_max_7,68,1.0,0.5936331793558423,causal,0
+1281,month_sin,84,Delivery_rolling_mean_14,69,1.0,0.670796610957029,causal,0
+1282,month_sin,84,Delivery_rolling_min_14,71,1.0,0.5050540983999177,causal,0
+1283,month_sin,84,Delivery_rolling_max_14,72,1.0,0.6695067778816636,causal,0
+1284,month_sin,84,week_of_year_sin,82,0.9192866423697751,0.9192866423697751,associated,0
+1285,month_sin,84,week_of_year_cos,83,0.6257360871989337,0.6257360871989337,associated,0
+1286,month_sin,84,month_cos,85,0.5444146278961962,0.5444146278961962,associated,0
+1287,month_sin,84,quarter_sin,86,0.6930911507743405,0.6930911507743405,associated,0
+1288,month_sin,84,day_of_year_sin,88,0.9131779404201367,0.9131779404201367,associated,0
+1289,month_sin,84,day_of_year_cos,89,1.0,0.6234797569948638,causal,0
+1290,month_sin,84,inventory_proxy,103,1.0,0.3497520182384898,causal,0
+1291,month_cos,85,Factory_Issue,1,1.0,0.4061587086248781,causal,0
+1292,month_cos,85,Delivery,2,1.0,0.404546233470854,causal,0
+1293,month_cos,85,Temperature,6,0.7663022580475972,-0.7663022580475972,associated,0
+1294,month_cos,85,BDT_USD,8,1.0,-0.5863067783189452,causal,0
+1295,month_cos,85,Sales_rolling_mean_7,16,1.0,0.5732501969207734,causal,0
+1296,month_cos,85,Sales_rolling_std_7,17,1.0,0.41895461071108653,causal,0
+1297,month_cos,85,Sales_rolling_max_7,19,1.0,0.49112537943348683,causal,0
+1298,month_cos,85,Sales_rolling_mean_14,20,1.0,0.7291696593528885,causal,0
+1299,month_cos,85,Sales_rolling_std_14,21,1.0,0.5030759245210048,causal,0
+1300,month_cos,85,Sales_rolling_max_14,23,1.0,0.5457108810475936,causal,0
+1301,month_cos,85,Sales_rolling_mean_30,24,1.0,0.8565492434647788,causal,0
+1302,month_cos,85,Sales_rolling_std_30,25,1.0,0.5434869406438937,causal,0
+1303,month_cos,85,Sales_rolling_max_30,27,1.0,0.5042287631669398,causal,0
+1304,month_cos,85,Production_lag_7,29,1.0,0.27222123517815333,causal,0
+1305,month_cos,85,Production_rolling_mean_7,35,1.0,0.4357174034535387,causal,0
+1306,month_cos,85,Production_rolling_min_7,37,1.0,0.45449748785527133,causal,0
+1307,month_cos,85,Production_rolling_max_7,38,1.0,0.3959572169697878,causal,0
+1308,month_cos,85,Production_rolling_mean_14,39,1.0,0.5611967125402576,causal,0
+1309,month_cos,85,Production_rolling_min_14,41,1.0,0.5655288776410974,causal,0
+1310,month_cos,85,Production_rolling_max_14,42,1.0,0.3730210023270358,causal,0
+1311,month_cos,85,Factory_Issue_lag_1,43,1.0,0.39530893169356024,causal,0
+1312,month_cos,85,Factory_Issue_lag_7,44,1.0,0.3443985875834582,causal,0
+1313,month_cos,85,Factory_Issue_lag_14,45,1.0,0.2647734498019735,causal,0
+1314,month_cos,85,Factory_Issue_rolling_mean_7,50,1.0,0.5438675608685377,causal,0
+1315,month_cos,85,Factory_Issue_rolling_min_7,52,1.0,0.521335077338692,causal,0
+1316,month_cos,85,Factory_Issue_rolling_max_7,53,1.0,0.4083952496899335,causal,0
+1317,month_cos,85,Factory_Issue_rolling_mean_14,54,1.0,0.641063637371762,causal,0
+1318,month_cos,85,Factory_Issue_rolling_min_14,56,1.0,0.6041677972254834,causal,0
+1319,month_cos,85,Factory_Issue_rolling_max_14,57,1.0,0.37993688975263656,causal,0
+1320,month_cos,85,Delivery_lag_1,58,1.0,0.3885919580262439,causal,0
+1321,month_cos,85,Delivery_lag_7,59,1.0,0.3345500766115826,causal,0
+1322,month_cos,85,Delivery_rolling_mean_7,65,1.0,0.5862796247436994,causal,0
+1323,month_cos,85,Delivery_rolling_min_7,67,1.0,0.4737370994470227,causal,0
+1324,month_cos,85,Delivery_rolling_max_7,68,1.0,0.5422296219933715,causal,0
+1325,month_cos,85,Delivery_rolling_mean_14,69,1.0,0.6956587415169553,causal,0
+1326,month_cos,85,Delivery_rolling_min_14,71,1.0,0.6319485640421402,causal,0
+1327,month_cos,85,Delivery_rolling_max_14,72,1.0,0.560751800094973,causal,0
+1328,month_cos,85,week_of_year_cos,83,0.9398573112504098,0.9398573112504098,associated,0
+1329,month_cos,85,month_sin,84,0.5444146278961962,0.5444146278961962,associated,0
+1330,month_cos,85,quarter_sin,86,0.7851748950507585,0.7851748950507585,associated,0
+1331,month_cos,85,quarter_cos,87,0.8075158053275584,0.8075158053275584,associated,0
+1332,month_cos,85,day_of_year_cos,89,0.9436188433346986,0.9436188433346986,associated,0
+1333,quarter_sin,86,Factory_Issue,1,1.0,0.4475836292435292,causal,0
+1334,quarter_sin,86,Delivery,2,1.0,0.46426142777948076,causal,0
+1335,quarter_sin,86,Humidity,5,0.3020230592229799,-0.3020230592229799,associated,0
+1336,quarter_sin,86,Temperature,6,0.7428051575758504,-0.7428051575758504,associated,0
+1337,quarter_sin,86,BDT_USD,8,1.0,-0.6273337877424036,causal,0
+1338,quarter_sin,86,Sales_rolling_mean_7,16,1.0,0.6467312460576207,causal,0
+1339,quarter_sin,86,Sales_rolling_std_7,17,1.0,0.519743573981742,causal,0
+1340,quarter_sin,86,Sales_rolling_max_7,19,1.0,0.5583939562048865,causal,0
+1341,quarter_sin,86,Sales_rolling_mean_14,20,1.0,0.7438942083717865,causal,0
+1342,quarter_sin,86,Sales_rolling_std_14,21,1.0,0.5632342012661278,causal,0
+1343,quarter_sin,86,Sales_rolling_max_14,23,1.0,0.5660724633568586,causal,0
+1344,quarter_sin,86,Sales_rolling_mean_30,24,1.0,0.7563416414082128,causal,0
+1345,quarter_sin,86,Sales_rolling_std_30,25,1.0,0.5836173045451539,causal,0
+1346,quarter_sin,86,Sales_rolling_max_30,27,1.0,0.5696932750359126,causal,0
+1347,quarter_sin,86,Production_lag_1,28,1.0,0.4069815294340391,causal,0
+1348,quarter_sin,86,Production_lag_7,29,1.0,0.302709564811425,causal,0
+1349,quarter_sin,86,Production_rolling_mean_7,35,1.0,0.5399411516292915,causal,0
+1350,quarter_sin,86,Production_rolling_min_7,37,1.0,0.505333325623207,causal,0
+1351,quarter_sin,86,Production_rolling_max_7,38,1.0,0.46458235865849357,causal,0
+1352,quarter_sin,86,Production_rolling_mean_14,39,1.0,0.5960771826008039,causal,0
+1353,quarter_sin,86,Production_rolling_min_14,41,1.0,0.532963590208966,causal,0
+1354,quarter_sin,86,Production_rolling_max_14,42,1.0,0.37291139850620536,causal,0
+1355,quarter_sin,86,Factory_Issue_lag_1,43,1.0,0.43850527354644,causal,0
+1356,quarter_sin,86,Factory_Issue_lag_7,44,1.0,0.32357620014752303,causal,0
+1357,quarter_sin,86,Factory_Issue_rolling_mean_7,50,1.0,0.5850819220930792,causal,0
+1358,quarter_sin,86,Factory_Issue_rolling_std_7,51,1.0,0.3317836338325474,causal,0
+1359,quarter_sin,86,Factory_Issue_rolling_min_7,52,1.0,0.4345530303448339,causal,0
+1360,quarter_sin,86,Factory_Issue_rolling_max_7,53,1.0,0.5056351674653233,causal,0
+1361,quarter_sin,86,Factory_Issue_rolling_mean_14,54,1.0,0.6191037973284383,causal,0
+1362,quarter_sin,86,Factory_Issue_rolling_min_14,56,1.0,0.4901624029783657,causal,0
+1363,quarter_sin,86,Factory_Issue_rolling_max_14,57,1.0,0.416135168124752,causal,0
+1364,quarter_sin,86,Delivery_lag_1,58,1.0,0.4512712029709611,causal,0
+1365,quarter_sin,86,Delivery_lag_7,59,1.0,0.33393507510713305,causal,0
+1366,quarter_sin,86,Delivery_rolling_mean_7,65,1.0,0.6741702907031241,causal,0
+1367,quarter_sin,86,Delivery_rolling_min_7,67,1.0,0.588663774936497,causal,0
+1368,quarter_sin,86,Delivery_rolling_max_7,68,1.0,0.6093393715707747,causal,0
+1369,quarter_sin,86,Delivery_rolling_mean_14,69,1.0,0.7107266846554288,causal,0
+1370,quarter_sin,86,Delivery_rolling_min_14,71,1.0,0.7083940950651999,causal,0
+1371,quarter_sin,86,Delivery_rolling_max_14,72,1.0,0.5627265393805186,causal,0
+1372,quarter_sin,86,week_of_year_sin,82,1.0,0.4795946033493759,causal,0
+1373,quarter_sin,86,week_of_year_cos,83,0.8765205837846334,0.8765205837846334,associated,0
+1374,quarter_sin,86,month_sin,84,0.6930911507743405,0.6930911507743405,associated,0
+1375,quarter_sin,86,month_cos,85,0.7851748950507585,0.7851748950507585,associated,0
+1376,quarter_sin,86,day_of_year_sin,88,1.0,0.4637438050733352,causal,0
+1377,quarter_sin,86,day_of_year_cos,89,0.8724599115568464,0.8724599115568464,associated,0
+1378,quarter_cos,87,Factory_Issue,1,1.0,0.4622846367752433,causal,0
+1379,quarter_cos,87,Temperature,6,0.7274855316864011,-0.7274855316864011,associated,0
+1380,quarter_cos,87,Sales_rolling_mean_14,20,1.0,0.6709600239622261,causal,0
+1381,quarter_cos,87,Sales_rolling_mean_30,24,1.0,0.6983245918342162,causal,0
+1382,quarter_cos,87,Production_rolling_min_14,41,1.0,0.555497186952725,causal,0
+1383,quarter_cos,87,Factory_Issue_rolling_mean_7,50,1.0,0.5685639628834895,causal,0
+1384,quarter_cos,87,Factory_Issue_rolling_std_7,51,0.17257130685474,0.17257130685474,associated,0
+1385,quarter_cos,87,Factory_Issue_rolling_min_7,52,1.0,0.5171602588133938,causal,0
+1386,quarter_cos,87,Factory_Issue_rolling_mean_14,54,1.0,0.5918789602586169,causal,0
+1387,quarter_cos,87,Factory_Issue_rolling_min_14,56,1.0,0.5701096380503458,causal,0
+1388,quarter_cos,87,Delivery_rolling_min_14,71,1.0,0.731919879535235,causal,0
+1389,quarter_cos,87,week_of_year_cos,83,0.6881831195040317,0.6881831195040317,associated,0
+1390,quarter_cos,87,month_cos,85,0.8075158053275584,0.8075158053275584,associated,0
+1391,quarter_cos,87,day_of_year_cos,89,1.0,0.6923741784260812,causal,0
+1392,quarter_cos,87,inventory_proxy,103,1.0,-0.2989431460502964,causal,0
+1393,day_of_year_sin,88,Humidity,5,1.0,-0.5935939126379943,causal,0
+1394,day_of_year_sin,88,Sales_rolling_std_7,17,1.0,0.43711803259072196,causal,0
+1395,day_of_year_sin,88,Sales_rolling_max_7,19,1.0,0.38875152038632965,causal,0
+1396,day_of_year_sin,88,Sales_rolling_mean_14,20,1.0,0.3399215748238091,causal,0
+1397,day_of_year_sin,88,Sales_rolling_std_14,21,1.0,0.5781004669279596,causal,0
+1398,day_of_year_sin,88,Sales_rolling_max_14,23,1.0,0.5339053034374904,causal,0
+1399,day_of_year_sin,88,Sales_rolling_mean_30,24,1.0,0.4423111880165417,causal,0
+1400,day_of_year_sin,88,Sales_rolling_std_30,25,1.0,0.8031825788999208,causal,0
+1401,day_of_year_sin,88,Sales_rolling_max_30,27,1.0,0.7883889543348713,causal,0
+1402,day_of_year_sin,88,Production_lag_7,29,1.0,0.2997367535953372,causal,0
+1403,day_of_year_sin,88,Production_lag_14,30,1.0,0.4184615060664222,causal,0
+1404,day_of_year_sin,88,Production_rolling_mean_7,35,1.0,0.3650397558061765,causal,0
+1405,day_of_year_sin,88,Production_rolling_min_7,37,1.0,0.3821573655687936,causal,0
+1406,day_of_year_sin,88,Production_rolling_mean_14,39,1.0,0.4640994418842568,causal,0
+1407,day_of_year_sin,88,Production_rolling_min_14,41,1.0,0.3789171413598637,causal,0
+1408,day_of_year_sin,88,Production_rolling_max_14,42,1.0,0.34018237109922334,causal,0
+1409,day_of_year_sin,88,Factory_Issue_lag_7,44,1.0,0.33160556019933896,causal,0
+1410,day_of_year_sin,88,Factory_Issue_lag_14,45,1.0,0.44614642849981717,causal,0
+1411,day_of_year_sin,88,Factory_Issue_rolling_mean_7,50,1.0,0.4082159897320504,causal,0
+1412,day_of_year_sin,88,Factory_Issue_rolling_min_7,52,1.0,0.4065613418224145,causal,0
+1413,day_of_year_sin,88,Factory_Issue_rolling_max_7,53,1.0,0.4264371694709502,causal,0
+1414,day_of_year_sin,88,Factory_Issue_rolling_mean_14,54,1.0,0.4963865809683272,causal,0
+1415,day_of_year_sin,88,Factory_Issue_rolling_min_14,56,1.0,0.39255914567023437,causal,0
+1416,day_of_year_sin,88,Factory_Issue_rolling_max_14,57,1.0,0.5581459470351102,causal,0
+1417,day_of_year_sin,88,Delivery_lag_7,59,1.0,0.3292259097942459,causal,0
+1418,day_of_year_sin,88,Delivery_lag_14,60,1.0,0.4393252117861713,causal,0
+1419,day_of_year_sin,88,Delivery_rolling_mean_7,65,1.0,0.4091930663108928,causal,0
+1420,day_of_year_sin,88,Delivery_rolling_max_7,68,1.0,0.4440363907633794,causal,0
+1421,day_of_year_sin,88,Delivery_rolling_mean_14,69,1.0,0.4820873179246735,causal,0
+1422,day_of_year_sin,88,Delivery_rolling_std_14,70,1.0,0.29041519890486556,causal,0
+1423,day_of_year_sin,88,Delivery_rolling_max_14,72,1.0,0.5789874218594631,causal,0
+1424,day_of_year_sin,88,week_of_year_sin,82,1.0,0.9979823714559214,causal,0
+1425,day_of_year_sin,88,month_sin,84,0.9131779404201367,0.9131779404201367,associated,0
+1426,day_of_year_sin,88,inventory_proxy,103,1.0,0.435702651620704,causal,0
+1427,day_of_year_cos,89,Factory_Issue,1,1.0,0.41325210266625734,causal,0
+1428,day_of_year_cos,89,Delivery,2,1.0,0.41055423660062923,causal,0
+1429,day_of_year_cos,89,Temperature,6,0.7409695968740068,-0.7409695968740068,associated,0
+1430,day_of_year_cos,89,BDT_USD,8,1.0,-0.6595192110941716,causal,0
+1431,day_of_year_cos,89,Sales_rolling_mean_7,16,1.0,0.6191849500855581,causal,0
+1432,day_of_year_cos,89,Sales_rolling_std_7,17,1.0,0.4445614590979556,causal,0
+1433,day_of_year_cos,89,Sales_rolling_max_7,19,1.0,0.5331277079347694,causal,0
+1434,day_of_year_cos,89,Sales_rolling_mean_14,20,1.0,0.7321809950625986,causal,0
+1435,day_of_year_cos,89,Sales_rolling_std_14,21,1.0,0.4997333122838461,causal,0
+1436,day_of_year_cos,89,Sales_rolling_max_14,23,1.0,0.5543675637516644,causal,0
+1437,day_of_year_cos,89,Sales_rolling_mean_30,24,1.0,0.8284846150188714,causal,0
+1438,day_of_year_cos,89,Sales_rolling_std_30,25,1.0,0.5607810427188102,causal,0
+1439,day_of_year_cos,89,Sales_rolling_max_30,27,1.0,0.5368857512347576,causal,0
+1440,day_of_year_cos,89,Production_lag_7,29,1.0,0.2314419775892218,causal,0
+1441,day_of_year_cos,89,Production_rolling_mean_7,35,1.0,0.4487833187602368,causal,0
+1442,day_of_year_cos,89,Production_rolling_min_7,37,1.0,0.4518412404939154,causal,0
+1443,day_of_year_cos,89,Production_rolling_max_7,38,1.0,0.3932048495533425,causal,0
+1444,day_of_year_cos,89,Production_rolling_mean_14,39,1.0,0.5394271763199482,causal,0
+1445,day_of_year_cos,89,Production_rolling_min_14,41,1.0,0.536586722993552,causal,0
+1446,day_of_year_cos,89,Production_rolling_max_14,42,1.0,0.32865053536186256,causal,0
+1447,day_of_year_cos,89,Factory_Issue_lag_1,43,1.0,0.3959922028192701,causal,0
+1448,day_of_year_cos,89,Factory_Issue_lag_7,44,1.0,0.2946850137858843,causal,0
+1449,day_of_year_cos,89,Factory_Issue_lag_14,45,1.0,0.20047026955813171,causal,0
+1450,day_of_year_cos,89,Factory_Issue_rolling_mean_7,50,1.0,0.5457116428760846,causal,0
+1451,day_of_year_cos,89,Factory_Issue_rolling_min_7,52,1.0,0.5043374666633942,causal,0
+1452,day_of_year_cos,89,Factory_Issue_rolling_max_7,53,1.0,0.4141280251372727,causal,0
+1453,day_of_year_cos,89,Factory_Issue_rolling_mean_14,54,1.0,0.6110475702408312,causal,0
+1454,day_of_year_cos,89,Factory_Issue_rolling_min_14,56,1.0,0.568520438983284,causal,0
+1455,day_of_year_cos,89,Factory_Issue_rolling_max_14,57,1.0,0.34779309620261495,causal,0
+1456,day_of_year_cos,89,Delivery_lag_1,58,1.0,0.39211424391315297,causal,0
+1457,day_of_year_cos,89,Delivery_lag_7,59,1.0,0.2825624144001328,causal,0
+1458,day_of_year_cos,89,Delivery_lag_14,60,1.0,0.18031701779580073,causal,0
+1459,day_of_year_cos,89,Delivery_rolling_mean_7,65,1.0,0.5906702369425497,causal,0
+1460,day_of_year_cos,89,Delivery_rolling_std_7,66,1.0,0.3540474870953754,causal,0
+1461,day_of_year_cos,89,Delivery_rolling_min_7,67,1.0,0.4634582708539997,causal,0
+1462,day_of_year_cos,89,Delivery_rolling_max_7,68,1.0,0.5306346164897152,causal,0
+1463,day_of_year_cos,89,Delivery_rolling_mean_14,69,1.0,0.6687816264298388,causal,0
+1464,day_of_year_cos,89,Delivery_rolling_min_14,71,1.0,0.6103272048035657,causal,0
+1465,day_of_year_cos,89,Delivery_rolling_max_14,72,1.0,0.5174623927762021,causal,0
+1466,day_of_year_cos,89,week_of_year_cos,83,1.0,0.9986723712428835,causal,0
+1467,day_of_year_cos,89,month_cos,85,0.9436188433346986,0.9436188433346986,associated,0
+1468,day_of_year_cos,89,quarter_sin,86,0.8724599115568464,0.8724599115568464,associated,0
+1469,production_sales_ratio,100,Sales_momentum_7,75,0.6299595332522289,-0.6299595332522289,associated,0
+1470,production_sales_ratio,100,Sales_momentum_14,76,0.5856921576764688,-0.5856921576764688,associated,0
+1471,production_sales_ratio,100,day_of_week_sin,78,1.0,-0.22402565673506628,causal,0
+1472,production_sales_ratio,100,delivery_sales_ratio,101,0.7299104114066195,0.7299104114066195,associated,0
+1473,production_sales_ratio,100,holiday_type_Not a National Holiday,166,0.11044403649077039,-0.11044403649077039,associated,0
+1474,production_sales_ratio,100,holiday_name_Ashura,168,0.11308623832069313,0.11308623832069313,associated,0
+1475,production_sales_ratio,100,holiday_name_Bank Holiday,169,0.11044403649077039,-0.11044403649077039,associated,0
+1476,production_sales_ratio,100,holiday_name_Bengali New Year,170,0.10251743100100218,0.10251743100100218,associated,0
+1477,production_sales_ratio,100,holiday_name_Independence Day,174,0.10357431173297127,0.10357431173297127,associated,0
+1478,production_sales_ratio,100,holiday_name_Jumatul Bidah,175,0.11044403649077039,-0.11044403649077039,associated,0
+1479,production_sales_ratio,100,holiday_name_Labour Day,176,0.11044403649077039,-0.11044403649077039,associated,0
+1480,production_sales_ratio,100,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.11414311905266222,0.11414311905266222,associated,0
+1481,production_sales_ratio,100,category_bank_holiday,182,0.11044403649077039,-0.11044403649077039,associated,0
+1482,production_sales_ratio,100,category_cultural_holiday,184,0.10251743100100218,0.10251743100100218,associated,0
+1483,production_sales_ratio,100,scope_or_location_Nationwide (strongest in cities),194,0.10251743100100218,0.10251743100100218,associated,0
+1484,production_sales_ratio,100,scope_or_location_Tongi near Dhaka,195,0.1385708860358729,0.1385708860358729,associated,0
+1485,delivery_sales_ratio,101,Sales_rolling_std_30,25,0.19599693260948053,0.19599693260948053,associated,0
+1486,delivery_sales_ratio,101,Sales_pct_change_7,74,0.33790881344231033,-0.33790881344231033,associated,0
+1487,delivery_sales_ratio,101,Sales_momentum_7,75,0.6446315036340773,-0.6446315036340773,associated,0
+1488,delivery_sales_ratio,101,Sales_momentum_14,76,0.6070145743660078,-0.6070145743660078,associated,0
+1489,delivery_sales_ratio,101,day_of_week_sin,78,1.0,-0.2732615313864423,causal,0
+1490,delivery_sales_ratio,101,production_sales_ratio,100,0.7299104114066195,0.7299104114066195,associated,0
+1491,delivery_sales_ratio,101,category_cultural_event,183,0.1127825433183264,0.1127825433183264,associated,0
+1492,inventory_proxy,103,Delivery,2,0.2718821242549248,-0.2718821242549248,associated,0
+1493,inventory_proxy,103,Sales_rolling_mean_7,16,0.2919114563130616,-0.2919114563130616,associated,0
+1494,inventory_proxy,103,Sales_rolling_std_7,17,0.28953009270515634,-0.28953009270515634,associated,0
+1495,inventory_proxy,103,Sales_rolling_max_7,19,0.28526257859295145,-0.28526257859295145,associated,0
+1496,inventory_proxy,103,Production_rolling_min_14,41,0.23091237004924553,0.23091237004924553,associated,0
+1497,inventory_proxy,103,Production_rolling_max_14,42,0.19203824533501343,0.19203824533501343,associated,0
+1498,inventory_proxy,103,Factory_Issue_rolling_mean_14,54,0.26104587899533443,0.26104587899533443,associated,0
+1499,inventory_proxy,103,Factory_Issue_rolling_min_14,56,0.21108083293054994,0.21108083293054994,associated,0
+1500,inventory_proxy,103,Factory_Issue_rolling_max_14,57,0.20628813766200216,0.20628813766200216,associated,0
+1501,inventory_proxy,103,Sales_momentum_7,75,0.2013598726254247,-0.2013598726254247,associated,0
+1502,inventory_proxy,103,Sales_momentum_14,76,0.29861942052120793,-0.29861942052120793,associated,0
+1503,holiday_type_National Holiday,165,Rainfall,3,1.0,0.17615266031694463,causal,0
+1504,holiday_type_National Holiday,165,typical_rain_mm,7,1.0,0.8209570014591856,causal,0
+1505,holiday_type_National Holiday,165,Sales_rolling_min_7,18,0.13483442614739824,-0.13483442614739824,associated,0
+1506,holiday_type_National Holiday,165,Sales_momentum_14,76,0.31807627519448745,-0.31807627519448745,associated,0
+1507,holiday_type_National Holiday,165,holiday_type_nan,167,0.9694404648119527,-0.9694404648119527,associated,0
+1508,holiday_type_National Holiday,165,holiday_name_Ashura,168,0.2335496832484569,0.2335496832484569,associated,0
+1509,holiday_type_National Holiday,165,holiday_name_Bengali New Year,170,0.2335496832484569,0.2335496832484569,associated,0
+1510,holiday_type_National Holiday,165,holiday_name_Buddha Purnima,171,0.2335496832484569,0.2335496832484569,associated,0
+1511,holiday_type_National Holiday,165,holiday_name_Eid al-Fitr,172,1.0,0.4063712768871578,causal,0
+1512,holiday_type_National Holiday,165,holiday_name_Independence Day,174,0.2335496832484569,0.2335496832484569,associated,0
+1513,holiday_type_National Holiday,165,holiday_name_Jumatul Bidah,175,1.0,0.2335496832484569,causal,0
+1514,holiday_type_National Holiday,165,holiday_name_Labour Day,176,0.2335496832484569,0.2335496832484569,associated,0
+1515,holiday_type_National Holiday,165,holiday_name_Language Martyrs' Day,177,0.2335496832484569,0.2335496832484569,associated,0
+1516,holiday_type_National Holiday,165,holiday_name_Shab e-barat,178,0.2335496832484569,0.2335496832484569,associated,0
+1517,holiday_type_National Holiday,165,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.2335496832484569,0.2335496832484569,associated,0
+1518,holiday_type_National Holiday,165,holiday_name_nan,181,0.9694404648119527,-0.9694404648119527,associated,0
+1519,holiday_type_National Holiday,165,category_cultural_holiday,184,0.2335496832484569,0.2335496832484569,associated,0
+1520,holiday_type_National Holiday,165,category_no_event,186,1.0,-0.7547751645072232,causal,0
+1521,holiday_type_National Holiday,165,scope_or_location_Nationwide,192,1.0,0.7711944331091457,causal,0
+1522,holiday_type_National Holiday,165,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.2335496832484569,0.2335496832484569,associated,0
+1523,holiday_type_National Holiday,165,scope_or_location_Nationwide (strongest in cities),194,0.2335496832484569,0.2335496832484569,associated,0
+1524,holiday_type_National Holiday,165,scope_or_location_nan,197,1.0,-0.7547751645072232,causal,0
+1525,holiday_type_Not a National Holiday,166,Rainfall,3,1.0,0.14235883759438422,causal,0
+1526,holiday_type_Not a National Holiday,166,typical_rain_mm,7,0.2380215418493319,0.2380215418493319,associated,0
+1527,holiday_type_Not a National Holiday,166,production_sales_ratio,100,0.11044403649077039,-0.11044403649077039,associated,0
+1528,holiday_type_Not a National Holiday,166,holiday_name_Bank Holiday,169,1.0,1.0,causal,0
+1529,holiday_type_Not a National Holiday,166,category_bank_holiday,182,1.0,1.0,causal,0
+1530,holiday_type_Not a National Holiday,166,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1531,holiday_type_Not a National Holiday,166,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1532,holiday_type_Not a National Holiday,166,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1533,holiday_type_nan,167,typical_rain_mm,7,1.0,-0.8581935733359534,causal,0
+1534,holiday_type_nan,167,Sales_pct_change_1,73,0.26099290310230405,0.26099290310230405,associated,0
+1535,holiday_type_nan,167,Sales_pct_change_7,74,0.2979171198799717,0.2979171198799717,associated,0
+1536,holiday_type_nan,167,holiday_type_National Holiday,165,0.9694404648119527,-0.9694404648119527,associated,0
+1537,holiday_type_nan,167,holiday_name_Bengali New Year,170,0.22641251348506838,-0.22641251348506838,associated,0
+1538,holiday_type_nan,167,holiday_name_Eid al-Fitr,172,1.0,-0.393952759551713,causal,0
+1539,holiday_type_nan,167,holiday_name_Independence Day,174,0.22641251348506838,-0.22641251348506838,associated,0
+1540,holiday_type_nan,167,holiday_name_Jumatul Bidah,175,1.0,-0.22641251348506838,causal,0
+1541,holiday_type_nan,167,holiday_name_Language Martyrs' Day,177,0.22641251348506838,-0.22641251348506838,associated,0
+1542,holiday_type_nan,167,holiday_name_Shab e-barat,178,0.22641251348506838,-0.22641251348506838,associated,0
+1543,holiday_type_nan,167,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.22641251348506838,-0.22641251348506838,associated,0
+1544,holiday_type_nan,167,holiday_name_nan,181,1.0,1.0,causal,0
+1545,holiday_type_nan,167,category_cultural_holiday,184,0.22641251348506838,-0.22641251348506838,associated,0
+1546,holiday_type_nan,167,category_no_event,186,1.0,0.7850684020644246,causal,0
+1547,holiday_type_nan,167,scope_or_location_Nationwide,192,1.0,-0.8105251091202859,causal,0
+1548,holiday_type_nan,167,scope_or_location_Nationwide (strongest in cities),194,0.22641251348506838,-0.22641251348506838,associated,0
+1549,holiday_type_nan,167,scope_or_location_nan,197,1.0,0.7850684020644246,causal,0
+1550,holiday_name_Ashura,168,Rainfall,3,0.11558492777158719,0.11558492777158719,associated,0
+1551,holiday_name_Ashura,168,typical_rain_mm,7,0.2380215418493319,0.2380215418493319,associated,0
+1552,holiday_name_Ashura,168,production_sales_ratio,100,0.11308623832069313,0.11308623832069313,associated,0
+1553,holiday_name_Ashura,168,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1554,holiday_name_Ashura,168,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1555,holiday_name_Ashura,168,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1556,holiday_name_Ashura,168,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1557,holiday_name_Bank Holiday,169,Rainfall,3,1.0,0.14235883759438422,causal,0
+1558,holiday_name_Bank Holiday,169,typical_rain_mm,7,0.2380215418493319,0.2380215418493319,associated,0
+1559,holiday_name_Bank Holiday,169,production_sales_ratio,100,0.11044403649077039,-0.11044403649077039,associated,0
+1560,holiday_name_Bank Holiday,169,holiday_type_Not a National Holiday,166,1.0,1.0,causal,0
+1561,holiday_name_Bank Holiday,169,category_bank_holiday,182,1.0,1.0,causal,0
+1562,holiday_name_Bank Holiday,169,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1563,holiday_name_Bank Holiday,169,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1564,holiday_name_Bank Holiday,169,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1565,holiday_name_Bengali New Year,170,typical_rain_mm,7,0.2173712710952803,0.2173712710952803,associated,0
+1566,holiday_name_Bengali New Year,170,production_sales_ratio,100,0.10251743100100218,0.10251743100100218,associated,0
+1567,holiday_name_Bengali New Year,170,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1568,holiday_name_Bengali New Year,170,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1569,holiday_name_Bengali New Year,170,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1570,holiday_name_Bengali New Year,170,category_cultural_holiday,184,1.0,1.0,causal,0
+1571,holiday_name_Bengali New Year,170,scope_or_location_Nationwide (strongest in cities),194,1.0,1.0,causal,0
+1572,holiday_name_Buddha Purnima,171,Rainfall,3,0.1064426171003882,0.1064426171003882,associated,0
+1573,holiday_name_Buddha Purnima,171,typical_rain_mm,7,0.22715297829456788,0.22715297829456788,associated,0
+1574,holiday_name_Buddha Purnima,171,Sales_pct_change_1,73,0.10925782545683513,0.10925782545683513,associated,0
+1575,holiday_name_Buddha Purnima,171,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1576,holiday_name_Buddha Purnima,171,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1577,holiday_name_Buddha Purnima,171,scope_or_location_Nationwide (strongest in Buddhist communities),193,1.0,1.0,causal,0
+1578,holiday_name_Buddha Purnima,171,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1579,holiday_name_Eid al-Fitr,172,Factory_Issue_rolling_mean_1,46,1.0,-0.17288014845104377,causal,0
+1580,holiday_name_Eid al-Fitr,172,Factory_Issue_rolling_min_1,48,1.0,-0.17288014845104377,causal,0
+1581,holiday_name_Eid al-Fitr,172,Factory_Issue_rolling_max_1,49,1.0,-0.17288014845104377,causal,0
+1582,holiday_name_Eid al-Fitr,172,Factory_Issue_rolling_std_7,51,1.0,0.12687750470591516,causal,0
+1583,holiday_name_Eid al-Fitr,172,Sales_pct_change_1,73,0.11803979538433504,-0.11803979538433504,associated,0
+1584,holiday_name_Eid-ul-Azha,173,Rainfall,3,1.0,0.24558397199678056,causal,0
+1585,holiday_name_Eid-ul-Azha,173,typical_rain_mm,7,1.0,0.34088796890380807,causal,0
+1586,holiday_name_Eid-ul-Azha,173,Sales_pct_change_1,73,0.1453324611231609,-0.1453324611231609,associated,0
+1587,holiday_name_Eid-ul-Azha,173,holiday_type_National Holiday,165,1.0,0.4703170810017723,causal,0
+1588,holiday_name_Eid-ul-Azha,173,holiday_type_nan,167,1.0,-0.4559444096153589,causal,0
+1589,holiday_name_Eid-ul-Azha,173,holiday_name_nan,181,1.0,-0.4559444096153589,causal,0
+1590,holiday_name_Eid-ul-Azha,173,category_no_event,186,1.0,-0.2949647398925001,causal,0
+1591,holiday_name_Eid-ul-Azha,173,scope_or_location_Nationwide,192,1.0,0.3550013772617014,causal,0
+1592,holiday_name_Eid-ul-Azha,173,scope_or_location_nan,197,1.0,-0.2949647398925001,causal,0
+1593,holiday_name_Independence Day,174,typical_rain_mm,7,0.20758956389599267,0.20758956389599267,associated,0
+1594,holiday_name_Independence Day,174,production_sales_ratio,100,0.10357431173297127,0.10357431173297127,associated,0
+1595,holiday_name_Independence Day,174,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1596,holiday_name_Independence Day,174,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1597,holiday_name_Independence Day,174,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1598,holiday_name_Independence Day,174,category_national_holiday,185,0.4965792072679937,0.4965792072679937,associated,0
+1599,holiday_name_Independence Day,174,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1600,holiday_name_Jumatul Bidah,175,typical_rain_mm,7,0.2173712710952803,0.2173712710952803,associated,0
+1601,holiday_name_Jumatul Bidah,175,production_sales_ratio,100,0.11044403649077039,-0.11044403649077039,associated,0
+1602,holiday_name_Jumatul Bidah,175,scope_or_location_Nationwide,192,1.0,0.2413268247908557,causal,0
+1603,holiday_name_Labour Day,176,typical_rain_mm,7,0.22715297829456788,0.22715297829456788,associated,0
+1604,holiday_name_Labour Day,176,production_sales_ratio,100,0.11044403649077039,-0.11044403649077039,associated,0
+1605,holiday_name_Labour Day,176,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1606,holiday_name_Labour Day,176,category_national_holiday,185,0.4965792072679937,0.4965792072679937,associated,0
+1607,holiday_name_Labour Day,176,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1608,holiday_name_Labour Day,176,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1609,holiday_name_Labour Day,176,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1610,holiday_name_Language Martyrs' Day,177,typical_rain_mm,7,0.20106842576313425,0.20106842576313425,associated,0
+1611,holiday_name_Language Martyrs' Day,177,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1612,holiday_name_Language Martyrs' Day,177,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1613,holiday_name_Language Martyrs' Day,177,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1614,holiday_name_Language Martyrs' Day,177,category_national_holiday,185,0.4965792072679937,0.4965792072679937,associated,0
+1615,holiday_name_Language Martyrs' Day,177,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1616,holiday_name_Shab e-barat,178,typical_rain_mm,7,0.20758956389599267,0.20758956389599267,associated,0
+1617,holiday_name_Shab e-barat,178,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1618,holiday_name_Shab e-barat,178,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1619,holiday_name_Shab e-barat,178,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1620,holiday_name_Shab e-barat,178,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1621,holiday_name_Shab-e-Qadr,179,typical_rain_mm,7,0.2173712710952803,0.2173712710952803,associated,0
+1622,holiday_name_Shab-e-Qadr,179,holiday_type_National Holiday,165,1.0,0.2335496832484569,causal,0
+1623,holiday_name_Shab-e-Qadr,179,holiday_type_nan,167,1.0,-0.22641251348506838,causal,0
+1624,holiday_name_Shab-e-Qadr,179,holiday_name_nan,181,1.0,-0.22641251348506838,causal,0
+1625,holiday_name_Shab-e-Qadr,179,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1626,holiday_name_Sheikh Mujibur Rahman's birthday,180,typical_rain_mm,7,0.20758956389599267,0.20758956389599267,associated,0
+1627,holiday_name_Sheikh Mujibur Rahman's birthday,180,production_sales_ratio,100,0.11414311905266222,0.11414311905266222,associated,0
+1628,holiday_name_Sheikh Mujibur Rahman's birthday,180,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1629,holiday_name_Sheikh Mujibur Rahman's birthday,180,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1630,holiday_name_Sheikh Mujibur Rahman's birthday,180,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1631,holiday_name_Sheikh Mujibur Rahman's birthday,180,category_national_holiday,185,0.4965792072679937,0.4965792072679937,associated,0
+1632,holiday_name_Sheikh Mujibur Rahman's birthday,180,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1633,holiday_name_nan,181,typical_rain_mm,7,1.0,-0.8581935733359534,causal,0
+1634,holiday_name_nan,181,Sales_pct_change_1,73,0.26099290310230405,0.26099290310230405,associated,0
+1635,holiday_name_nan,181,Sales_pct_change_7,74,0.2979171198799717,0.2979171198799717,associated,0
+1636,holiday_name_nan,181,holiday_type_National Holiday,165,0.9694404648119527,-0.9694404648119527,associated,0
+1637,holiday_name_nan,181,holiday_type_nan,167,1.0,1.0,causal,0
+1638,holiday_name_nan,181,holiday_name_Bengali New Year,170,0.22641251348506838,-0.22641251348506838,associated,0
+1639,holiday_name_nan,181,holiday_name_Eid al-Fitr,172,1.0,-0.393952759551713,causal,0
+1640,holiday_name_nan,181,holiday_name_Independence Day,174,0.22641251348506838,-0.22641251348506838,associated,0
+1641,holiday_name_nan,181,holiday_name_Jumatul Bidah,175,1.0,-0.22641251348506838,causal,0
+1642,holiday_name_nan,181,holiday_name_Language Martyrs' Day,177,0.22641251348506838,-0.22641251348506838,associated,0
+1643,holiday_name_nan,181,holiday_name_Shab e-barat,178,0.22641251348506838,-0.22641251348506838,associated,0
+1644,holiday_name_nan,181,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.22641251348506838,-0.22641251348506838,associated,0
+1645,holiday_name_nan,181,category_cultural_holiday,184,0.22641251348506838,-0.22641251348506838,associated,0
+1646,holiday_name_nan,181,category_no_event,186,1.0,0.7850684020644246,causal,0
+1647,holiday_name_nan,181,scope_or_location_Nationwide,192,1.0,-0.8105251091202859,causal,0
+1648,holiday_name_nan,181,scope_or_location_Nationwide (strongest in cities),194,0.22641251348506838,-0.22641251348506838,associated,0
+1649,holiday_name_nan,181,scope_or_location_nan,197,1.0,0.7850684020644246,causal,0
+1650,category_bank_holiday,182,Rainfall,3,1.0,0.14235883759438422,causal,0
+1651,category_bank_holiday,182,typical_rain_mm,7,0.2380215418493319,0.2380215418493319,associated,0
+1652,category_bank_holiday,182,production_sales_ratio,100,0.11044403649077039,-0.11044403649077039,associated,0
+1653,category_bank_holiday,182,holiday_type_Not a National Holiday,166,1.0,1.0,causal,0
+1654,category_bank_holiday,182,holiday_name_Bank Holiday,169,1.0,1.0,causal,0
+1655,category_bank_holiday,182,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1656,category_bank_holiday,182,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1657,category_bank_holiday,182,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1658,category_cultural_event,183,Sales_rolling_min_14,22,0.10027791930725628,0.10027791930725628,associated,0
+1659,category_cultural_event,183,Sales_rolling_min_30,26,0.10027791930725628,0.10027791930725628,associated,0
+1660,category_cultural_event,183,delivery_sales_ratio,101,0.1127825433183264,0.1127825433183264,associated,0
+1661,category_cultural_event,183,category_no_event,186,0.3528154365626558,-0.3528154365626558,associated,0
+1662,category_cultural_event,183,scope_or_location_Tongi near Dhaka,195,0.8146303005880798,0.8146303005880798,associated,0
+1663,category_cultural_event,183,scope_or_location_Urban centres (esp. Dhaka),196,0.5747199581561704,0.5747199581561704,associated,0
+1664,category_cultural_event,183,scope_or_location_nan,197,0.3528154365626558,-0.3528154365626558,associated,0
+1665,category_cultural_holiday,184,typical_rain_mm,7,0.2173712710952803,0.2173712710952803,associated,0
+1666,category_cultural_holiday,184,production_sales_ratio,100,0.10251743100100218,0.10251743100100218,associated,0
+1667,category_cultural_holiday,184,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1668,category_cultural_holiday,184,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1669,category_cultural_holiday,184,holiday_name_Bengali New Year,170,1.0,1.0,causal,0
+1670,category_cultural_holiday,184,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1671,category_cultural_holiday,184,scope_or_location_Nationwide (strongest in cities),194,1.0,1.0,causal,0
+1672,category_national_holiday,185,Sales_pct_change_1,73,0.14641099515747005,-0.14641099515747005,associated,0
+1673,category_national_holiday,185,Sales_pct_change_7,74,0.16246418896345455,-0.16246418896345455,associated,0
+1674,category_national_holiday,185,holiday_type_National Holiday,165,1.0,0.4703170810017723,causal,0
+1675,category_national_holiday,185,holiday_type_nan,167,1.0,-0.4559444096153589,causal,0
+1676,category_national_holiday,185,holiday_name_Independence Day,174,0.4965792072679937,0.4965792072679937,associated,0
+1677,category_national_holiday,185,holiday_name_Labour Day,176,0.4965792072679937,0.4965792072679937,associated,0
+1678,category_national_holiday,185,holiday_name_Language Martyrs' Day,177,0.4965792072679937,0.4965792072679937,associated,0
+1679,category_national_holiday,185,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.4965792072679937,0.4965792072679937,associated,0
+1680,category_national_holiday,185,holiday_name_nan,181,1.0,-0.4559444096153589,causal,0
+1681,category_no_event,186,typical_rain_mm,7,0.9211965195381078,-0.9211965195381078,associated,0
+1682,category_no_event,186,Sales_pct_change_7,74,0.28195960918823076,0.28195960918823076,associated,0
+1683,category_no_event,186,holiday_type_Not a National Holiday,166,0.20277007293814056,-0.20277007293814056,associated,0
+1684,category_no_event,186,holiday_name_Ashura,168,0.20277007293814056,-0.20277007293814056,associated,0
+1685,category_no_event,186,holiday_name_Bank Holiday,169,0.20277007293814056,-0.20277007293814056,associated,0
+1686,category_no_event,186,holiday_name_Buddha Purnima,171,0.20277007293814056,-0.20277007293814056,associated,0
+1687,category_no_event,186,holiday_name_Labour Day,176,0.20277007293814056,-0.20277007293814056,associated,0
+1688,category_no_event,186,category_bank_holiday,182,0.20277007293814056,-0.20277007293814056,associated,0
+1689,category_no_event,186,category_cultural_event,183,0.3528154365626558,-0.3528154365626558,associated,0
+1690,category_no_event,186,category_school_university,189,0.20277007293814056,-0.20277007293814056,associated,0
+1691,category_no_event,186,category_weather_event,190,0.20277007293814056,-0.20277007293814056,associated,0
+1692,category_no_event,186,scope_or_location_Chattogram division & south-east,191,0.20277007293814056,-0.20277007293814056,associated,0
+1693,category_no_event,186,scope_or_location_Nationwide,192,0.840230144799982,-0.840230144799982,associated,0
+1694,category_no_event,186,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.20277007293814056,-0.20277007293814056,associated,0
+1695,category_no_event,186,scope_or_location_nan,197,1.0,1.0,causal,0
+1696,category_religious_holiday,187,typical_rain_mm,7,1.0,0.7233029790671569,causal,0
+1697,category_religious_holiday,187,holiday_type_National Holiday,165,1.0,0.7541355177598515,causal,0
+1698,category_religious_holiday,187,category_no_event,186,1.0,-0.6547476828676788,causal,0
+1699,category_religious_holiday,187,scope_or_location_Nationwide,192,1.0,0.6952412888048285,causal,0
+1700,category_religious_period,188,typical_rain_mm,7,0.20758956389599267,0.20758956389599267,associated,0
+1701,category_religious_period,188,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1702,category_school_university,189,Sales_rolling_min_7,18,1.0,0.1731979563474177,causal,0
+1703,category_school_university,189,Sales_rolling_min_14,22,1.0,0.23922601413992298,causal,0
+1704,category_school_university,189,Sales_rolling_min_30,26,1.0,0.23922601413992298,causal,0
+1705,category_school_university,189,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1706,category_school_university,189,scope_or_location_Nationwide,192,0.2413268247908557,0.2413268247908557,associated,0
+1707,category_school_university,189,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1708,category_weather_event,190,Rainfall,3,0.13974674883118451,0.13974674883118451,associated,0
+1709,category_weather_event,190,typical_rain_mm,7,0.2238924092281387,0.2238924092281387,associated,0
+1710,category_weather_event,190,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1711,category_weather_event,190,scope_or_location_Chattogram division & south-east,191,1.0,1.0,causal,0
+1712,category_weather_event,190,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1713,scope_or_location_Chattogram division & south-east,191,Rainfall,3,0.13974674883118451,0.13974674883118451,associated,0
+1714,scope_or_location_Chattogram division & south-east,191,typical_rain_mm,7,0.2238924092281387,0.2238924092281387,associated,0
+1715,scope_or_location_Chattogram division & south-east,191,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1716,scope_or_location_Chattogram division & south-east,191,category_weather_event,190,1.0,1.0,causal,0
+1717,scope_or_location_Chattogram division & south-east,191,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1718,scope_or_location_Nationwide,192,Rainfall,3,1.0,0.1564386612981755,causal,0
+1719,scope_or_location_Nationwide,192,Sales_pct_change_1,73,0.26340363769816627,-0.26340363769816627,associated,0
+1720,scope_or_location_Nationwide,192,Sales_pct_change_7,74,0.2512790815821454,-0.2512790815821454,associated,0
+1721,scope_or_location_Nationwide,192,Sales_momentum_14,76,0.2839579940994247,-0.2839579940994247,associated,0
+1722,scope_or_location_Nationwide,192,holiday_type_Not a National Holiday,166,0.2413268247908557,0.2413268247908557,associated,0
+1723,scope_or_location_Nationwide,192,holiday_name_Ashura,168,0.2413268247908557,0.2413268247908557,associated,0
+1724,scope_or_location_Nationwide,192,holiday_name_Bank Holiday,169,0.2413268247908557,0.2413268247908557,associated,0
+1725,scope_or_location_Nationwide,192,holiday_name_Eid al-Fitr,172,1.0,0.26901123966289225,causal,0
+1726,scope_or_location_Nationwide,192,holiday_name_Independence Day,174,0.2413268247908557,0.2413268247908557,associated,0
+1727,scope_or_location_Nationwide,192,holiday_name_Labour Day,176,0.2413268247908557,0.2413268247908557,associated,0
+1728,scope_or_location_Nationwide,192,holiday_name_Language Martyrs' Day,177,0.2413268247908557,0.2413268247908557,associated,0
+1729,scope_or_location_Nationwide,192,holiday_name_Shab e-barat,178,0.2413268247908557,0.2413268247908557,associated,0
+1730,scope_or_location_Nationwide,192,holiday_name_Shab-e-Qadr,179,0.2413268247908557,0.2413268247908557,associated,0
+1731,scope_or_location_Nationwide,192,holiday_name_Sheikh Mujibur Rahman's birthday,180,0.2413268247908557,0.2413268247908557,associated,0
+1732,scope_or_location_Nationwide,192,category_bank_holiday,182,0.2413268247908557,0.2413268247908557,associated,0
+1733,scope_or_location_Nationwide,192,category_no_event,186,0.840230144799982,-0.840230144799982,associated,0
+1734,scope_or_location_Nationwide,192,category_religious_period,188,0.2413268247908557,0.2413268247908557,associated,0
+1735,scope_or_location_Nationwide,192,category_school_university,189,0.2413268247908557,0.2413268247908557,associated,0
+1736,scope_or_location_Nationwide,192,scope_or_location_nan,197,0.840230144799982,-0.840230144799982,associated,0
+1737,scope_or_location_Nationwide (strongest in Buddhist communities),193,Rainfall,3,0.1064426171003882,0.1064426171003882,associated,0
+1738,scope_or_location_Nationwide (strongest in Buddhist communities),193,typical_rain_mm,7,0.22715297829456788,0.22715297829456788,associated,0
+1739,scope_or_location_Nationwide (strongest in Buddhist communities),193,Sales_pct_change_1,73,0.10925782545683513,0.10925782545683513,associated,0
+1740,scope_or_location_Nationwide (strongest in Buddhist communities),193,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1741,scope_or_location_Nationwide (strongest in Buddhist communities),193,holiday_name_Buddha Purnima,171,1.0,1.0,causal,0
+1742,scope_or_location_Nationwide (strongest in Buddhist communities),193,category_no_event,186,0.20277007293814056,-0.20277007293814056,associated,0
+1743,scope_or_location_Nationwide (strongest in Buddhist communities),193,scope_or_location_nan,197,0.20277007293814056,-0.20277007293814056,associated,0
+1744,scope_or_location_Nationwide (strongest in cities),194,typical_rain_mm,7,0.2173712710952803,0.2173712710952803,associated,0
+1745,scope_or_location_Nationwide (strongest in cities),194,production_sales_ratio,100,0.10251743100100218,0.10251743100100218,associated,0
+1746,scope_or_location_Nationwide (strongest in cities),194,holiday_type_National Holiday,165,0.2335496832484569,0.2335496832484569,associated,0
+1747,scope_or_location_Nationwide (strongest in cities),194,holiday_type_nan,167,0.22641251348506838,-0.22641251348506838,associated,0
+1748,scope_or_location_Nationwide (strongest in cities),194,holiday_name_Bengali New Year,170,1.0,1.0,causal,0
+1749,scope_or_location_Nationwide (strongest in cities),194,holiday_name_nan,181,0.22641251348506838,-0.22641251348506838,associated,0
+1750,scope_or_location_Nationwide (strongest in cities),194,category_cultural_holiday,184,1.0,1.0,causal,0
+1751,scope_or_location_Tongi near Dhaka,195,Sales_pct_change_7,74,0.10189939234320708,-0.10189939234320708,associated,0
+1752,scope_or_location_Tongi near Dhaka,195,production_sales_ratio,100,0.1385708860358729,0.1385708860358729,associated,0
+1753,scope_or_location_Tongi near Dhaka,195,category_cultural_event,183,0.8146303005880798,0.8146303005880798,associated,0
+1754,scope_or_location_Urban centres (esp. Dhaka),196,typical_rain_mm,7,0.20106842576313425,0.20106842576313425,associated,0
+1755,scope_or_location_Urban centres (esp. Dhaka),196,category_cultural_event,183,0.5747199581561704,0.5747199581561704,associated,0
+1756,scope_or_location_nan,197,typical_rain_mm,7,0.9211965195381078,-0.9211965195381078,associated,0
+1757,scope_or_location_nan,197,Sales_pct_change_7,74,0.28195960918823076,0.28195960918823076,associated,0
+1758,scope_or_location_nan,197,holiday_type_Not a National Holiday,166,0.20277007293814056,-0.20277007293814056,associated,0
+1759,scope_or_location_nan,197,holiday_name_Ashura,168,0.20277007293814056,-0.20277007293814056,associated,0
+1760,scope_or_location_nan,197,holiday_name_Bank Holiday,169,0.20277007293814056,-0.20277007293814056,associated,0
+1761,scope_or_location_nan,197,holiday_name_Buddha Purnima,171,0.20277007293814056,-0.20277007293814056,associated,0
+1762,scope_or_location_nan,197,holiday_name_Labour Day,176,0.20277007293814056,-0.20277007293814056,associated,0
+1763,scope_or_location_nan,197,category_bank_holiday,182,0.20277007293814056,-0.20277007293814056,associated,0
+1764,scope_or_location_nan,197,category_cultural_event,183,0.3528154365626558,-0.3528154365626558,associated,0
+1765,scope_or_location_nan,197,category_no_event,186,1.0,1.0,causal,0
+1766,scope_or_location_nan,197,category_school_university,189,0.20277007293814056,-0.20277007293814056,associated,0
+1767,scope_or_location_nan,197,category_weather_event,190,0.20277007293814056,-0.20277007293814056,associated,0
+1768,scope_or_location_nan,197,scope_or_location_Chattogram division & south-east,191,0.20277007293814056,-0.20277007293814056,associated,0
+1769,scope_or_location_nan,197,scope_or_location_Nationwide,192,0.840230144799982,-0.840230144799982,associated,0
+1770,scope_or_location_nan,197,scope_or_location_Nationwide (strongest in Buddhist communities),193,0.20277007293814056,-0.20277007293814056,associated,0
+1771,Sales,198,Factory_Issue,1,1.0,0.4179025153184505,causal,0
+1772,Sales,198,Delivery,2,1.0,0.38406950877692486,causal,0
+1773,Sales,198,BDT_USD,8,1.0,-0.23751355203638602,causal,0
+1774,Sales,198,Sales_pct_change_1,73,1.0,0.7159501747391072,causal,0
+1775,Sales,198,day_of_week_sin,78,1.0,0.20335821646297858,causal,0
+1776,Sales,198,production_sales_ratio,100,1.0,-0.5133306335259549,causal,0
+1777,Sales,198,delivery_sales_ratio,101,1.0,-0.5509019304675282,causal,0
+1778,Sales,198,inventory_proxy,103,1.0,-0.30716565455861145,causal,0

@@ -1,0 +1,32 @@
+{
+  "best_models_by_metric": {
+    "RMSE": {
+      "model": "XGBoost",
+      "value": 100.11815274384855
+    },
+    "MAE": {
+      "model": "XGBoost",
+      "value": 34.630282096187635
+    },
+    "MAPE": {
+      "model": "XGBoost",
+      "value": 17.6064996606805
+    },
+    "MASE": {
+      "model": "XGBoost",
+      "value": 0.04553855485063979
+    },
+    "R\u00b2": {
+      "model": "XGBoost",
+      "value": 0.9965262033133787
+    }
+  },
+  "overall_best": "XGBoost",
+  "training_date": "2025-12-10T14:33:45.994841",
+  "model_files": {
+    "RandomForest": "randomforest_model.pkl",
+    "XGBoost": "xgboost_model.json",
+    "LightGBM": "lightgbm_model.txt",
+    "CatBoost": "catboost_model.cbm"
+  }
+}

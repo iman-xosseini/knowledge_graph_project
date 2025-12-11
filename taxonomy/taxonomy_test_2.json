@@ -1,0 +1,425 @@
+{
+  "taxonomy_name": "Feature Taxonomy",
+  "created_at": "2025-12-10T00:00:00Z",
+  "levels": {
+    "1": "Main Categories",
+    "2": "Subcategories",
+    "3": "Feature Groups",
+    "4": "Individual Features"
+  },
+  "hierarchy": [
+    {
+      "name": "Production",
+      "level": 1,
+      "description": "Production metrics, temporal demand (sales) and derived production statistics",
+      "children": [
+        {
+          "name": "Production - Core Time Series",
+          "level": 2,
+          "description": "Raw production series, temporal lags and rolling window statistics",
+          "children": [],
+          "features": [
+            "Production",
+            "Production_lag_1",
+            "Production_lag_7",
+            "Production_lag_14",
+            "Production_rolling_mean_1",
+            "Production_rolling_std_1",
+            "Production_rolling_min_1",
+            "Production_rolling_max_1",
+            "Production_rolling_mean_7",
+            "Production_rolling_std_7",
+            "Production_rolling_min_7",
+            "Production_rolling_max_7",
+            "Production_rolling_mean_14",
+            "Production_rolling_std_14",
+            "Production_rolling_min_14",
+            "Production_rolling_max_14",
+            "production_sales_ratio"
+          ]
+        },
+        {
+          "name": "Sales (Demand) Time Series",
+          "level": 2,
+          "description": "Sales as demand signal with lags, rolling statistics and trend/momentum features",
+          "children": [],
+          "features": [
+            "Sales",
+            "Sales_lag_1",
+            "Sales_lag_2",
+            "Sales_lag_3",
+            "Sales_lag_7",
+            "Sales_lag_14",
+            "Sales_lag_21",
+            "Sales_lag_28",
+            "Sales_rolling_mean_7",
+            "Sales_rolling_std_7",
+            "Sales_rolling_min_7",
+            "Sales_rolling_max_7",
+            "Sales_rolling_mean_14",
+            "Sales_rolling_std_14",
+            "Sales_rolling_min_14",
+            "Sales_rolling_max_14",
+            "Sales_rolling_mean_30",
+            "Sales_rolling_std_30",
+            "Sales_rolling_min_30",
+            "Sales_rolling_max_30",
+            "Sales_pct_change_1",
+            "Sales_pct_change_7",
+            "Sales_momentum_7",
+            "Sales_momentum_14",
+            "Sales_trend_7_14"
+          ]
+        },
+        {
+          "name": "Temporal & Calendar Features",
+          "level": 2,
+          "description": "Cyclical encodings of calendar/time useful for seasonality and cyclic behavior",
+          "children": [],
+          "features": [
+            "day_of_week_sin",
+            "day_of_week_cos",
+            "day_of_month_sin",
+            "day_of_month_cos",
+            "week_of_year_sin",
+            "week_of_year_cos",
+            "month_sin",
+            "month_cos",
+            "quarter_sin",
+            "quarter_cos",
+            "day_of_year_sin",
+            "day_of_year_cos"
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "name": "Factory_Issue",
+      "level": 1,
+      "description": "Factory issue occurrences and their temporal aggregations / rates",
+      "children": [
+        {
+          "name": "Factory Issue - Time Series",
+          "level": 2,
+          "description": "Lags and rolling window statistics for factory issues",
+          "children": [],
+          "features": [
+            "Factory_Issue",
+            "Factory_Issue_lag_1",
+            "Factory_Issue_lag_7",
+            "Factory_Issue_lag_14",
+            "Factory_Issue_rolling_mean_1",
+            "Factory_Issue_rolling_std_1",
+            "Factory_Issue_rolling_min_1",
+            "Factory_Issue_rolling_max_1",
+            "Factory_Issue_rolling_mean_7",
+            "Factory_Issue_rolling_std_7",
+            "Factory_Issue_rolling_min_7",
+            "Factory_Issue_rolling_max_7",
+            "Factory_Issue_rolling_mean_14",
+            "Factory_Issue_rolling_std_14",
+            "Factory_Issue_rolling_min_14",
+            "Factory_Issue_rolling_max_14",
+            "factory_issue_rate"
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "name": "Delivery",
+      "level": 1,
+      "description": "Delivery metrics, temporal aggregations and logistics-related ratios",
+      "children": [
+        {
+          "name": "Delivery - Time Series",
+          "level": 2,
+          "description": "Lags and rolling statistics for delivery performance",
+          "children": [],
+          "features": [
+            "Delivery",
+            "Delivery_lag_1",
+            "Delivery_lag_7",
+            "Delivery_lag_14",
+            "Delivery_rolling_mean_1",
+            "Delivery_rolling_std_1",
+            "Delivery_rolling_min_1",
+            "Delivery_rolling_max_1",
+            "Delivery_rolling_mean_7",
+            "Delivery_rolling_std_7",
+            "Delivery_rolling_min_7",
+            "Delivery_rolling_max_7",
+            "Delivery_rolling_mean_14",
+            "Delivery_rolling_std_14",
+            "Delivery_rolling_min_14",
+            "Delivery_rolling_max_14",
+            "delivery_sales_ratio",
+            "inventory_proxy"
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "name": "Group",
+      "level": 1,
+      "description": "High-level product group indicators",
+      "children": [
+        {
+          "name": "Group Indicators",
+          "level": 2,
+          "description": "One-hot or indicator flags for product groups",
+          "children": [],
+          "features": [
+            "group_A",
+            "group_E",
+            "group_M",
+            "group_P",
+            "group_S"
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "name": "Sub-Group",
+      "level": 1,
+      "description": "Sub-group taxonomy, product SKUs and product-level aggregated statistics",
+      "children": [
+        {
+          "name": "Sub-Group Indicators",
+          "level": 2,
+          "description": "Sub-group level categorical indicators",
+          "children": [],
+          "features": [
+            "Sub-Group_AT",
+            "Sub-Group_ATN",
+            "Sub-Group_ATPA",
+            "Sub-Group_ATPPCH",
+            "Sub-Group_ATWWP",
+            "Sub-Group_EEA",
+            "Sub-Group_MAC",
+            "Sub-Group_MAHS",
+            "Sub-Group_MAP",
+            "Sub-Group_MAPA",
+            "Sub-Group_MAR",
+            "Sub-Group_MASR",
+            "Sub-Group_POP",
+            "Sub-Group_POPF",
+            "Sub-Group_POV",
+            "Sub-Group_SE",
+            "Sub-Group_SO",
+            "Sub-Group_SOP",
+            "Sub-Group_SOS",
+            "Sub-Group_nan"
+          ]
+        },
+        {
+          "name": "Products (SKU level flags/identifiers)",
+          "level": 2,
+          "description": "Binary/indicator features for individual products / SKUs",
+          "children": [],
+          "features": [
+            "Product_AT5X5K",
+            "Product_ATN01K24P",
+            "Product_ATN02K12P",
+            "Product_ATPA1K24P",
+            "Product_ATPPCH5X5K",
+            "Product_ATWWP001K24P",
+            "Product_ATWWP002K12P",
+            "Product_EEA200G24P",
+            "Product_EEA500G12P",
+            "Product_MAC1K25P",
+            "Product_MAHS025K",
+            "Product_MAP1K25P",
+            "Product_MAPA1K24P",
+            "Product_MAR01K24P",
+            "Product_MAR02K12P",
+            "Product_MASR025K",
+            "Product_POP001L12P",
+            "Product_POP001L12P.1",
+            "Product_POP002L09P",
+            "Product_POP005L04P",
+            "Product_POP015K",
+            "Product_POP500M24P",
+            "Product_POPF01L12P",
+            "Product_POV001L24P",
+            "Product_POV002L09P",
+            "Product_POV005L04P",
+            "Product_POV500M24P",
+            "Product_SE200G24P",
+            "Product_SE500G24P",
+            "Product_SO0001L12P",
+            "Product_SO0002L09P",
+            "Product_SO0005L04P",
+            "Product_SO0500M24P",
+            "Product_SOP001L12P",
+            "Product_SOS001L12P",
+            "Product_SOS002L09P",
+            "Product_SOS003L04P",
+            "Product_SOS005L04P",
+            "Product_SOS008L02P",
+            "Product_SOS250M48P",
+            "Product_SOS500M24P"
+          ]
+        },
+        {
+          "name": "Product-level Aggregates",
+          "level": 2,
+          "description": "Aggregated statistics computed at the product / SKU level",
+          "children": [],
+          "features": [
+            "product_total_volume",
+            "product_avg_daily",
+            "product_std_daily",
+            "product_cv",
+            "product_activity_freq"
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "name": "holiday_type",
+      "level": 1,
+      "description": "Holiday type categorical encodings",
+      "children": [],
+      "features": [
+        "holiday_type_National Holiday",
+        "holiday_type_Not a National Holiday",
+        "holiday_type_nan"
+      ]
+    },
+    {
+      "name": "holiday_name",
+      "level": 1,
+      "description": "Specific holiday name categorical encodings",
+      "children": [],
+      "features": [
+        "holiday_name_Ashura",
+        "holiday_name_Bank Holiday",
+        "holiday_name_Bengali New Year",
+        "holiday_name_Buddha Purnima",
+        "holiday_name_Eid al-Fitr",
+        "holiday_name_Eid-ul-Azha",
+        "holiday_name_Independence Day",
+        "holiday_name_Jumatul Bidah",
+        "holiday_name_Labour Day",
+        "holiday_name_Language Martyrs' Day",
+        "holiday_name_Shab e-barat",
+        "holiday_name_Shab-e-Qadr",
+        "holiday_name_Sheikh Mujibur Rahman's birthday",
+        "holiday_name_nan"
+      ]
+    },
+    {
+      "name": "Rainfall",
+      "level": 1,
+      "description": "Observed rainfall measures",
+      "children": [],
+      "features": [
+        "Rainfall"
+      ]
+    },
+    {
+      "name": "Sunshine",
+      "level": 1,
+      "description": "Sunshine / solar exposure measures",
+      "children": [],
+      "features": [
+        "Sunshine"
+      ]
+    },
+    {
+      "name": "Humidity",
+      "level": 1,
+      "description": "Ambient humidity measurements",
+      "children": [],
+      "features": [
+        "Humidity"
+      ]
+    },
+    {
+      "name": "Temperature",
+      "level": 1,
+      "description": "Ambient temperature measurements",
+      "children": [],
+      "features": [
+        "Temperature"
+      ]
+    },
+    {
+      "name": "category",
+      "level": 1,
+      "description": "Event category labels for holidays / events",
+      "children": [],
+      "features": [
+        "category_bank_holiday",
+        "category_cultural_event",
+        "category_cultural_holiday",
+        "category_national_holiday",
+        "category_no_event",
+        "category_religious_holiday",
+        "category_religious_period",
+        "category_school_university",
+        "category_weather_event"
+      ]
+    },
+    {
+      "name": "scope_or_location",
+      "level": 1,
+      "description": "Geographic scope or location specificity of events",
+      "children": [],
+      "features": [
+        "scope_or_location_Chattogram division & south-east",
+        "scope_or_location_Nationwide",
+        "scope_or_location_Nationwide (strongest in Buddhist communities)",
+        "scope_or_location_Nationwide (strongest in cities)",
+        "scope_or_location_Tongi near Dhaka",
+        "scope_or_location_Urban centres (esp. Dhaka)",
+        "scope_or_location_nan"
+      ]
+    },
+    {
+      "name": "typical_rain_mm",
+      "level": 1,
+      "description": "Climatological typical rainfall (domain-specific typical rainfall metric)",
+      "children": [],
+      "features": [
+        "typical_rain_mm"
+      ]
+    },
+    {
+      "name": "BDT_USD",
+      "level": 1,
+      "description": "Currency / exchange rate feature (Bangladeshi Taka to USD)",
+      "children": [],
+      "features": [
+        "BDT_USD"
+      ]
+    }
+  ],
+  "_metadata": {
+    "main_features": [
+      "Production",
+      "Factory_Issue",
+      "Delivery",
+      "Group",
+      "Sub-Group",
+      "holiday_type",
+      "holiday_name",
+      "Rainfall",
+      "Sunshine",
+      "Humidity",
+      "Temperature",
+      "category",
+      "scope_or_location",
+      "typical_rain_mm",
+      "BDT_USD"
+    ],
+    "total_features": 199,
+    "model": "gpt-5-mini",
+    "generated_at": "2025-12-10T12:38:58.175788"
+  }
+}
