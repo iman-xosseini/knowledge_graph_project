@@ -2,27 +2,27 @@
   "best_models_by_metric": {
     "RMSE": {
       "model": "XGBoost",
-      "value": 100.11815274384855
+      "value": 78.69280479910661
     },
     "MAE": {
       "model": "XGBoost",
-      "value": 34.630282096187635
+      "value": 23.769651654005674
     },
     "MAPE": {
-      "model": "XGBoost",
-      "value": 17.6064996606805
+      "model": "RandomForest",
+      "value": 7.970717204347019
     },
     "MASE": {
       "model": "XGBoost",
-      "value": 0.04553855485063979
+      "value": 0.016513599579654977
     },
     "R\u00b2": {
       "model": "XGBoost",
-      "value": 0.9965262033133787
+      "value": 0.9978539057524881
     }
   },
   "overall_best": "XGBoost",
-  "training_date": "2025-12-10T14:33:45.994841",
+  "training_date": "2025-12-18T12:34:39.926184",
   "model_files": {
     "RandomForest": "randomforest_model.pkl",
     "XGBoost": "xgboost_model.json",
