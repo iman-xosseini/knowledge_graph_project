@@ -7,6 +7,7 @@ wheels/
 *.egg-info
 .env
 MyNotes.md
+data/tradingeconomics/
 
 # Virtual environments
 .venv
